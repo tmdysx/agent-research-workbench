@@ -1,2 +1,38 @@
-# agent-research-workbench
-A local-first research workbench for multiple AI agents — from ideas, literature and experiments to papers and showcases, with long-running task governance, automation, multi-agent collaboration and visual archiving.支持多种 Agent 的本地科研工作台，贯通想法、文献、实验、论文与成果展示，提供长程任务治理、自动化、多 Agent 协作和可视化存档。
+# MiracleHarness2
+
+![MiracleHarness](品牌/miracleharness2-hero.png)
+
+人定方向，agent 做事。目标、需求、计划、规则和交付保存在本地普通文件。
+
+## 开始使用
+
+1. 安装 Python 3.12。打开此文件夹的 PowerShell，运行 `python -m pip install -r backend/requirements.txt`。
+2. 双击 `启动.bat`，网页默认进入蓝图。填入自己的目标、需求和验收标准。
+3. 让你已有的 agent 先读 `AGENTS.md`；MCP 可选，配置见 `.mcp.json`。平台无需模型 API key，agent 的账号与使用费用由你自行选择。
+4. 到设置选择外观；笔记按 N 打开。默认不启动员工、不启用插件。
+
+## 这一份完整包带什么
+
+包含完整通用核心，以及文献、实验、论文、数据与分析、投稿与返修、汇报和素材的科研模板、九份中文阶段技能。先读 `资料/文献/方法/科研/README.md` 和 `技能库/research-route/SKILL.md`。按任务所需跳过不适用阶段并说明理由；模板不是科研结果。
+
+另外保留本次明确选中的业务示例：写小说、写论文、想法、宣传片。示例供了解界面与使用方法，不是使用者自己的研究或业务成果；新项目继续继承这些示例。
+
+项目介绍为 23 页展示案例：原 22 页完整保留，第 23 页说明许可与商业授权邮箱。小说和论文方法是流程模板；缺少的可选技能已标明未内置。
+
+## 工具与插件
+
+安装图解在 `工具库/安装指南/`；三个插件各有 `安装指南.md`。网页终端和PPT原版预览按需检查后由人启用；剪辑当前是协议与命令卡，网页剪辑器尚未完成。不随包携带 Office、LibreOffice、Git、FFmpeg、Blender 或其他外部安装。
+
+本包保留原创示意图与官网文字入口，第三方官网截图和原样图标未随包分发。展示案例使用公开信息副本，并带仅由这些案例新建的演示索引，首次打开即可查看。源项目运行数据库未复制。
+
+## 验证与许可
+
+`python -m pytest backend/tests -q` 可运行通用回归。真实任务、真实科研完成与跨电脑安装需要另行验证。
+
+本项目原创部分采用 PolyForm Noncommercial 1.0.0：个人及非商业研究可依条款使用，商业使用（包括商业研究）需作者另行书面授权，联系见 `NOTICE`。见 `LICENSE` 与 `NOTICE`；第三方部分保持其自身许可。公开源码含非商用限制，不是 OSI 开源许可证。
+
+宣传片目录中的一份视频是历史展示案例，画面中的旧网址仅作展示；保留来源与许可记录，本次没有对音轨作法律鉴定。
+
+本次发行仅保留 `资料/宣传片/成果/宣传片-爱琴海.mp4` 作为宣传片展示示例；其他草稿保存在原项目及本地备份中。
+
+PPT 展示 PDF 直接从导出目录继承；工作台中的重复 PDF 已排除，项目介绍仍为 23 页。

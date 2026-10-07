@@ -1,0 +1,45 @@
+{
+  "downloads": [
+    {
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "doi": "10.48550/arXiv.1706.03762",
+      "authors": "Ashish Vaswani; Noam Shazeer 等",
+      "year": "2017",
+      "venue": "arXiv:1706.03762（NIPS 2017 论文）",
+      "why": "了解 Transformer 和注意力机制。",
+      "note": "官方论文链接示例；加入列表不表示已下载，下载后以实际 PDF 为准。"
+    },
+    {
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "doi": "10.48550/arXiv.2005.14165",
+      "authors": "Tom B. Brown; Benjamin Mann 等",
+      "year": "2020",
+      "venue": "arXiv:2005.14165",
+      "why": "了解 GPT-3 如何用少量上下文示例完成任务。",
+      "note": "官方论文链接示例；仅提供元信息，不随项目附带论文全文。"
+    },
+    {
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "doi": "10.48550/arXiv.2210.03629",
+      "authors": "Shunyu Yao; Jeffrey Zhao 等",
+      "year": "2022",
+      "venue": "arXiv:2210.03629（2022 预印本；ICLR 2023）",
+      "why": "了解 Agent 中推理、行动与外部反馈如何交替。",
+      "note": "官方论文链接示例；2022 为首次提交年，2023 为会议年份。"
+    }
+  ],
+  "version": 1,
+  "library": [
+    {
+      "title": "MiracleHarness 项目介绍",
+      "year": "2026",
+      "guide": "工作台/示例/讲解.md",
+      "source": "工作台/示例/MiracleHarness 项目介绍.pdf",
+      "url": "https://miracleharness.com/",
+      "authors": "MiracleHarness 作者"
+    }
+  ]
+}

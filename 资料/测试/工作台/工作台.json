@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "id": "datasets",
+      "title": "数据集",
+      "en": "Datasets",
+      "kind": "documents",
+      "folder": "数据集",
+      "templates": [
+        "工作台/模板/数据集卡.md"
+      ]
+    },
+    {
+      "id": "results",
+      "title": "实验结果",
+      "en": "Results",
+      "kind": "documents",
+      "folder": "实验结果",
+      "templates": [
+        "工作台/模板/实验结果卡.md"
+      ]
+    },
+    {
+      "id": "code",
+      "title": "测试代码",
+      "en": "Test code",
+      "kind": "documents",
+      "folder": "测试代码",
+      "templates": [
+        "工作台/模板/检查脚本.py"
+      ]
+    },
+    {
+      "id": "records",
+      "title": "测试记录",
+      "en": "Test records",
+      "kind": "documents",
+      "folder": "测试记录",
+      "templates": [
+        "工作台/模板/测试记录卡.md"
+      ]
+    }
+  ]
+}

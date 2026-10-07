@@ -1,0 +1,24 @@
+/* 外观：暖色纸质
+   一句话：奶油底、陶土色，像纸质笔记本；长时间读不累（10-01 以前的样子）
+   自带：是
+*/
+:root{
+  --plane:#f0eee6; --card:#faf9f5; --fg:#141413; --fg2:#3d3d3a; --muted:#6e6c63;
+  --line:#e3e0d6; --ring:rgba(20,20,19,.10); --accent:#ad5132; --onaccent:#ffffff; --lane2:rgba(193,95,60,.055);
+  --font:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+  --mono:ui-monospace,Consolas,"Microsoft YaHei",monospace;
+  --lh:1.65;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --plane:#1a1915; --card:#262520; --fg:#f5f4ef; --fg2:#c9c6ba; --muted:#918d80;
+  --line:#37352d; --ring:rgba(245,244,239,.11); --accent:#e08768; --onaccent:#1a1915; --lane2:rgba(224,135,104,.07);
+}}
+:root[data-theme=dark]{
+  --plane:#1a1915; --card:#262520; --fg:#f5f4ef; --fg2:#c9c6ba; --muted:#918d80;
+  --line:#37352d; --ring:rgba(245,244,239,.11); --accent:#e08768; --onaccent:#1a1915; --lane2:rgba(224,135,104,.07);
+}
+
+/* 目录与按钮的金边色；不改变状态色或当前皮肤。 */
+:root{--hover-gold:#a8853c;--hover-gold-glow:rgba(168,133,60,.14)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--hover-gold:#d2b476;--hover-gold-glow:rgba(210,180,118,.16)}}
+:root[data-theme=dark]{--hover-gold:#d2b476;--hover-gold-glow:rgba(210,180,118,.16)}

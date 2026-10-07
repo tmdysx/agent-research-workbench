@@ -1,0 +1,1163 @@
+{
+  "retrieved_date": "2026-10-04",
+  "purpose": "Fixed provenance, licenses and selected source snapshots; non-retained audit files are not release dependencies.",
+  "repositories": [
+    {
+      "project": "aris",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license_path": "LICENSE",
+      "license": "MIT",
+      "scope_audit": [
+        {
+          "skill": "research-pipeline",
+          "path": "skills/research-pipeline/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "idea-discovery",
+          "path": "skills/idea-discovery/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "novelty-check",
+          "path": "skills/novelty-check/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "experiment-plan",
+          "path": "skills/experiment-plan/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "ablation-planner",
+          "path": "skills/ablation-planner/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "run-experiment",
+          "path": "skills/run-experiment/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "training-check",
+          "path": "skills/training-check/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "analyze-results",
+          "path": "skills/analyze-results/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "result-to-claim",
+          "path": "skills/result-to-claim/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "figure-spec",
+          "path": "skills/figure-spec/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "paper-claim-audit",
+          "path": "skills/paper-claim-audit/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "rebuttal",
+          "path": "skills/rebuttal/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "resubmit-pipeline",
+          "path": "skills/resubmit-pipeline/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        }
+      ],
+      "files": [
+        {
+          "source_path": "LICENSE",
+          "local_path": "资料/文献/方法/科研/来源/aris/LICENSE",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/LICENSE",
+          "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+          "bytes": 1067,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/ablation-planner/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/ablation-planner/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/ablation-planner/SKILL.md",
+          "sha256": "ce51bfff265e5f0a6e8fd03333bfa8dee679e728e0d325830988ca5bd31307da",
+          "bytes": 5137,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/analyze-results/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/analyze-results/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/analyze-results/SKILL.md",
+          "sha256": "2b97b8ae1a279ac8a7db14e7d7bea67934c88352d55c95e20fcfb681a8640930",
+          "bytes": 1660,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/experiment-plan/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/experiment-plan/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/experiment-plan/SKILL.md",
+          "sha256": "c5b53692ff95b0b55e80702e33afc79d9fe8d4f55a69e2a39714013f97ac595e",
+          "bytes": 9728,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/figure-spec/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/figure-spec/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/figure-spec/SKILL.md",
+          "sha256": "090a28a1b6464d3b88cf32b9bf59f6a1008e7e63d638801070f0b888c3ef9c5b",
+          "bytes": 10979,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/idea-discovery/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/idea-discovery/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/idea-discovery/SKILL.md",
+          "sha256": "ac2d06bde65bf7335d9e9a290cc1c10bbc813b6256480e7d1da9cf102a76fa23",
+          "bytes": 27649,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/novelty-check/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/novelty-check/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/novelty-check/SKILL.md",
+          "sha256": "7738e665e8a7ad358e016ea3fcfa0f994e1f064f3626fe2fa454217a2750f3a0",
+          "bytes": 7205,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/paper-claim-audit/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/paper-claim-audit/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/paper-claim-audit/SKILL.md",
+          "sha256": "9bc3eabfe3ec2d3125d4d94e8c6689ba4f0d6ed9021e3d86489a96086bba1a16",
+          "bytes": 14255,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/rebuttal/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/rebuttal/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/rebuttal/SKILL.md",
+          "sha256": "36b9f570181c5afcf4149e4a911613f421733d4f3fcb84579709c8097d514f02",
+          "bytes": 24627,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/research-pipeline/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/research-pipeline/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/research-pipeline/SKILL.md",
+          "sha256": "3dd1f071770ffd700c55e607f8a6f641b7be5d4fbd3c2e0ab203bbfe22fd2d3b",
+          "bytes": 22866,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/resubmit-pipeline/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/resubmit-pipeline/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/resubmit-pipeline/SKILL.md",
+          "sha256": "11d8c78dcb9fbdb4e9882b0d2d292f16e99b6bbd1fc2e0daee0b531e1e03251f",
+          "bytes": 33464,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/result-to-claim/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/result-to-claim/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/result-to-claim/SKILL.md",
+          "sha256": "ba53865e333fb05271ad116b94879d567d1e681f592dec2a7e8ae7eac6ef13d6",
+          "bytes": 16705,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/run-experiment/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/run-experiment/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/run-experiment/SKILL.md",
+          "sha256": "4d481ce95d8bcadb93b095c3dd9bda51d68b6edea6b710316d6c0c74bb5bcfa8",
+          "bytes": 12848,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/shared-references/acceptance-gate.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/acceptance-gate.md",
+          "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+          "bytes": 16967,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/assurance-contract.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/assurance-contract.md",
+          "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+          "bytes": 11801,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/capture-antipatterns.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/capture-antipatterns.md",
+          "sha256": "419b914ade074842b815bff5133c18993a31305ca36e40b08918856777857378",
+          "bytes": 4516,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/citation-discipline.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/citation-discipline.md",
+          "sha256": "01fc1cf751d7e0e6bef04897df6ef1bcf1e1b20e5b56d9f208e020cc48ba6725",
+          "bytes": 20131,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/compute-env-contract.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/compute-env-contract.md",
+          "sha256": "293606bcf6281712e0f5e1a05be9b67e001f2e5b567e2a956e2099de9c648974",
+          "bytes": 10567,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/effort-contract.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/effort-contract.md",
+          "sha256": "c1cb84a099d7d465ce71e0fc6c8fe7449c8273072b4cb977e0e58744d767f482",
+          "bytes": 8352,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/evidence-precheck.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/evidence-precheck.md",
+          "sha256": "919a437a2e4a618ff6bcac6c03b7ec12bde3fef33d1a2aea25c9d98fcbd5e2d2",
+          "bytes": 3248,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/experiment-integrity.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/experiment-integrity.md",
+          "sha256": "22150fbdc5867e7790c88f968bccb367079c2db4c190ddce980709aea7e76f60",
+          "bytes": 2355,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/external-cadence.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/external-cadence.md",
+          "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+          "bytes": 19084,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/fan-out-pattern.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/fan-out-pattern.md",
+          "sha256": "a788fd9fdc88d8b8e1331bcd9c64979914a44cf69018e1ce5be4cfd071a240cb",
+          "bytes": 19911,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/injection-hygiene.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/injection-hygiene.md",
+          "sha256": "bcab2455e4327eaa4feb3810035d1bf6e6a3e352e329badcad6ed95e5fe534de",
+          "bytes": 7435,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/integration-contract.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/integration-contract.md",
+          "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+          "bytes": 25765,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/output-composition.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-composition.md",
+          "sha256": "8de81708431091a21a641be5f91db7958bb9f9a4b85d4fe03f52c5b496948651",
+          "bytes": 5005,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/output-language.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-language.md",
+          "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+          "bytes": 2215,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/output-manifest.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-manifest.md",
+          "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+          "bytes": 2354,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/output-versioning.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-versioning.md",
+          "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+          "bytes": 4807,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/patent-format-cn.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/patent-format-cn.md",
+          "sha256": "e5be6c2c6fab3c84c795b53ca419198192b95f2c1ccd63833b5d0510a8f93c1f",
+          "bytes": 9352,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/patent-format-ep.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/patent-format-ep.md",
+          "sha256": "8cf58ac775fe524c230cd7f371abd0ce25eb774029129bc336f884026c58ba23",
+          "bytes": 6542,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/patent-format-us.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/patent-format-us.md",
+          "sha256": "13f179cc70fc8664f356d5258bdaa52a4cc577496e385e5ac5cdd421a12f4f65",
+          "bytes": 6151,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/patent-writing-principles.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/patent-writing-principles.md",
+          "sha256": "8c8dc8250948bd0741b792d350e3afdc686ed194a1bf02359fb0e55b81468d1d",
+          "bytes": 9032,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/prior-art-databases.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/prior-art-databases.md",
+          "sha256": "8225843987fbabb5f11788c19ed8a739f10691319865485d5cb876e7bc2a3cb7",
+          "bytes": 5455,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/resumable-runs.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/resumable-runs.md",
+          "sha256": "bf522bfed126b0db96dfb22ab84f0011ba6f79bedc4f6a28a3a40f67500abb61",
+          "bytes": 6694,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/review-scope-limits.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/review-scope-limits.md",
+          "sha256": "e383dbaa57aed6f8fd2c2bb6bcaefc6806648126d11b21cb6c39eeeec76100f6",
+          "bytes": 4174,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/review-tracing.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/review-tracing.md",
+          "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+          "bytes": 18505,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/reviewer-independence.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/reviewer-independence.md",
+          "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+          "bytes": 3473,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/reviewer-routing.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/reviewer-routing.md",
+          "sha256": "4a1535065409bc7fd399d49355025df31aae1c503603bd177b3c4a90a0318669",
+          "bytes": 49735,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/skill-governance.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/skill-governance.md",
+          "sha256": "2da8e745ce5dc511206ab3a6a378a26d3bc6e4ca035c1f763f7a0b1793155c73",
+          "bytes": 5710,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/taste-calibration.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/taste-calibration.md",
+          "sha256": "245e12a52b6c013022ddbcd8c682e4e5290bda6e38ecc6f14d7b2eaeb2988af8",
+          "bytes": 4515,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/venue-checklists.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/venue-checklists.md",
+          "sha256": "712396be66d4db85f0038c5ff5479a5fc66db03bc7175c8ed931f7284802f4e2",
+          "bytes": 5582,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/wiki-helper-resolution.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/wiki-helper-resolution.md",
+          "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+          "bytes": 6482,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/shared-references/writing-principles.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/writing-principles.md",
+          "sha256": "25c71f6b76fad1a198b47b4eae9b1d101561578cc0a8767e91706957829f0abe",
+          "bytes": 14939,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/training-check/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/aris/skills/training-check/SKILL.md",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/training-check/SKILL.md",
+          "sha256": "b4f27bbc58aaae314d8c51fe309fb41e42f47dce4f69ba07fac1ce7f0080c789",
+          "bytes": 5770,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "templates/CLAUDE_MD_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/CLAUDE_MD_TEMPLATE.md",
+          "sha256": "b0676223a52aa3c651ba31210615d9e110f4ea6670e638e27ab1c1b12c239880",
+          "bytes": 884,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/EXPERIMENT_LOG_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/EXPERIMENT_LOG_TEMPLATE.md",
+          "sha256": "32126068df3cf2168d0a7d24f8658d7e97890df506155746dbe570302f12b59f",
+          "bytes": 1670,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/EXPERIMENT_PLAN_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/EXPERIMENT_PLAN_TEMPLATE.md",
+          "sha256": "a28f0795f4c8e203216be6b5d91b4d9def60f5af7cdbfcc7ed0a2ebf205abb67",
+          "bytes": 1926,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/EXPERIMENT_PLAN_TEMPLATE_CN.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/EXPERIMENT_PLAN_TEMPLATE_CN.md",
+          "sha256": "bec2b65c78f95902040bc7a2f2a728be42c82a8d0242a9c265602400e29da34f",
+          "bytes": 1947,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/FINDINGS_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/FINDINGS_TEMPLATE.md",
+          "sha256": "c3d98f53f780a5c91988d785e6cbb118c9e2b6d1ac819db8943639e17d55255f",
+          "bytes": 2579,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/IDEA_CANDIDATES_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/IDEA_CANDIDATES_TEMPLATE.md",
+          "sha256": "832bf7ac924894982cf73fae8f2d026b76111cf952f14f6ca3e3b130ee14e984",
+          "bytes": 1812,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/IDEA_CANDIDATES_TEMPLATE_CN.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/IDEA_CANDIDATES_TEMPLATE_CN.md",
+          "sha256": "b57f0086f8fcbe9159aa611ad866c39fcc5faf3149d75529e02bc7cbd06a8fbf",
+          "bytes": 1840,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/INVENTION_BRIEF_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/INVENTION_BRIEF_TEMPLATE.md",
+          "sha256": "9fd8c4ca0912bfd5e449dcb6b034196dfad05c11f44abe04e5c177de5d6357f9",
+          "bytes": 3187,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/MANIFEST_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/MANIFEST_TEMPLATE.md",
+          "sha256": "513bc08b2744b20825bb00063e77e22d536293e428fb419ca0c7b0ed9f7ea6d2",
+          "bytes": 338,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/NARRATIVE_REPORT_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/NARRATIVE_REPORT_TEMPLATE.md",
+          "sha256": "108481c051e96976b432f038c3903968d89d9d3556cc6bbef45c3947198713b6",
+          "bytes": 1098,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/PAPER_PLAN_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/PAPER_PLAN_TEMPLATE.md",
+          "sha256": "0c323fa0e65c0d9e13100e7de1d6d7ea9f4857706b9e32e81afe9d632adf981d",
+          "bytes": 1172,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/PATENT_CLAIMS_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/PATENT_CLAIMS_TEMPLATE.md",
+          "sha256": "cbcfcb9715e951087e6a1a5f0937db04f9f9f123048dc6d3f9edb9d87a2927b3",
+          "bytes": 2733,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/PATENT_SPECIFICATION_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/PATENT_SPECIFICATION_TEMPLATE.md",
+          "sha256": "8a058790ac4b97ae0a9d95d2c65026eca76194be98841b1e16f8037a47849fa0",
+          "bytes": 2130,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/README.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/README.md",
+          "sha256": "334aac9654abd110dd1201f0e56915f11a3e1e47304079856ce0db66c25dc635",
+          "bytes": 3064,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/RESEARCH_BRIEF_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/RESEARCH_BRIEF_TEMPLATE.md",
+          "sha256": "f3aae6dcb26028a4115994aeb5a37b3fe408aa6cca18743bac693cfc1ad08688",
+          "bytes": 1382,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/RESEARCH_BRIEF_TEMPLATE_CN.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/RESEARCH_BRIEF_TEMPLATE_CN.md",
+          "sha256": "4e341cc84147061bc67a1fa15379b54ba3ea11e1ad0917150333471686b2d4dc",
+          "bytes": 1287,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/RESEARCH_CONTRACT_TEMPLATE.md",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/RESEARCH_CONTRACT_TEMPLATE.md",
+          "sha256": "e71ee594951a50aaa93b1644318c28a705d6fcf9780ca1f61030b1c1bb44696a",
+          "bytes": 2374,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/claude-hooks/corpus_write_guard.json",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/claude-hooks/corpus_write_guard.json",
+          "sha256": "b32a2d9200be0d70a55ea3d14e199db04a42b0cc5aab243afeee354329ccc363",
+          "bytes": 837,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/claude-hooks/meta_logging.json",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/claude-hooks/meta_logging.json",
+          "sha256": "4162f4d902e6ba6740a377b0a7d01d85f15f7a36bda2645b6181bb51636aa303",
+          "bytes": 1753,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "templates/gitignore-trace.txt",
+          "local_path": null,
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/gitignore-trace.txt",
+          "sha256": "9fbc968ad5c3f249200c96ddb115324ac95991ddaea9dbc2af493e7c2983166d",
+          "bytes": 160,
+          "retained_in_release": false
+        }
+      ],
+      "scope_audit_note": "Original full reference snapshots audited outside release. Only chosen SKILL.md, original license and five relevant reference documents retained. Adapted Chinese skills are self-contained; source snapshots are not executable installations."
+    },
+    {
+      "project": "scientific-agent-skills",
+      "repository": "K-Dense-AI/scientific-agent-skills",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license_path": "LICENSE.md",
+      "license": "MIT",
+      "scope_audit": [
+        {
+          "skill": "hypothesis-generation",
+          "path": "skills/hypothesis-generation/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "literature-review",
+          "path": "skills/literature-review/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "citation-management",
+          "path": "skills/citation-management/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "scientific-critical-thinking",
+          "path": "skills/scientific-critical-thinking/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        },
+        {
+          "skill": "peer-review",
+          "path": "skills/peer-review/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        }
+      ],
+      "files": [
+        {
+          "source_path": "LICENSE.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/LICENSE.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/LICENSE.md",
+          "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+          "bytes": 1068,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/citation-management/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/citation-management/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/SKILL.md",
+          "sha256": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+          "bytes": 16630,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/citation-management/references/api_contracts.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/api_contracts.md",
+          "sha256": "3e82a14f77133a215831d2627b65c93199589782f6907fc42af3c75f2ab3c5a8",
+          "bytes": 6712,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/best_practices.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/best_practices.md",
+          "sha256": "df90d19c8f639590a6a430a889160b478dce61f4a5c0a5a36df5ab1be749b6b1",
+          "bytes": 2723,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/bibtex_formatting.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/bibtex_formatting.md",
+          "sha256": "6337a8d2b87de96bf0f72c076feb0fc5d61ed9c342d9c8f19b3633efbfec6fed",
+          "bytes": 19394,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/citation_validation.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/citation-management/references/citation_validation.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/citation_validation.md",
+          "sha256": "f235f82e02db282f0abdd23fd8d2973d870d427d355979e869f736259ba95774",
+          "bytes": 18996,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/citation-management/references/core_workflow.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/core_workflow.md",
+          "sha256": "19e8b52c43f5822163c79904236016616dc4515d21a01d29073d968c9251af8d",
+          "bytes": 20986,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/example_workflows.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/example_workflows.md",
+          "sha256": "01c0a15e08e8115e10a07623f63565d119812fd2bb68c669eac413db2f9cd482",
+          "bytes": 3382,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/google_scholar_search.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/google_scholar_search.md",
+          "sha256": "5b705ec8d6276ef83b819b737ed10bd991815ccb413de27e046b7bfdf4da8399",
+          "bytes": 17993,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/metadata_extraction.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/metadata_extraction.md",
+          "sha256": "68c27886aff0d4efbf3a6f7e0a318dedd706d4cfd0f55dd859466de36ed78d46",
+          "bytes": 21419,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/pubmed_search.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/pubmed_search.md",
+          "sha256": "fab82cda700a0dfc6dccc9465c9cc60b9df68cb58d0bec9abe7b2d8748a49cd1",
+          "bytes": 19233,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/script_reference.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/script_reference.md",
+          "sha256": "bd23683cb3a7edb932fc5a13bb9215969a834a778a8765eea82553bf1b8b3417",
+          "bytes": 7536,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/citation-management/references/search_strategies.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/search_strategies.md",
+          "sha256": "776c0dd1cbaf0432004ae80273640ff324b570401c569413c674829436385c85",
+          "bytes": 2727,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/hypothesis-generation/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/SKILL.md",
+          "sha256": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719",
+          "bytes": 16622,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/causal_inference_and_claims.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/causal_inference_and_claims.md",
+          "sha256": "0162cd131dd12c6235a3b78c033c685abd80e98d5f40f9fb297b4d8104f85122",
+          "bytes": 7993,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/concepts_and_workflow.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/hypothesis-generation/references/concepts_and_workflow.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/concepts_and_workflow.md",
+          "sha256": "a86a8f464fb555212e79bf13e307f3c129e9c853069856eb3c93c3c8a60bb7fc",
+          "bytes": 7341,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/ethics_safety_and_ai.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/ethics_safety_and_ai.md",
+          "sha256": "81d5691cd46d646ead2db50635bdcc07755e5f738b040c2ad707ac3b0eda034d",
+          "bytes": 10507,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/experimental_design_patterns.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/experimental_design_patterns.md",
+          "sha256": "83c0c75c7b1edadc92e4ae23607624277c19955fc6a71ee0313b6efc51e4e939",
+          "bytes": 9765,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/hypothesis_quality_criteria.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/hypothesis_quality_criteria.md",
+          "sha256": "12698b549f77a6ee64807b959093f39628fe3d47aa9a00a9b235681bf0b09269",
+          "bytes": 8035,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/literature_search_strategies.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/literature_search_strategies.md",
+          "sha256": "2a34fa0645f854093aea2d867059bae563c795f1935ba4b9c6d494bdc389fdcb",
+          "bytes": 8046,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/preregistration_and_open_science.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/preregistration_and_open_science.md",
+          "sha256": "33788e3cd4eeb62e80e9fb952e3bfb532320d373e7b00ed7c0a75b4200ccdbf4",
+          "bytes": 7751,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/security_validation.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/security_validation.md",
+          "sha256": "71acbc8d040588f1ab879cafeb0e7d491cbed99359bde011c645d289446ba38a",
+          "bytes": 4199,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/source_ledger.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/source_ledger.md",
+          "sha256": "b0281b810134599210f905f967267f0b44638676f673fca7528275f8e5042e55",
+          "bytes": 10009,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/hypothesis-generation/references/tool_reference.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/tool_reference.md",
+          "sha256": "db2c2f8fefc4093c0e235a309de3ee5767c672519d8c8b681e65f7ac6a9ff5d7",
+          "bytes": 8397,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/literature-review/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/literature-review/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/SKILL.md",
+          "sha256": "16a9e85bcdcb9bb859e1646bf836e51b22900445ba2e367d8d75be05b5a5cba8",
+          "bytes": 12869,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/literature-review/references/citation_styles.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/references/citation_styles.md",
+          "sha256": "2a50e43b18c2fff781e04406deb66186ba8f91ed28af32004aba63c63dcc1789",
+          "bytes": 7627,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/literature-review/references/core_workflow.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/literature-review/references/core_workflow.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/references/core_workflow.md",
+          "sha256": "4d63f1087c98efeec7c7bf622bed6e0456a9c7c3defe584995917f2de6f2c601",
+          "bytes": 11876,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/literature-review/references/database_strategies.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/references/database_strategies.md",
+          "sha256": "24b56cd88128a9016520ed6b5e2abb79e19dc9b86cbf064927e9056aa1504f48",
+          "bytes": 10431,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/literature-review/references/example_workflow.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/references/example_workflow.md",
+          "sha256": "86336c42f78ff282430a6cdd2282a99562cc9d5e46b62e70a33bd839f9ab726a",
+          "bytes": 3078,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/literature-review/references/search_and_citation.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/references/search_and_citation.md",
+          "sha256": "f33d671351989ee86066b9a21bdbf630a1f60001ada92fda4c942006d37b74fe",
+          "bytes": 4685,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/peer-review/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/peer-review/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/SKILL.md",
+          "sha256": "a042ccdc76d3399431b9a6c4cd4f98968eab964b1c14baeea4d9e73de82c7d19",
+          "bytes": 13853,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/peer-review/references/common_issues.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/references/common_issues.md",
+          "sha256": "6a0979d6d64e07f769db8ee9ab82ad3190aebaca4294838f338f5c4b51b596f6",
+          "bytes": 13999,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/peer-review/references/ethical_review_practice.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/references/ethical_review_practice.md",
+          "sha256": "d61f27a471f9b42160ae303cb13df2b034085e037b5647cbc0bbf2de8435b1d7",
+          "bytes": 12209,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/peer-review/references/reporting_standards.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/references/reporting_standards.md",
+          "sha256": "19ececda52568269987be1dff81900471433353dee8bb8a28a06f3691cb051c2",
+          "bytes": 15438,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/peer-review/references/security_validation.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/references/security_validation.md",
+          "sha256": "3d24c7aa7d7b1d1a7df410307d95993b63dff79bf01c400a1c154df19fcf737d",
+          "bytes": 4166,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/peer-review/references/statistical_reproducibility.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/references/statistical_reproducibility.md",
+          "sha256": "aab5c13d19525fc4626a4153a90ba63231324d609e16bbf569d874c974731bd6",
+          "bytes": 11755,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/peer-review/references/tool_reference.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/references/tool_reference.md",
+          "sha256": "d765fa7a03712049174b2c288718a602c623fd2233b6fa451bbd6854eb0c46c1",
+          "bytes": 9670,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/scientific-critical-thinking/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/SKILL.md",
+          "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+          "bytes": 13146,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/references/common_biases.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/common_biases.md",
+          "sha256": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+          "bytes": 12368,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/references/core_capabilities.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/core_capabilities.md",
+          "sha256": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+          "bytes": 16975,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+          "sha256": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+          "bytes": 17435,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/references/experimental_design.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/experimental_design.md",
+          "sha256": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+          "bytes": 18227,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/references/logical_fallacies.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/logical_fallacies.md",
+          "sha256": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+          "bytes": 18659,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/references/review_sources.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/review_sources.md",
+          "sha256": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62",
+          "bytes": 7557,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/references/scientific_method.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/scientific_method.md",
+          "sha256": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+          "bytes": 7641,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+          "sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+          "bytes": 21151,
+          "retained_in_release": true
+        }
+      ],
+      "scope_audit_note": "Original full reference snapshots audited outside release. Only chosen SKILL.md, original license and five relevant reference documents retained. Adapted Chinese skills are self-contained; source snapshots are not executable installations."
+    },
+    {
+      "project": "scientific-writer",
+      "repository": "K-Dense-AI/claude-scientific-writer",
+      "commit": "529b9f73ab4b48925027145800d7b49e96ccfd3c",
+      "license_path": "LICENSE",
+      "license": "MIT",
+      "scope_audit": [
+        {
+          "skill": "scientific-writing",
+          "path": "scientific_writer/.claude/skills/scientific-writing/SKILL.md",
+          "nested_licenses": [],
+          "reference_policy": "Preserve all Markdown/text/JSON/CSV references from the chosen skill; executable helpers and assets are not embedded."
+        }
+      ],
+      "files": [
+        {
+          "source_path": "LICENSE",
+          "local_path": "资料/文献/方法/科研/来源/scientific-writer/LICENSE",
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/LICENSE",
+          "sha256": "6ea149808a174cbe116b4726cd06fe251d91eb9277c2842339c7ae14c4bc8523",
+          "bytes": 1075,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/SKILL.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/SKILL.md",
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/SKILL.md",
+          "sha256": "f6026e7d79cd3133e9343a7d6e6c5e06f4ad061888efb6a73fcb95e073eebf67",
+          "bytes": 14005,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/authorship_ai_confidentiality.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/authorship_ai_confidentiality.md",
+          "sha256": "b02b3aee6ab0d3e925f5c0333288d29f8ee4aac103c10c9aefff2e604d436c63",
+          "bytes": 4496,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/citation_styles.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/citation_styles.md",
+          "sha256": "64401454dc70dc9603224495b62d241b18cb055134aeda55002b89e9e15e0c85",
+          "bytes": 3777,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/cli_reference.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/cli_reference.md",
+          "sha256": "68390eea5952ee8b1c87142fc1be877fbbccde9efed4cb8c09aa77bba1eb616c",
+          "bytes": 3558,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/evidence_workflow.md",
+          "local_path": "资料/文献/方法/科研/来源/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/references/evidence_workflow.md",
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/evidence_workflow.md",
+          "sha256": "c7db56a223978307f9f43921eb393d87fef8c051a492c3d7e3c016c62b9e1409",
+          "bytes": 3929,
+          "retained_in_release": true
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/figures_tables.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/figures_tables.md",
+          "sha256": "212d10f3e7a01325d2518c4aab54a4fc04a67e4aa94e959cead199c425a0f4d6",
+          "bytes": 3915,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/imrad_structure.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/imrad_structure.md",
+          "sha256": "8a1201f8e58a045736a5bc65a47f239c894be6946716e969c0b77aa90a7e8e39",
+          "bytes": 4512,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/journal_policies.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/journal_policies.md",
+          "sha256": "88461292ebde06f0db0e756b8e3c776cc2017eb313a8593636be264af2578ff1",
+          "bytes": 2608,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/professional_report_formatting.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/professional_report_formatting.md",
+          "sha256": "c269fd256bda6a9389bfd5ffefa8eff8876b96d92f8391e8a01fa80910bb35d3",
+          "bytes": 3230,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/reporting_guidelines.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/reporting_guidelines.md",
+          "sha256": "4a74d4613742bb26fe3d74596998b9e75ea8a2694a012222b6d9636e121a1f0d",
+          "bytes": 4785,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/research_integrity_open_science.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/research_integrity_open_science.md",
+          "sha256": "f8f91010537acf4b78616d7410d23b85030f94d66e9d36db03d6e632ffb56100",
+          "bytes": 4149,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/source_ledger.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/source_ledger.md",
+          "sha256": "cc2b3c801f4a350cab7e0b5261e4edda7e8d20274944e8b5590e62f0da42a0f6",
+          "bytes": 10175,
+          "retained_in_release": false
+        },
+        {
+          "source_path": "scientific_writer/.claude/skills/scientific-writing/references/writing_principles.md",
+          "local_path": null,
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/writing_principles.md",
+          "sha256": "58d4b32f63446c0b082f163314fdcf0d41a50568ad392d34ba992e24fadae764",
+          "bytes": 3904,
+          "retained_in_release": false
+        }
+      ],
+      "scope_audit_note": "Original full reference snapshots audited outside release. Only chosen SKILL.md, original license and five relevant reference documents retained. Adapted Chinese skills are self-contained; source snapshots are not executable installations."
+    }
+  ],
+  "local_path_remapping_note": "Only local snapshot directory .claude was mapped to public-snapshot; original upstream source_path, commit, URL and SHA-256 remain unchanged.",
+  "release_projection": {
+    "rule": "Only existing source snapshots with verified hashes",
+    "retained_records": 27,
+    "excluded_records": 0,
+    "excluded_reason": "Not selected for this package; absence is not a missing-license finding."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "引言",
+      "en": "Introduction",
+      "kind": "documents",
+      "folder": "正文/引言",
+      "templates": [
+        "工作台/模板/引言.md",
+        "工作台/模板/摘要.md",
+        "工作台/模板/结论.md",
+        "工作台/模板/项目文书.md"
+      ]
+    },
+    {
+      "id": "related-work",
+      "title": "相关工作",
+      "en": "Related work",
+      "kind": "documents",
+      "folder": "正文/相关工作",
+      "templates": [
+        "工作台/模板/相关工作.md"
+      ]
+    },
+    {
+      "id": "method",
+      "title": "方法",
+      "en": "Method",
+      "kind": "documents",
+      "folder": "正文/方法",
+      "templates": [
+        "工作台/模板/方法.md"
+      ]
+    },
+    {
+      "id": "experiments",
+      "title": "实验",
+      "en": "Experiments",
+      "kind": "documents",
+      "folder": "正文/实验",
+      "templates": [
+        "工作台/模板/实验.md"
+      ]
+    },
+    {
+      "id": "hyperparameters",
+      "title": "超参数",
+      "en": "Hyperparameters",
+      "kind": "documents",
+      "folder": "正文/超参数",
+      "templates": [
+        "工作台/模板/超参数.md"
+      ]
+    },
+    {
+      "id": "application",
+      "title": "应用",
+      "en": "Application",
+      "kind": "documents",
+      "folder": "正文/应用",
+      "templates": [
+        "工作台/模板/应用.md"
+      ]
+    },
+    {
+      "id": "results",
+      "title": "结果",
+      "en": "Results",
+      "kind": "documents",
+      "folder": "正文/结果",
+      "templates": [
+        "工作台/模板/结果.md"
+      ]
+    },
+    {
+      "id": "outlook",
+      "title": "未来展望",
+      "en": "Future outlook",
+      "kind": "documents",
+      "folder": "正文/未来展望",
+      "templates": [
+        "工作台/模板/未来展望.md"
+      ]
+    },
+    {
+      "id": "references",
+      "title": "参考文献",
+      "en": "References",
+      "kind": "documents",
+      "folder": "正文/参考文献",
+      "templates": [
+        "工作台/模板/参考文献.md"
+      ]
+    }
+  ]
+}

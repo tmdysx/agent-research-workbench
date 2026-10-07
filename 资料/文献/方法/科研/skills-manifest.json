@@ -1,0 +1,207 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-04",
+  "count": 9,
+  "entrypoint": "技能库/research-route/SKILL.md",
+  "skills": [
+    {
+      "name": "research-route",
+      "title": "科研路线",
+      "skill_path": "技能库/research-route/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "aris",
+          "skill": "research-pipeline",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/research-pipeline/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-route/assets/路线卡.md"
+    },
+    {
+      "name": "research-topic",
+      "title": "选题与假设",
+      "skill_path": "技能库/research-topic/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "sci",
+          "skill": "hypothesis-generation",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/SKILL.md"
+        },
+        {
+          "project": "aris",
+          "skill": "idea-discovery",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/idea-discovery/SKILL.md"
+        },
+        {
+          "project": "aris",
+          "skill": "novelty-check",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/novelty-check/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-topic/assets/选题卡.md"
+    },
+    {
+      "name": "research-literature-evidence",
+      "title": "文献与证据",
+      "skill_path": "技能库/research-literature-evidence/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "sci",
+          "skill": "literature-review",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/SKILL.md"
+        },
+        {
+          "project": "sci",
+          "skill": "citation-management",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/SKILL.md"
+        },
+        {
+          "project": "sci",
+          "skill": "scientific-critical-thinking",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-literature-evidence/assets/文献证据表.md"
+    },
+    {
+      "name": "research-experiment-design",
+      "title": "数据与实验设计",
+      "skill_path": "技能库/research-experiment-design/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "aris",
+          "skill": "experiment-plan",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/experiment-plan/SKILL.md"
+        },
+        {
+          "project": "aris",
+          "skill": "ablation-planner",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/ablation-planner/SKILL.md"
+        },
+        {
+          "project": "sci",
+          "skill": "scientific-critical-thinking",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-experiment-design/assets/实验方案.md"
+    },
+    {
+      "name": "research-reproduce-run",
+      "title": "复现与运行",
+      "skill_path": "技能库/research-reproduce-run/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "aris",
+          "skill": "run-experiment",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/run-experiment/SKILL.md"
+        },
+        {
+          "project": "aris",
+          "skill": "training-check",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/training-check/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-reproduce-run/assets/运行记录.md"
+    },
+    {
+      "name": "research-results-figures",
+      "title": "结果分析与图表",
+      "skill_path": "技能库/research-results-figures/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "aris",
+          "skill": "analyze-results",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/analyze-results/SKILL.md"
+        },
+        {
+          "project": "aris",
+          "skill": "result-to-claim",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/result-to-claim/SKILL.md"
+        },
+        {
+          "project": "aris",
+          "skill": "figure-spec",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/figure-spec/SKILL.md"
+        },
+        {
+          "project": "sci",
+          "skill": "scientific-critical-thinking",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-results-figures/assets/结果与图表清单.md"
+    },
+    {
+      "name": "research-manuscript-citations",
+      "title": "论文写作与引用",
+      "skill_path": "技能库/research-manuscript-citations/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "writer",
+          "skill": "scientific-writing",
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/SKILL.md"
+        },
+        {
+          "project": "sci",
+          "skill": "citation-management",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/SKILL.md"
+        },
+        {
+          "project": "aris",
+          "skill": "paper-claim-audit",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/paper-claim-audit/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-manuscript-citations/assets/论文核验表.md"
+    },
+    {
+      "name": "research-submission-package",
+      "title": "投稿准备",
+      "skill_path": "技能库/research-submission-package/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "writer",
+          "skill": "scientific-writing",
+          "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-submission-package/assets/投稿清单.md"
+    },
+    {
+      "name": "research-revision",
+      "title": "返修与回复",
+      "skill_path": "技能库/research-revision/SKILL.md",
+      "license": "MIT",
+      "sources": [
+        {
+          "project": "aris",
+          "skill": "rebuttal",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/rebuttal/SKILL.md"
+        },
+        {
+          "project": "aris",
+          "skill": "resubmit-pipeline",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/resubmit-pipeline/SKILL.md"
+        },
+        {
+          "project": "sci",
+          "skill": "peer-review",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/SKILL.md"
+        }
+      ],
+      "template": "技能库/research-revision/assets/返修矩阵.md"
+    }
+  ],
+  "beginner_readme": "资料/文献/方法/科研/README.md",
+  "topic_template": "资料/想法/方法/科研/选题卡.md",
+  "source_lock": "资料/文献/方法/科研/来源/sources.lock.json"
+}
