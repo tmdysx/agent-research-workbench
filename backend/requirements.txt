@@ -1,7 +1,8 @@
 fastapi>=0.115
 uvicorn>=0.30
 websockets>=12      # uvicorn 靠它跑 WebSocket
-mcp>=1.20           # 给 agent 的写入口
+mcp>=1.20,<2        # 给 agent 的写入口；mcp 2.x 删除了 mcp.server.fastmcp，所以封顶 <2
+watchfiles>=0.21    # 文件变动实时通知；没有它退回定时扫描，没在看的那几片要等兜底扫描才发现变动
 python-pptx>=1.0    # PPT 列出每页的字和图（会顺带装上 Pillow）
 pdfminer.six>=20231228   # 文献入库时从 PDF 第一页找 DOI、标题
 pytest>=8           # 只有跑测试才要
