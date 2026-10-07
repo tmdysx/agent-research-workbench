@@ -1,0 +1,23 @@
+/* 外观：精密深色
+   一句话：近黑底、一点靛紫，行更密；盯自动化、工单最顺手，暗色下最好看
+   自带：是
+*/
+:root{
+  --plane:#f7f8f8; --card:#ffffff; --fg:#1b1c1f; --fg2:#3c3f46; --muted:#6b6f76;
+  --line:#e4e5e7; --ring:rgba(27,28,31,.09); --accent:#5e6ad2; --onaccent:#ffffff; --lane2:rgba(94,106,210,.05);
+  --font:"Inter","Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,"Microsoft YaHei",sans-serif;
+  --lh:1.55;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --plane:#08090a; --card:#141517; --fg:#f7f8f8; --fg2:#d0d6e0; --muted:#8a8f98;
+  --line:#23252a; --ring:rgba(255,255,255,.08); --accent:#6e78e0; --onaccent:#ffffff; --lane2:rgba(110,120,224,.08);
+}}
+:root[data-theme=dark]{
+  --plane:#08090a; --card:#141517; --fg:#f7f8f8; --fg2:#d0d6e0; --muted:#8a8f98;
+  --line:#23252a; --ring:rgba(255,255,255,.08); --accent:#6e78e0; --onaccent:#ffffff; --lane2:rgba(110,120,224,.08);
+}
+
+/* 目录与按钮的金边色；不改变状态色或当前皮肤。 */
+:root{--hover-gold:#a8853c;--hover-gold-glow:rgba(168,133,60,.14)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--hover-gold:#d2b476;--hover-gold-glow:rgba(210,180,118,.16)}}
+:root[data-theme=dark]{--hover-gold:#d2b476;--hover-gold-glow:rgba(210,180,118,.16)}

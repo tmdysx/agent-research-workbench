@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="238" viewBox="0 0 960 238" role="img" aria-labelledby="title desc">
+<title id="title">Git准备流程</title><desc id="desc">自绘流程示意：官网下载，安装或便携解压，检查 Git 路径，只读查看差异。不是安装器截图。</desc>
+<rect x="1" y="1" width="958" height="236" rx="18" fill="#f7faf7" stroke="#c7d7d0"/>
+<text x="32" y="42" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="23" fill="#174e40">Git</text>
+<text x="32" y="68" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="13" fill="#697a73">准备流程 · 自绘示意，界面与版本以实际官方页面为准</text>
+<rect x="32" y="93" width="196" height="105" rx="12" fill="#ffffff" stroke="#c5d6cf"/><circle cx="62" cy="124" r="15" fill="#216753"/><text x="62" y="129" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="14" fill="#fff">1</text><text x="130" y="172" text-anchor="middle" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#234d41">官网下载</text>
+<path d="M236,145 H256 m-6,-5 6,5 -6,5" fill="none" stroke="#b18b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="266" y="93" width="196" height="105" rx="12" fill="#ffffff" stroke="#c5d6cf"/><circle cx="296" cy="124" r="15" fill="#216753"/><text x="296" y="129" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="14" fill="#fff">2</text><text x="364" y="172" text-anchor="middle" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#234d41">安装或便携解压</text>
+<path d="M470,145 H490 m-6,-5 6,5 -6,5" fill="none" stroke="#b18b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="500" y="93" width="196" height="105" rx="12" fill="#ffffff" stroke="#c5d6cf"/><circle cx="530" cy="124" r="15" fill="#216753"/><text x="530" y="129" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="14" fill="#fff">3</text><text x="598" y="172" text-anchor="middle" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#234d41">检查 Git 路径</text>
+<path d="M704,145 H724 m-6,-5 6,5 -6,5" fill="none" stroke="#b18b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="734" y="93" width="196" height="105" rx="12" fill="#ffffff" stroke="#c5d6cf"/><circle cx="764" cy="124" r="15" fill="#216753"/><text x="764" y="129" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="14" fill="#fff">4</text><text x="832" y="172" text-anchor="middle" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="15" fill="#234d41">只读查看差异</text>
+</svg>

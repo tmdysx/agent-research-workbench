@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "id": "downloads",
+      "title": "下载列表",
+      "en": "Downloads",
+      "kind": "downloads",
+      "folder": "下载清单.md",
+      "templates": []
+    },
+    {
+      "id": "reading",
+      "title": "精读",
+      "en": "Close reading",
+      "kind": "reading",
+      "folder": "解读",
+      "templates": []
+    },
+    {
+      "id": "originals",
+      "title": "原文",
+      "en": "Originals",
+      "kind": "originals",
+      "folder": "原文",
+      "templates": []
+    }
+  ]
+}

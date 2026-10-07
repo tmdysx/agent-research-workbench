@@ -1,0 +1,1203 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "python",
+      "name": "Python",
+      "name_en": "Python",
+      "group": "基础环境",
+      "group_en": "Runtime",
+      "summary": "让本地工作台和 MCP 能运行；安装依赖前先认准解释器。",
+      "guide": "工具库/安装指南/软件/Python.md",
+      "icon": "terminal",
+      "targets": [
+        "tool:T4"
+      ],
+      "official": "https://www.python.org/",
+      "download": "https://www.python.org/downloads/windows/",
+      "notice": "本项目实测 Python 3.12 系列；这不表示 3.12 是当前最新安全版本。",
+      "summary_en": "Runs the local workbench and MCP; identify the interpreter before installing dependencies.",
+      "notice_en": "This project has tested Python 3.12; that does not make it the latest security release.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/python-cn.md",
+          "official": "https://www.python.org/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/python/",
+          "notice": "清华大学镜像同步 Python 官方发行目录；选择兼容解释器，未实测各地可达。",
+          "notice_en": "TUNA mirrors official Python releases; choose a compatible interpreter. Regional reachability was not tested."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/python-global.md",
+          "official": "https://www.python.org/",
+          "download": "https://www.python.org/downloads/windows/",
+          "notice": "使用 Python 官方下载页，按系统架构和项目兼容性选安装器。",
+          "notice_en": "Use official Python downloads and select the system architecture and project-compatible interpreter."
+        }
+      ]
+    },
+    {
+      "id": "backend-dependencies",
+      "name": "后台依赖",
+      "name_en": "Backend dependencies",
+      "group": "基础环境",
+      "group_en": "Runtime",
+      "summary": "按同一个 Python 准备后台、文件读取与测试依赖。",
+      "guide": "工具库/安装指南/软件/后台依赖.md",
+      "icon": "sliders",
+      "targets": [
+        "tool:T5",
+        "tool:T6",
+        "tool:T7",
+        "tool:T8",
+        "tool:T11"
+      ],
+      "official": "https://pip.pypa.io/",
+      "download": "https://pypi.org/",
+      "notice": "统一按项目 requirements 准备；不需要逐个安装数据库或前端构建器。",
+      "summary_en": "Prepare backend, document-reading and test packages with the same Python interpreter.",
+      "notice_en": "Use the project requirements file; no separate database installer or frontend build tool is required.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/backend-dependencies-cn.md",
+          "official": "https://pip.pypa.io/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple",
+          "notice": "对当前命令临时选清华 PyPI 镜像，不修改全局 pip 配置。",
+          "notice_en": "Use the TUNA PyPI mirror for this command without changing global pip configuration."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/backend-dependencies-global.md",
+          "official": "https://pip.pypa.io/",
+          "download": "https://pypi.org/simple",
+          "notice": "使用官方 PyPI 临时索引，解释器与后台一致。",
+          "notice_en": "Use the official PyPI index with the same interpreter as the backend."
+        }
+      ]
+    },
+    {
+      "id": "bundled-web-libraries",
+      "name": "随带网页库",
+      "name_en": "Bundled web libraries",
+      "group": "基础环境",
+      "group_en": "Runtime",
+      "summary": "PDF、公式、图表、Office 阅读和终端所需网页资源已经随包。",
+      "guide": "工具库/安装指南/软件/随带网页库.md",
+      "icon": "folder",
+      "targets": [
+        "tool:T9",
+        "tool:T10",
+        "tool:T12",
+        "tool:T13",
+        "tool:T14",
+        "tool:T15",
+        "tool:T16"
+      ],
+      "official": "https://github.com/mozilla/pdf.js",
+      "download": "https://registry.npmjs.org/pdfjs-dist",
+      "notice": "不需要为了阅读文件安装 Node、Office 或每一个网页库；缺文件才修复。",
+      "summary_en": "PDF, math, charts, Office reading and terminal web assets are already bundled.",
+      "notice_en": "Reading files does not require Node, Office or separate library installs; repair only missing assets.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/bundled-web-libraries-cn.md",
+          "official": "https://github.com/mozilla/pdf.js",
+          "download": "https://registry.npmjs.org/pdfjs-dist",
+          "notice": "网页阅读资源已随包，通常无需重新下载或安装。",
+          "notice_en": "Web-reading assets are already bundled and normally need no separate installation."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/bundled-web-libraries-global.md",
+          "official": "https://github.com/mozilla/pdf.js",
+          "download": "https://registry.npmjs.org/pdfjs-dist",
+          "notice": "网页阅读资源已随包，通常无需重新下载或安装。",
+          "notice_en": "Web-reading assets are already bundled and normally need no separate installation."
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "name_en": "Node.js",
+      "group": "基础环境",
+      "group_en": "Runtime",
+      "summary": "部分 agent CLI 的 npm 安装方式需要它；平台网页本身不需要。",
+      "guide": "工具库/安装指南/软件/Node.js.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://nodejs.org/",
+      "download": "https://nodejs.org/en/download",
+      "notice": "只有选择 npm 客户端安装方式时准备；没有本项目工具卡检测，状态应是未检查。",
+      "summary_en": "Required by some npm-based agent CLI installers; the platform webpage itself does not need it.",
+      "notice_en": "Prepare it only for an npm installation method. This project has no matching tool check.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/nodejs-cn.md",
+          "official": "https://nodejs.org/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/",
+          "notice": "Node 二进制可用 TUNA；npm 包另用 npmmirror，二者不是同一镜像。",
+          "notice_en": "Use TUNA for Node binaries and npmmirror separately for npm packages."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/nodejs-global.md",
+          "official": "https://nodejs.org/",
+          "download": "https://nodejs.org/en/download",
+          "notice": "用 Node 官方安装包，npm 包默认官方 registry。",
+          "notice_en": "Use official Node installers and the official npm registry."
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "name_en": "Git",
+      "group": "基础环境",
+      "group_en": "Runtime",
+      "summary": "读取改动和保存本地版本；不自动上传或发布。",
+      "guide": "工具库/安装指南/软件/Git.md",
+      "icon": "flow",
+      "targets": [
+        "tool:T3"
+      ],
+      "official": "https://git-scm.com/",
+      "download": "https://git-scm.com/install/windows",
+      "notice": "安装 Git 不等于登录 GitHub；本指南不含 push 或发布。",
+      "summary_en": "Inspect changes and keep local versions without automatically uploading the project.",
+      "notice_en": "Installing Git does not sign in to GitHub. This guide does not publish or push.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/git-cn.md",
+          "official": "https://git-scm.com/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/",
+          "notice": "TUNA 同步 git-for-windows 官方 GitHub Release，安装仍核对来源与架构。",
+          "notice_en": "TUNA mirrors official Git for Windows GitHub releases; verify source and architecture."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/git-global.md",
+          "official": "https://git-scm.com/",
+          "download": "https://git-scm.com/install/windows",
+          "notice": "从 Git 官方 Windows 下载页安装，不含上传或发布。",
+          "notice_en": "Install from the official Git for Windows page; this route does not upload or publish."
+        }
+      ]
+    },
+    {
+      "id": "drawio",
+      "name": "draw.io",
+      "name_en": "draw.io",
+      "group": "科研工具",
+      "group_en": "Research tools",
+      "summary": "制作流程和架构图，保存可编辑源文件并导出图片。",
+      "guide": "工具库/安装指南/软件/draw.io.md",
+      "icon": "flow",
+      "targets": [
+        "tool:T2"
+      ],
+      "official": "https://github.com/jgraph/drawio-desktop",
+      "download": "https://github.com/jgraph/drawio-desktop/releases",
+      "notice": "本地桌面版可用；不假定用户已经安装作者的 drawio-sci 技能。",
+      "summary_en": "Create diagrams, retain editable sources and export images.",
+      "notice_en": "The desktop app is optional; this guide does not assume a personal drawio-sci skill is installed.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/drawio-cn.md",
+          "official": "https://github.com/jgraph/drawio-desktop",
+          "download": "https://github.com/jgraph/drawio-desktop/releases",
+          "notice": "尚未核实厂商中国专用发行或国内可信镜像；使用 draw.io 官网链接的 GitHub Release。",
+          "notice_en": "No separate China release or verified domestic mirror was found; use the official source."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/drawio-global.md",
+          "official": "https://github.com/jgraph/drawio-desktop",
+          "download": "https://github.com/jgraph/drawio-desktop/releases",
+          "notice": "沿官方软件入口选择对应系统与架构；账户、模型和本地工具分别核对。",
+          "notice_en": "Use official sources for your system; verify account, model service and local software separately."
+        }
+      ]
+    },
+    {
+      "id": "texlive",
+      "name": "LaTeX / TeX Live",
+      "name_en": "LaTeX / TeX Live",
+      "group": "科研工具",
+      "group_en": "Research tools",
+      "summary": "在本机把论文 .tex 编译成 PDF；中文项目通常用 XeLaTeX。",
+      "guide": "工具库/安装指南/软件/LaTeX.md",
+      "icon": "book",
+      "targets": [
+        "tool:T1"
+      ],
+      "official": "https://www.latex-project.org/get/",
+      "download": "https://tug.org/texlive/acquire-netinstall.html",
+      "notice": "仅需本地命令行排版时安装；本轮没有重新安装 TeX Live。",
+      "summary_en": "Compile local .tex papers to PDF; Chinese documents commonly use XeLaTeX.",
+      "notice_en": "Install only for local command-line typesetting. TeX Live was not installed during this work.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/texlive-cn.md",
+          "official": "https://www.latex-project.org/get/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/tlnet/",
+          "notice": "国内可选清华大学镜像；对照官方发行，本轮不执行安装。",
+          "notice_en": "An optional domestic TUNA mirror is provided; compare official releases. No installation was run."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/texlive-global.md",
+          "official": "https://www.latex-project.org/get/",
+          "download": "https://tug.org/texlive/acquire-netinstall.html",
+          "notice": "使用软件官方发行入口；安装位置与任务执行由用户决定。",
+          "notice_en": "Use the official release source; the user chooses installation location and task execution."
+        }
+      ]
+    },
+    {
+      "id": "zotero",
+      "name": "Zotero",
+      "name_en": "Zotero",
+      "group": "科研工具",
+      "group_en": "Research tools",
+      "summary": "管理文献与书目信息；桌面应用和浏览器 Connector 分别准备。",
+      "guide": "工具库/安装指南/软件/Zotero.md",
+      "icon": "book",
+      "targets": [],
+      "official": "https://www.zotero.org/",
+      "download": "https://www.zotero.org/download/",
+      "notice": "可选文献工具；本项目不会读取你的私人 Zotero 库。",
+      "summary_en": "Manage papers and references; prepare the desktop app and browser Connector separately.",
+      "notice_en": "Optional literature software. The project does not read your private Zotero library.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/zotero-cn.md",
+          "official": "https://www.zotero.org/",
+          "download": "https://www.zotero.org/download/",
+          "notice": "尚未核实中国独立发行或国内官方镜像；沿 zotero.org 下载桌面与 Connector。",
+          "notice_en": "No separate China release or verified domestic mirror was found; use the official source."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/zotero-global.md",
+          "official": "https://www.zotero.org/",
+          "download": "https://www.zotero.org/download/",
+          "notice": "沿官方软件入口选择对应系统与架构；账户、模型和本地工具分别核对。",
+          "notice_en": "Use official sources for your system; verify account, model service and local software separately."
+        }
+      ]
+    },
+    {
+      "id": "jupyterlab",
+      "name": "JupyterLab",
+      "name_en": "JupyterLab",
+      "group": "科研工具",
+      "group_en": "Research tools",
+      "summary": "在独立实验环境运行 Notebook，保留步骤、结果与环境。",
+      "guide": "工具库/安装指南/软件/JupyterLab.md",
+      "icon": "book",
+      "targets": [],
+      "official": "https://jupyter.org/",
+      "download": "https://jupyter.org/install",
+      "notice": "不属于后台必需依赖；数据与模型库按具体实验方案另配。",
+      "summary_en": "Run notebooks in a separate experiment environment and retain steps, results and versions.",
+      "notice_en": "Not a required backend package. Configure data and model libraries for the approved experiment.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/jupyterlab-cn.md",
+          "official": "https://jupyter.org/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple",
+          "notice": "在独立实验环境用临时 TUNA PyPI 索引；不是后台必装依赖。",
+          "notice_en": "Use a temporary TUNA PyPI index in a separate experiment environment; not a backend requirement."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/jupyterlab-global.md",
+          "official": "https://jupyter.org/",
+          "download": "https://jupyter.org/install",
+          "notice": "独立实验环境从官方 PyPI 安装 JupyterLab。",
+          "notice_en": "Install JupyterLab from official PyPI in a separate experiment environment."
+        }
+      ]
+    },
+    {
+      "id": "libreoffice",
+      "name": "LibreOffice",
+      "name_en": "LibreOffice",
+      "group": "科研工具",
+      "group_en": "Research tools",
+      "summary": "免费桌面办公软件，可为 PPT 预览提供本地 PDF 转换。",
+      "guide": "工具库/安装指南/软件/LibreOffice.md",
+      "icon": "book",
+      "targets": [],
+      "official": "https://www.libreoffice.org/",
+      "download": "https://www.libreoffice.org/download/",
+      "notice": "PPT 插件通过可能使用 PowerPoint，不等于 LibreOffice 已安装。",
+      "summary_en": "A free desktop office suite that can convert presentations to PDF for local preview.",
+      "notice_en": "A successful PPT plugin check may use PowerPoint; it does not prove LibreOffice is installed.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/libreoffice-cn.md",
+          "official": "https://www.libreoffice.org/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/libreoffice/",
+          "notice": "国内可选清华大学镜像；对照官方发行，本轮不执行安装。",
+          "notice_en": "An optional domestic TUNA mirror is provided; compare official releases. No installation was run."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/libreoffice-global.md",
+          "official": "https://www.libreoffice.org/",
+          "download": "https://www.libreoffice.org/download/",
+          "notice": "使用软件官方发行入口；安装位置与任务执行由用户决定。",
+          "notice_en": "Use the official release source; the user chooses installation location and task execution."
+        }
+      ]
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg",
+      "name_en": "FFmpeg",
+      "group": "科研工具",
+      "group_en": "Research tools",
+      "summary": "按获准命令剪辑视频、截图和检查媒体；程序不随包。",
+      "guide": "工具库/安装指南/软件/FFmpeg.md",
+      "icon": "sliders",
+      "targets": [],
+      "official": "https://ffmpeg.org/",
+      "download": "https://ffmpeg.org/download.html",
+      "notice": "官方只提供源码及构建入口；Windows 构建须沿官方页面选择来源。",
+      "summary_en": "Use approved commands to edit, capture and inspect media; the executable is not bundled.",
+      "notice_en": "The official page lists source code and build providers; follow it to choose a Windows build.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/ffmpeg-cn.md",
+          "official": "https://ffmpeg.org/",
+          "download": "https://ffmpeg.org/download.html",
+          "notice": "未核到 FFmpeg 厂商中国原生安装发行；官方页面列 Windows 构建提供方。",
+          "notice_en": "No separate China release or verified domestic mirror was found; use the official source."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/ffmpeg-global.md",
+          "official": "https://ffmpeg.org/",
+          "download": "https://ffmpeg.org/download.html",
+          "notice": "沿官方软件入口选择对应系统与架构；账户、模型和本地工具分别核对。",
+          "notice_en": "Use official sources for your system; verify account, model service and local software separately."
+        }
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "name_en": "Blender",
+      "group": "科研工具",
+      "group_en": "Research tools",
+      "summary": "准备本地三维建模与 GLB 导出；本轮只提供指南。",
+      "guide": "工具库/安装指南/软件/Blender.md",
+      "icon": "folder",
+      "targets": [
+        "tool:T18"
+      ],
+      "official": "https://www.blender.org/",
+      "download": "https://www.blender.org/download/",
+      "notice": "世界树施工仍暂停；不会因阅读指南下载、安装或开始建模。",
+      "summary_en": "Prepare local 3D modeling and GLB export; this round provides documentation only.",
+      "notice_en": "World-tree construction remains paused. Reading this guide does not install Blender or start modeling.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/blender-cn.md",
+          "official": "https://www.blender.org/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/blender/",
+          "notice": "国内可选清华大学镜像；对照官方发行，本轮不执行安装。",
+          "notice_en": "An optional domestic TUNA mirror is provided; compare official releases. No installation was run."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/blender-global.md",
+          "official": "https://www.blender.org/",
+          "download": "https://www.blender.org/download/",
+          "notice": "使用软件官方发行入口；安装位置与任务执行由用户决定。",
+          "notice_en": "Use the official release source; the user chooses installation location and task execution."
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "name_en": "Codex",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "选择桌面或 CLI，登录自己的账号，再绑定本项目 MCP。",
+      "guide": "工具库/安装指南/软件/Codex.md",
+      "icon": "terminal",
+      "targets": [
+        "agent:Codex"
+      ],
+      "official": "https://learn.chatgpt.com/docs/cli",
+      "download": "https://learn.chatgpt.com/docs/quickstart",
+      "notice": "网页员工需要真实可调用 CLI；桌面登录和安装不自动等于 CLI 检查通过。",
+      "summary_en": "Choose the desktop app or CLI, sign in to your own account and connect this project MCP.",
+      "notice_en": "Web employees need a callable CLI. Desktop installation and sign-in do not prove CLI readiness.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/codex-cn.md",
+          "official": "https://learn.chatgpt.com/docs/cli",
+          "download": "https://registry.npmmirror.com",
+          "notice": "国内可临时用 npmmirror 下载 npm 包；官方支持地区与账号实际可用性需单独核对；不能拿镜像安装通过当服务已通。",
+          "notice_en": "A package mirror does not provide account authorization, regional access or model quota."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/codex-global.md",
+          "official": "https://learn.chatgpt.com/docs/cli",
+          "download": "https://learn.chatgpt.com/docs/quickstart",
+          "notice": "官方支持地区与账号实际可用性需单独核对；不能拿镜像安装通过当服务已通。",
+          "notice_en": "A package mirror does not provide account authorization, regional access or model quota."
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "name_en": "Claude Code",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "可选终端 agent；自己安装登录，再接项目记录。",
+      "guide": "工具库/安装指南/软件/Claude Code.md",
+      "icon": "terminal",
+      "targets": [
+        "agent:Claude Code"
+      ],
+      "official": "https://code.claude.com/docs/en/setup",
+      "download": "https://code.claude.com/docs/en/setup",
+      "notice": "保留原员工历史；本页不会启用 Claude 员工，也不承诺账号配额。",
+      "summary_en": "An optional terminal agent; install and sign in yourself, then connect project records.",
+      "notice_en": "Existing employee history is retained. This guide neither enables Claude employees nor promises quota.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/claude-code-cn.md",
+          "official": "https://code.claude.com/docs/en/setup",
+          "download": "https://registry.npmmirror.com",
+          "notice": "国内可临时用 npmmirror 下载 npm 包；核账号、服务地区和额度；本轮保留 Claude 历史但不启用员工。",
+          "notice_en": "A package mirror does not provide account authorization, regional access or model quota."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/claude-code-global.md",
+          "official": "https://code.claude.com/docs/en/setup",
+          "download": "https://code.claude.com/docs/en/setup",
+          "notice": "核账号、服务地区和额度；本轮保留 Claude 历史但不启用员工。",
+          "notice_en": "A package mirror does not provide account authorization, regional access or model quota."
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "name_en": "Cursor",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "可选桌面编程客户端；按系统架构安装并打开当前项目。",
+      "guide": "工具库/安装指南/软件/Cursor.md",
+      "icon": "folder",
+      "targets": [
+        "agent:Cursor"
+      ],
+      "official": "https://cursor.com/",
+      "download": "https://cursor.com/download",
+      "notice": "桌面客户端可接文件和 MCP；未宣称现有自动运行器支持 Cursor 员工。",
+      "summary_en": "An optional desktop coding client; select your system architecture and open the current project.",
+      "notice_en": "Supports files and MCP. This guide does not claim the current auto runner supports Cursor employees.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/cursor-cn.md",
+          "official": "https://cursor.com/",
+          "download": "https://cursor.com/download",
+          "notice": "未核实 Cursor 国内独立安装包镜像；使用 cursor.com 当前官方下载页。",
+          "notice_en": "No separate China release or verified domestic mirror was found; use the official source."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/cursor-global.md",
+          "official": "https://cursor.com/",
+          "download": "https://cursor.com/download",
+          "notice": "沿官方软件入口选择对应系统与架构；账户、模型和本地工具分别核对。",
+          "notice_en": "Use official sources for your system; verify account, model service and local software separately."
+        }
+      ]
+    },
+    {
+      "id": "qwen-code",
+      "name": "Qwen Code",
+      "name_en": "Qwen Code",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "可选通义命令行 agent；按官方 Node 前提安装并选择认证。",
+      "guide": "工具库/安装指南/软件/Qwen Code.md",
+      "icon": "terminal",
+      "targets": [
+        "agent:Qwen Code"
+      ],
+      "official": "https://qwenlm.github.io/qwen-code-docs/en/users/quickstart/",
+      "download": "https://qwenlm.github.io/qwen-code-docs/en/users/quickstart/",
+      "notice": "官方手动 npm 安装要求 Node 22+；没有保证所有地区、账号或模型免费。",
+      "summary_en": "An optional command-line agent; meet the official Node requirement and choose authentication.",
+      "notice_en": "The official manual npm setup requires Node 22+. Free access is not guaranteed for every account or region.",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/qwen-code-cn.md",
+          "official": "https://qwenlm.github.io/qwen-code-docs/en/users/quickstart/",
+          "download": "https://registry.npmmirror.com",
+          "notice": "国内可临时用 npmmirror 下载 npm 包；Node 22+ 与账号服务分开核验；镜像不会提供认证。",
+          "notice_en": "A package mirror does not provide account authorization, regional access or model quota."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/qwen-code-global.md",
+          "official": "https://qwenlm.github.io/qwen-code-docs/en/users/quickstart/",
+          "download": "https://qwenlm.github.io/qwen-code-docs/en/users/quickstart/",
+          "notice": "Node 22+ 与账号服务分开核验；镜像不会提供认证。",
+          "notice_en": "A package mirror does not provide account authorization, regional access or model quota."
+        }
+      ]
+    },
+    {
+      "id": "web-terminal",
+      "name": "网页终端",
+      "name_en": "Web terminal",
+      "group": "项目插件",
+      "group_en": "Project plugins",
+      "summary": "在自动化页面看本机真实终端，先检查依赖再由人启用。",
+      "guide": "工具库/安装指南/软件/网页终端.md",
+      "icon": "terminal",
+      "targets": [
+        "plugin:网页终端"
+      ],
+      "official": "https://pypi.org/project/pywinpty/3.0.3/",
+      "download": "https://pypi.org/project/pywinpty/3.0.3/",
+      "notice": "仅 Windows 插件；xterm 已随包，另需后台同一 Python 的 pywinpty 3.0.3。",
+      "summary_en": "View a real local terminal in Automation; check dependencies before enabling the plugin.",
+      "notice_en": "Windows only. xterm is bundled; install pywinpty 3.0.3 in the same Python used by the backend.",
+      "image": "品牌/miracleharness2-terminal.png",
+      "image_kind": "illustration",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/web-terminal-cn.md",
+          "official": "https://pypi.org/project/pywinpty/3.0.3/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple",
+          "notice": "xterm 已随包；后台同一 Python 临时用 TUNA 安装 pywinpty 3.0.3。",
+          "notice_en": "xterm is bundled; install pywinpty 3.0.3 with a temporary TUNA index in the backend Python."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/web-terminal-global.md",
+          "official": "https://pypi.org/project/pywinpty/3.0.3/",
+          "download": "https://pypi.org/project/pywinpty/3.0.3/",
+          "notice": "从官方 PyPI 安装固定 pywinpty，同一后台解释器检测。",
+          "notice_en": "Install pinned pywinpty from official PyPI and check it with the backend interpreter."
+        }
+      ]
+    },
+    {
+      "id": "ppt-preview",
+      "name": "PPT预览",
+      "name_en": "PPT preview",
+      "group": "项目插件",
+      "group_en": "Project plugins",
+      "summary": "用本机 PowerPoint 或 LibreOffice 只读转换 PDF，查看原排版。",
+      "guide": "工具库/安装指南/软件/PPT预览.md",
+      "icon": "book",
+      "targets": [
+        "plugin:PPT预览"
+      ],
+      "official": "https://www.libreoffice.org/",
+      "download": "https://www.libreoffice.org/download/",
+      "notice": "转换器有一个即可；不附带 Office，插件通过不等于特定软件已安装。",
+      "summary_en": "Use local PowerPoint or LibreOffice to convert a presentation to PDF and inspect its layout.",
+      "notice_en": "One converter is enough. Office is not bundled, and plugin readiness does not identify the installed app.",
+      "image": "品牌/miracleharness2-slides.png",
+      "image_kind": "illustration",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/ppt-preview-cn.md",
+          "official": "https://www.libreoffice.org/",
+          "download": "https://mirrors.tuna.tsinghua.edu.cn/libreoffice/",
+          "notice": "已有 PowerPoint 可直接用；缺转换器时可选 TUNA LibreOffice。",
+          "notice_en": "Use existing PowerPoint, or an optional TUNA LibreOffice release if a converter is missing."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/ppt-preview-global.md",
+          "official": "https://www.libreoffice.org/",
+          "download": "https://www.libreoffice.org/download/",
+          "notice": "插件已随带，只需已有或主动选择的本地转换器。",
+          "notice_en": "The plugin is bundled; prepare only an existing or explicitly chosen local converter."
+        }
+      ]
+    },
+    {
+      "id": "media-edit",
+      "name": "剪辑",
+      "name_en": "Media editing",
+      "group": "项目插件",
+      "group_en": "Project plugins",
+      "summary": "现有 FFmpeg 协议和命令卡；网页剪辑器还没有完成。",
+      "guide": "工具库/安装指南/软件/剪辑插件.md",
+      "icon": "sliders",
+      "targets": [
+        "plugin:剪辑"
+      ],
+      "official": "https://ffmpeg.org/",
+      "download": "https://ffmpeg.org/download.html",
+      "notice": "当前只有协议/命令卡；检测到 FFmpeg 不代表网页剪辑器已实现。",
+      "summary_en": "An existing FFmpeg protocol and command card; the web media editor is not implemented yet.",
+      "notice_en": "FFmpeg detection does not mean a web media editor exists.",
+      "image": "品牌/miracleharness2-media.png",
+      "image_kind": "illustration",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/media-edit-cn.md",
+          "official": "https://ffmpeg.org/",
+          "download": "https://ffmpeg.org/download.html",
+          "notice": "剪辑协议已随项目；FFmpeg 仍沿官方入口获取，没有虚构国内网页剪辑安装器。",
+          "notice_en": "No separate China release or verified domestic mirror was found; use the official source."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/media-edit-global.md",
+          "official": "https://ffmpeg.org/",
+          "download": "https://ffmpeg.org/download.html",
+          "notice": "沿官方软件入口选择对应系统与架构；账户、模型和本地工具分别核对。",
+          "notice_en": "Use official sources for your system; verify account, model service and local software separately."
+        }
+      ]
+    },
+    {
+      "id": "trae-cn",
+      "name": "TRAE CN / TraeCode",
+      "name_en": "TRAE CN / TraeCode",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "国内版编程客户端，选 TraeCode 打开项目，先核对账号与 MCP。",
+      "summary_en": "Choose the domestic TraeCode coding client, open the project and verify account and MCP access.",
+      "notice": "TraeCode 与 TraeWork 是不同产品；安装入口不等于当前自动运行器支持。",
+      "notice_en": "TraeCode and TraeWork are separate products. A download entry does not imply auto-runner support.",
+      "guide": "工具库/安装指南/软件/TRAE CN.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://www.trae.cn/",
+      "download": "https://www.trae.cn/ide/download",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/trae-cn-cn.md",
+          "official": "https://www.trae.cn/",
+          "download": "https://www.trae.cn/ide/download",
+          "notice": "国内厂商官方 TraeCode 下载；与 TraeWork 和国际 TRAE 区分。",
+          "notice_en": "Official domestic route; verify account, model service and actual MCP capability separately."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/trae-cn-global.md",
+          "official": "https://www.trae.ai/",
+          "download": "https://www.trae.ai/download",
+          "notice": "国际 TRAE 独立官网与账号；不要把国内版功能、额度照搬。",
+          "notice_en": "Official international or shared source; verify regional service and account support separately."
+        }
+      ]
+    },
+    {
+      "id": "lingma",
+      "name": "通义灵码 / Lingma IDE",
+      "name_en": "Lingma IDE",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "阿里云编程客户端或 IDE 插件；注意官方文档已提示 Qoder CN 新入口。",
+      "summary_en": "Alibaba Cloud coding client or IDE extension; its official documentation points to the newer Qoder CN site.",
+      "notice": "旧 Lingma 与当前 Qoder CN 页面存在名称变化，按下载页核对，不冒称全部功能已实连。",
+      "notice_en": "Lingma and current Qoder CN pages show a naming transition; verify the release and actual connection.",
+      "guide": "工具库/安装指南/软件/通义灵码.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://lingma.aliyun.com/",
+      "download": "https://lingma.aliyun.com/download",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/lingma-cn.md",
+          "official": "https://lingma.aliyun.com/",
+          "download": "https://lingma.aliyun.com/download",
+          "notice": "阿里云国内官方下载，注意新版 Qoder CN 文档提示。",
+          "notice_en": "Official domestic route; verify account, model service and actual MCP capability separately."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/lingma-global.md",
+          "official": "https://lingma.aliyun.com/",
+          "download": "https://lingma.aliyun.com/download",
+          "notice": "尚未核实独立 Lingma 全球个人发行；先用官方同一入口并核地区与阿里云账号。",
+          "notice_en": "Official international or shared source; verify regional service and account support separately."
+        }
+      ]
+    },
+    {
+      "id": "workbuddy",
+      "name": "腾讯 WorkBuddy",
+      "name_en": "Tencent WorkBuddy",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "腾讯桌面工作伙伴，适合文件与办公任务，可配置 MCP 插件。",
+      "summary_en": "Tencent desktop work agent for files and office tasks, with configurable MCP plugins.",
+      "notice": "WorkBuddy 与 CodeBuddy IDE 分开；本页未新增自动启动或实连验收。",
+      "notice_en": "WorkBuddy is separate from CodeBuddy IDE; auto-launch support and a live connection were not added here.",
+      "guide": "工具库/安装指南/软件/WorkBuddy.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://www.workbuddy.cn/",
+      "download": "https://www.workbuddy.cn/",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/workbuddy-cn.md",
+          "official": "https://www.workbuddy.cn/",
+          "download": "https://www.workbuddy.cn/",
+          "notice": "腾讯独立 WorkBuddy 官方国内入口，不误装 CodeBuddy IDE。",
+          "notice_en": "Official domestic route; verify account, model service and actual MCP capability separately."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/workbuddy-global.md",
+          "official": "https://www.workbuddy.cn/",
+          "download": "https://www.workbuddy.cn/",
+          "notice": "尚未核实独立 WorkBuddy 国际发行；使用官方同一入口，服务地区和账号单独确认。",
+          "notice_en": "Official international or shared source; verify regional service and account support separately."
+        }
+      ]
+    },
+    {
+      "id": "codebuddy",
+      "name": "腾讯 CodeBuddy IDE",
+      "name_en": "Tencent CodeBuddy IDE",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "腾讯编程 IDE，国内版与国际版分别选择账号和安装入口。",
+      "summary_en": "Tencent coding IDE; choose the domestic or international account and installation route.",
+      "notice": "IDE、编辑器插件与 CodeBuddy Code CLI 是不同形式，不能混成一种运行器。",
+      "notice_en": "The IDE, editor extension and CodeBuddy Code CLI are distinct forms and are not interchangeable runners.",
+      "guide": "工具库/安装指南/软件/CodeBuddy.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://www.codebuddy.cn/ide/",
+      "download": "https://www.codebuddy.cn/ide/",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/codebuddy-cn.md",
+          "official": "https://www.codebuddy.cn/ide/",
+          "download": "https://www.codebuddy.cn/ide/",
+          "notice": "腾讯 CodeBuddy IDE 国内版本与认证入口。",
+          "notice_en": "Official domestic route; verify account, model service and actual MCP capability separately."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/codebuddy-global.md",
+          "official": "https://www.codebuddy.ai/ide",
+          "download": "https://www.codebuddy.ai/docs/ide/Getting-Started/Installation",
+          "notice": "CodeBuddy 国际版官方说明支持 Google/GitHub/Email 登录。",
+          "notice_en": "Official international or shared source; verify regional service and account support separately."
+        }
+      ]
+    },
+    {
+      "id": "zcode",
+      "name": "智谱 ZCode",
+      "name_en": "Zhipu ZCode",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "智谱桌面编程 agent，国内可用 BigModel 账号，国际可用 Z.ai。",
+      "summary_en": "Zhipu desktop coding agent; use BigModel domestically or Z.ai internationally.",
+      "notice": "官网明确支持本地 stdio MCP；套餐、版本和地区按当前账号核对。",
+      "notice_en": "Official documentation supports local stdio MCP; verify the current plan, version and region.",
+      "guide": "工具库/安装指南/软件/ZCode.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://zcode.z.ai/cn",
+      "download": "https://zcode.z.ai/cn/docs/install",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/zcode-cn.md",
+          "official": "https://zcode.z.ai/cn",
+          "download": "https://zcode.z.ai/cn/docs/install",
+          "notice": "智谱国内官网与 BigModel 账号方案；按实际架构选安装器。",
+          "notice_en": "Official domestic route; verify account, model service and actual MCP capability separately."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/zcode-global.md",
+          "official": "https://zcode.z.ai/en",
+          "download": "https://zcode.z.ai/en/docs/install",
+          "notice": "智谱国际官方安装页与 Z.ai 账号 Coding Plan。",
+          "notice_en": "Official international or shared source; verify regional service and account support separately."
+        }
+      ]
+    },
+    {
+      "id": "deepseek-harness",
+      "name": "DeepSeek Harness",
+      "name_en": "DeepSeek Harness",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "DeepSeek 官方桌面与 Web/CLI agent；开发者预览，模型认证单独核对。",
+      "summary_en": "Official DeepSeek desktop and Web/CLI agent in developer preview; verify model authentication separately.",
+      "notice": "官方 Web UI 指南当前要求模型 API key，不能把此客户端说成全程无需 API。",
+      "notice_en": "The current official Web UI guide requires a model API key; this client is not claimed to be API-free.",
+      "guide": "工具库/安装指南/软件/DeepSeek Harness.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://www.deepseek.com/harness/",
+      "download": "https://www.deepseek.com/harness/",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/deepseek-harness-cn.md",
+          "official": "https://www.deepseek.com/harness/",
+          "download": "https://www.deepseek.com/harness/",
+          "notice": "DeepSeek 官方桌面下载；CLI 包可选临时 npm 镜像，认证另准备。",
+          "notice_en": "Official domestic route; verify account, model service and actual MCP capability separately."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/deepseek-harness-global.md",
+          "official": "https://www.deepseek.com/harness/",
+          "download": "https://www.deepseek.com/harness/",
+          "notice": "同一 DeepSeek 官网与官方 npm 来源；所选模型提供方地区另核。",
+          "notice_en": "Official international or shared source; verify regional service and account support separately."
+        }
+      ]
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃 AI / Step Code",
+      "name_en": "StepFun AI / Step Code",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "阶跃桌面伙伴与官方终端 agent 两种入口；Step Code 有 MCP 和套餐账号方案。",
+      "summary_en": "Choose the desktop companion or official terminal agent; Step Code supports MCP and plan-account sign-in.",
+      "notice": "桌面 stdio MCP 尚未核到；Step Code 官方支持，Windows 原生 beta，未试装或新增运行器。",
+      "notice_en": "Desktop stdio MCP is unverified; official Step Code supports it. Native Windows is beta, without a live test or runner integration.",
+      "guide": "工具库/安装指南/软件/阶跃 AI.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://chat.stepfun.com/",
+      "download": "https://chat.stepfun.com/download",
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/方案/stepfun-cn.md",
+          "official": "https://platform.stepfun.com/step-plan",
+          "download": "https://github.com/stepfun-ai/Step-Code",
+          "notice": "国内 Step Plan CN OAuth 套餐；桌面与 Step Code 分开。",
+          "notice_en": "Domestic Step Plan CN OAuth; desktop and Step Code are distinct."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/方案/stepfun-global.md",
+          "official": "https://platform.stepfun.ai/step-plan",
+          "download": "https://github.com/stepfun-ai/Step-Code",
+          "notice": "国际 Step Plan Oversea OAuth 套餐；使用同一官方 Step Code。",
+          "notice_en": "International Step Plan Oversea OAuth with the same official Step Code client."
+        }
+      ]
+    },
+    {
+      "id": "open-source-references",
+      "section": "s:oss",
+      "name": "开源项目",
+      "name_en": "Open-source references",
+      "group": "资源入口",
+      "group_en": "Resources",
+      "summary": "此前讨论项目的官方仓库与许可索引，只提供参考入口。",
+      "summary_en": "Official repositories and license references from earlier discussions.",
+      "guide": "工具库/安装指南/参考/开源项目.md",
+      "icon": "book",
+      "targets": [],
+      "official": "https://github.com/",
+      "download": "https://github.com/",
+      "notice": "仅链接原项目，不复制或发布第三方源代码；同名未确认的保留候选说明。",
+      "notice_en": "Links only; no third-party code is copied or published. Ambiguous names remain candidates."
+    },
+    {
+      "id": "web-links",
+      "official": "https://miracleharness.com/",
+      "section": "s:links",
+      "name": "网页链接",
+      "name_en": "Web links",
+      "group": "资源入口",
+      "group_en": "Resources",
+      "summary": "官方学习、安装与能力入口集中查看，选择后再前往。",
+      "summary_en": "A shared index of official learning, setup and capability links.",
+      "guide": "工具库/安装指南/参考/网页链接.md",
+      "icon": "flow",
+      "targets": [],
+      "image": "工具库/安装指南/应用图片/miracleharness-web-links.png",
+      "image_kind": "illustration",
+      "notice": "品牌插画为入口示意；原网站、软件和模型能力按各自官方页面核对。",
+      "notice_en": "The brand illustration represents link discovery. Verify actual capabilities on official sites."
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "name_en": "Visual Studio Code",
+      "summary": "微软代码编辑器；Python、C/C++ 与 agent 运行环境分别准备。",
+      "summary_en": "Microsoft code editor; prepare Python, C/C++ and agent runtimes separately.",
+      "official": "https://code.visualstudio.com/",
+      "download": "https://code.visualstudio.com/Download",
+      "notice": "程序不随包，通过官方文字链接查看文档与安装入口。国内和国外都用微软官方分发；未核到独立国内镜像，安装与扩展认证未实测。",
+      "notice_en": "Program not included, official text links provide documentation and setup references. Both routes use Microsoft official distribution; no independent domestic mirror or live setup check is claimed.",
+      "group": "基础环境",
+      "group_en": "Runtime",
+      "guide": "工具库/安装指南/开发工具/vscode.md",
+      "icon": "terminal",
+      "targets": [],
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/国内方案/vscode.md",
+          "official": "https://code.visualstudio.com/",
+          "download": "https://code.visualstudio.com/Download",
+          "notice": "国内保留微软官方下载；扩展市场和模型认证另核，未实测全国可达。",
+          "notice_en": "Use Microsoft official downloads in China; Marketplace and model authentication are separate, without regional tests."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/全球方案/vscode.md",
+          "official": "https://code.visualstudio.com/",
+          "download": "https://code.visualstudio.com/Download",
+          "notice": "使用官方分发与文档；许可、账号、架构和实际运行单独核对。",
+          "notice_en": "Use official distribution and documentation; verify licensing, accounts, architecture and actual execution separately."
+        }
+      ]
+    },
+    {
+      "id": "pycharm",
+      "name": "PyCharm",
+      "name_en": "PyCharm",
+      "summary": "Python 项目、解释器与调试管理；统一版免费核心，Pro 和 AI 另核许可。",
+      "summary_en": "Manage Python projects, interpreters and debugging; unified free core, with separate Pro and AI licensing.",
+      "official": "https://www.jetbrains.com/pycharm/",
+      "download": "https://www.jetbrains.com/pycharm/download/",
+      "notice": "程序不随包，通过官方文字链接查看文档与安装入口。当前采用统一版 PyCharm；免费核心与 Pro 试用分开，Python 解释器另装，本机未检查。",
+      "notice_en": "Program not included, official text links provide documentation and setup references. Use unified PyCharm; distinguish free core and Pro trial, and prepare a separate Python interpreter. Local setup is unchecked.",
+      "group": "基础环境",
+      "group_en": "Runtime",
+      "guide": "工具库/安装指南/开发工具/pycharm.md",
+      "icon": "terminal",
+      "targets": [],
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/国内方案/pycharm.md",
+          "official": "https://www.jetbrains.com.cn/pycharm/",
+          "download": "https://www.jetbrains.com.cn/pycharm/download/",
+          "notice": "JetBrains 中国官方域名；不承诺 Pro、AI 授权或每台机器可达。",
+          "notice_en": "Official JetBrains China domain; Pro/AI entitlement and individual reachability are not guaranteed."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/全球方案/pycharm.md",
+          "official": "https://www.jetbrains.com/pycharm/",
+          "download": "https://www.jetbrains.com/pycharm/download/",
+          "notice": "使用官方分发与文档；许可、账号、架构和实际运行单独核对。",
+          "notice_en": "Use official distribution and documentation; verify licensing, accounts, architecture and actual execution separately."
+        }
+      ]
+    },
+    {
+      "id": "cpp-toolchain",
+      "name": "C/C++ 编译工具",
+      "name_en": "C/C++ toolchain",
+      "summary": "Windows x64 的 MSYS2 / UCRT64 GCC 工具链；编辑器扩展不自带编译器。",
+      "summary_en": "MSYS2 / UCRT64 GCC toolchain for Windows x64; editor extensions do not include a compiler.",
+      "official": "https://www.msys2.org/",
+      "download": "https://www.msys2.org/",
+      "notice": "程序不随包，通过官方文字链接查看文档与安装入口。采用具体 MSYS2/GCC 实现；默认 Windows x64，ARM64 与已有 MSVC 工程另核，未安装或试编译。",
+      "notice_en": "Program not included, official text links provide documentation and setup references. A concrete MSYS2/GCC implementation for Windows x64; verify ARM64 or existing MSVC projects separately. No install or compile was run.",
+      "group": "基础环境",
+      "group_en": "Runtime",
+      "guide": "工具库/安装指南/开发工具/cpp-toolchain.md",
+      "icon": "terminal",
+      "targets": [],
+      "routes": [
+        {
+          "id": "cn",
+          "label": "国内安装方案",
+          "label_en": "Domestic setup",
+          "guide": "工具库/安装指南/国内方案/cpp-toolchain.md",
+          "official": "https://www.msys2.org/",
+          "download": "https://mirrors.ustc.edu.cn/msys2/distrib/x86_64/",
+          "notice": "USTC 是官方列表中的同步镜像；本次安装器目录读取 SSL 失败，未下载或验证全国可达。",
+          "notice_en": "USTC is an officially listed mirror; the installer directory failed SSL during this check. No installer or regional verification."
+        },
+        {
+          "id": "global",
+          "label": "国外安装方案",
+          "label_en": "International setup",
+          "guide": "工具库/安装指南/全球方案/cpp-toolchain.md",
+          "official": "https://www.msys2.org/",
+          "download": "https://www.msys2.org/",
+          "notice": "使用官方分发与文档；许可、账号、架构和实际运行单独核对。",
+          "notice_en": "Use official distribution and documentation; verify licensing, accounts, architecture and actual execution separately."
+        }
+      ]
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "name_en": "Hermes Agent",
+      "group": "Agent客户端",
+      "group_en": "Agent clients",
+      "summary": "Nous Research 的开源 agent；提供终端、桌面与 MCP 使用入口。",
+      "summary_en": "An open-source agent from Nous Research, with CLI, desktop and MCP documentation.",
+      "guide": "工具库/安装指南/软件/Hermes Agent.md",
+      "icon": "terminal",
+      "targets": [],
+      "official": "https://hermes-agent.nousresearch.com/docs/",
+      "notice": "本轮只核对官方资料；本项目接入尚未实测。",
+      "notice_en": "Official documentation reviewed; integration with this project has not been tested.",
+      "verified": "2026-10-06"
+    }
+  ],
+  "release_images": "Original project artwork and official text links; third-party screenshots and logos are not distributed."
+}

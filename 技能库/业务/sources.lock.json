@@ -1,0 +1,3600 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-05T13:26:02.609629+00:00",
+  "scope": "Selected-source guidance/support only; source inclusion is not installed or validated runtime.",
+  "files": [
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/LICENSE",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/README.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "README.md",
+      "sha256": "ea7c0dca7f649c4071fee722ff6c4607ad7f62da75b3b170edbb0672b1beac68",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/experiment-plan/SKILL.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/experiment-plan/SKILL.md",
+      "sha256": "c5b53692ff95b0b55e80702e33afc79d9fe8d4f55a69e2a39714013f97ac595e",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/idea-discovery/SKILL.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/idea-discovery/SKILL.md",
+      "sha256": "ac2d06bde65bf7335d9e9a290cc1c10bbc813b6256480e7d1da9cf102a76fa23",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/paper-writing/SKILL.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-writing/SKILL.md",
+      "sha256": "310a9b29b6869eec0690f953095ffe57488e3ec60a23523fe83ea3ecff536dfd",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/rebuttal/SKILL.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/rebuttal/SKILL.md",
+      "sha256": "36b9f570181c5afcf4149e4a911613f421733d4f3fcb84579709c8097d514f02",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/research-pipeline/SKILL.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/research-pipeline/SKILL.md",
+      "sha256": "3dd1f071770ffd700c55e607f8a6f641b7be5d4fbd3c2e0ab203bbfe22fd2d3b",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/research-review/SKILL.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/research-review/SKILL.md",
+      "sha256": "85c75d2bef1f08e2e7d2e6a7f6bc0ae42faecf942d5314d25f17376e1292597f",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/run-experiment/SKILL.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/run-experiment/SKILL.md",
+      "sha256": "4d481ce95d8bcadb93b095c3dd9bda51d68b6edea6b710316d6c0c74bb5bcfa8",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/assurance-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/assurance-contract.md",
+      "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/capture-antipatterns.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/capture-antipatterns.md",
+      "sha256": "419b914ade074842b815bff5133c18993a31305ca36e40b08918856777857378",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/citation-discipline.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/citation-discipline.md",
+      "sha256": "01fc1cf751d7e0e6bef04897df6ef1bcf1e1b20e5b56d9f208e020cc48ba6725",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/compute-env-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/compute-env-contract.md",
+      "sha256": "293606bcf6281712e0f5e1a05be9b67e001f2e5b567e2a956e2099de9c648974",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/effort-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/effort-contract.md",
+      "sha256": "c1cb84a099d7d465ce71e0fc6c8fe7449c8273072b4cb977e0e58744d767f482",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/evidence-precheck.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/evidence-precheck.md",
+      "sha256": "919a437a2e4a618ff6bcac6c03b7ec12bde3fef33d1a2aea25c9d98fcbd5e2d2",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/experiment-integrity.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/experiment-integrity.md",
+      "sha256": "22150fbdc5867e7790c88f968bccb367079c2db4c190ddce980709aea7e76f60",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/fan-out-pattern.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/fan-out-pattern.md",
+      "sha256": "a788fd9fdc88d8b8e1331bcd9c64979914a44cf69018e1ce5be4cfd071a240cb",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/injection-hygiene.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/injection-hygiene.md",
+      "sha256": "bcab2455e4327eaa4feb3810035d1bf6e6a3e352e329badcad6ed95e5fe534de",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-composition.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-composition.md",
+      "sha256": "8de81708431091a21a641be5f91db7958bb9f9a4b85d4fe03f52c5b496948651",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/resumable-runs.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/resumable-runs.md",
+      "sha256": "bf522bfed126b0db96dfb22ab84f0011ba6f79bedc4f6a28a3a40f67500abb61",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/review-scope-limits.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-scope-limits.md",
+      "sha256": "e383dbaa57aed6f8fd2c2bb6bcaefc6806648126d11b21cb6c39eeeec76100f6",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "sha256": "4a1535065409bc7fd399d49355025df31aae1c503603bd177b3c4a90a0318669",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/skill-governance.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/skill-governance.md",
+      "sha256": "2da8e745ce5dc511206ab3a6a378a26d3bc6e4ca035c1f763f7a0b1793155c73",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/taste-calibration.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/taste-calibration.md",
+      "sha256": "245e12a52b6c013022ddbcd8c682e4e5290bda6e38ecc6f14d7b2eaeb2988af8",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/venue-checklists.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/venue-checklists.md",
+      "sha256": "712396be66d4db85f0038c5ff5479a5fc66db03bc7175c8ed931f7284802f4e2",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/wiki-helper-resolution.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/wiki-helper-resolution.md",
+      "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/writing-principles.md",
+      "sha256": "25c71f6b76fad1a198b47b4eae9b1d101561578cc0a8767e91706957829f0abe",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/EXPERIMENT_PLAN_TEMPLATE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "templates/EXPERIMENT_PLAN_TEMPLATE.md",
+      "sha256": "a28f0795f4c8e203216be6b5d91b4d9def60f5af7cdbfcc7ed0a2ebf205abb67",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/NARRATIVE_REPORT_TEMPLATE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "templates/NARRATIVE_REPORT_TEMPLATE.md",
+      "sha256": "108481c051e96976b432f038c3903968d89d9d3556cc6bbef45c3947198713b6",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/PAPER_PLAN_TEMPLATE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "templates/PAPER_PLAN_TEMPLATE.md",
+      "sha256": "0c323fa0e65c0d9e13100e7de1d6d7ea9f4857706b9e32e81afe9d632adf981d",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/RESEARCH_BRIEF_TEMPLATE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "templates/RESEARCH_BRIEF_TEMPLATE.md",
+      "sha256": "f3aae6dcb26028a4115994aeb5a37b3fe408aa6cca18743bac693cfc1ad08688",
+      "license": "MIT"
+    },
+    {
+      "local_path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/RESEARCH_CONTRACT_TEMPLATE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "templates/RESEARCH_CONTRACT_TEMPLATE.md",
+      "sha256": "e71ee594951a50aaa93b1644318c28a705d6fcf9780ca1f61030b1c1bb44696a",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/ablation-planner/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/ablation-planner/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ce51bfff265e5f0a6e8fd03333bfa8dee679e728e0d325830988ca5bd31307da",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/ablation-planner/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/alphaxiv/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/alphaxiv/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/alphaxiv/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "2123b9fa5b70e5ed479389a50f6ab8acb0c956495d82dc03a89899b7b730b8f3",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/alphaxiv/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/analyze-results/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/analyze-results/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "2b97b8ae1a279ac8a7db14e7d7bea67934c88352d55c95e20fcfb681a8640930",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/analyze-results/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/arxiv/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/arxiv/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/wiki-helper-resolution.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/arxiv/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/arxiv/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "474be36fb19d0dd99ddc8c6fa2d684836a45dca9d02051d98b5c79ac979307ed",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/arxiv/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/support/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/auto-paper-improvement-loop/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "6472a47dae813c747a84e785b887eeaec567a65950c58bbbedecb03376ce50c5",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/auto-review-loop-llm/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "f46c40b1a3edcc63b07cf263253fc01e706d2335bd851d672d66099b29774cf8",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-llm/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/auto-review-loop-minimax/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "70f4952522747030f4ee8011c0e29c7670a289bd0bff73fffbcb9bac232a4102",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop-minimax/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "151fd817e746dfbebfd9988d7f09660d6f2f8d1e43cd5d67c91acbdb58201434",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/auto-review-loop/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "5ffe1d2ae9a78350c52e7317fcad7d9fbd18ffeb2a6a244779d9dfa3c9573f4a",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/auto-review-loop/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/assurance-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/assurance-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/citation-discipline.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/citation-discipline.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01fc1cf751d7e0e6bef04897df6ef1bcf1e1b20e5b56d9f208e020cc48ba6725",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/citation-audit/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/citation-audit/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7f68355f009a93077c76ba8d999cc00df0a3a87fbe3e4cba1b5f5e0df0810c2e",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/citation-audit/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/patent-format-cn.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-cn.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e5be6c2c6fab3c84c795b53ca419198192b95f2c1ccd63833b5d0510a8f93c1f",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/patent-format-ep.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-ep.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8cf58ac775fe524c230cd7f371abd0ce25eb774029129bc336f884026c58ba23",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/patent-format-us.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-us.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "13f179cc70fc8664f356d5258bdaa52a4cc577496e385e5ac5cdd421a12f4f65",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/patent-writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8c8dc8250948bd0741b792d350e3afdc686ed194a1bf02359fb0e55b81468d1d",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "25c71f6b76fad1a198b47b4eae9b1d101561578cc0a8767e91706957829f0abe",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/claims-drafting/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/claims-drafting/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28c5027ae12cb928df35a5e079263fd5680e1bf2816bf86c847f195ad456ac40",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/claims-drafting/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/comm-lit-review/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/comm-lit-review/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "9fefbc15dae68a19176f6d7e78c348979a23b2a2363291b7ef81081c6dfb770d",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/comm-lit-review/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/deepxiv/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/deepxiv/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/wiki-helper-resolution.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/deepxiv/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/deepxiv/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "cbf5e46d7140d78a4e28191cf773e3d645b1c75a4926e414906d2dfa03ee22bc",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/deepxiv/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/dse-loop/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/dse-loop/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/dse-loop/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ae8e147011f7c1a6add208b6cecb218d03a83949fba0ef9b0b1936e4b0ee18bf",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/dse-loop/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/embodiment-description/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/embodiment-description/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8833b4569435077554d51ac59f79c8b4ceca64b777f129b1e8eaa328be9bb9a2",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/embodiment-description/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/exa-search/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/exa-search/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/wiki-helper-resolution.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/exa-search/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/exa-search/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "c9ffd1e95004f591d6bc17e1a5bf16864f0c0230f446d60c6fc2b3890afb71de",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/exa-search/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/experiment-integrity.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/experiment-integrity.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "22150fbdc5867e7790c88f968bccb367079c2db4c190ddce980709aea7e76f60",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "151fd817e746dfbebfd9988d7f09660d6f2f8d1e43cd5d67c91acbdb58201434",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/experiment-audit/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "dd5c2405aaae472cf2020f16fbd1b02b431874d8353a65a8aa4c102a65f5aef2",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-audit/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/docs/SESSION_RECOVERY_GUIDE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "docs/SESSION_RECOVERY_GUIDE.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "22d9346aee6c066297127b17f7c903138160c517baea48e43c37e6caa6c41d86",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/templates/RESEARCH_CONTRACT_TEMPLATE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "templates/RESEARCH_CONTRACT_TEMPLATE.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e71ee594951a50aaa93b1644318c28a705d6fcf9780ca1f61030b1c1bb44696a",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/experiment-bridge/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "595d41fee920c7dafb920e89d8e33c0c3967704f84457786432aaadc920767a0",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-queue/references/support/skills/shared-references/compute-env-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/compute-env-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "293606bcf6281712e0f5e1a05be9b67e001f2e5b567e2a956e2099de9c648974",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-queue/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-queue/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/experiment-queue/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "6da32285f905d77664334bba7f7bbc2c069814ff5c3bc266ecc00f6c77d77208",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-queue/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/feishu-notify/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/feishu-notify/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "1a6c2e7a92b4f10c25cb7a9c647919a9dcc9b1fc9a6c99a86e73d757c8a6edbf",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/feishu-notify/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/figure-description/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/figure-description/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "4c69bc650a67d1688f44c909c49be98ffe74ea427b3859edb3c3357ec5730136",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/figure-description/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/figure-spec/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/figure-spec/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/figure-spec/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/figure-spec/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "090a28a1b6464d3b88cf32b9bf59f6a1008e7e63d638801070f0b888c3ef9c5b",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/figure-spec/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/formula-derivation/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/formula-derivation/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "2e5f5ce665023cdc460126c9c8403503c17961145a2b052d25200f9bbd9a9b4d",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/formula-derivation/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/gemini-search/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/gemini-search/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "a8778e4e1dacae68691d13342a9a33200ade427beb777a4defbbb91dfcb030e3",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/gemini-search/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/grant-proposal/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/grant-proposal/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/grant-proposal/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/grant-proposal/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/grant-proposal/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/grant-proposal/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b7870c8f02db4da3be64f77b4225818306ced16c771331143768c3f9b1fc46ac",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/grant-proposal/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/citation-discipline.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/citation-discipline.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01fc1cf751d7e0e6bef04897df6ef1bcf1e1b20e5b56d9f208e020cc48ba6725",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/fan-out-pattern.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/fan-out-pattern.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "a788fd9fdc88d8b8e1331bcd9c64979914a44cf69018e1ce5be4cfd071a240cb",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/injection-hygiene.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/injection-hygiene.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "bcab2455e4327eaa4feb3810035d1bf6e6a3e352e329badcad6ed95e5fe534de",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/output-composition.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-composition.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8de81708431091a21a641be5f91db7958bb9f9a4b85d4fe03f52c5b496948651",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "151fd817e746dfbebfd9988d7f09660d6f2f8d1e43cd5d67c91acbdb58201434",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/idea-creator/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e78e20b2eff657953ba95134e89779954c77399779eee0134459b77d84efb602",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-creator/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-discovery-robot/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-discovery-robot/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-discovery-robot/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-discovery-robot/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/idea-discovery-robot/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "945decb901aa5cf0780e996d1bbc6fb7aecb8c246a513b9fe6169f06196680dc",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/idea-discovery-robot/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/integrity-forensics/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/integrity-forensics/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/integrity-forensics/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/integrity-forensics/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "33cdf3f4fd2a8dea073a73e2cba870576c576b1d201efa3d0a4bde2e7e7256ed",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/integrity-forensics/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/interview-cheatsheet/references/support/docs/tutorials/README.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "docs/tutorials/README.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "94148c359e49f505f5b061c0a684848a310f328a8cb72c948d6b0925417a616f",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/interview-cheatsheet/references/support/docs/tutorials/attention_tutorial.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "docs/tutorials/attention_tutorial.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8d8d5146c1a9a924cd5e29973b7419d9fe14f5009c392db4b4ad6ff3a12ab1e0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/interview-cheatsheet/references/support/docs/tutorials/flow_matching_tutorial.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "docs/tutorials/flow_matching_tutorial.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ab4358901d204fec676df6ce3b8559be4e69fec3833f764bcfc937b113eea281",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/interview-cheatsheet/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/interview-cheatsheet/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "37291536f9a4f70d6463df129e875eb0eb32102db6e2cfa92d3e22494f944ca2",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/interview-cheatsheet/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/invention-structuring/references/support/skills/shared-references/patent-writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8c8dc8250948bd0741b792d350e3afdc686ed194a1bf02359fb0e55b81468d1d",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/invention-structuring/references/support/skills/shared-references/writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "25c71f6b76fad1a198b47b4eae9b1d101561578cc0a8767e91706957829f0abe",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/invention-structuring/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/invention-structuring/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ced6627e44e96f57e92098018e158d79ac01420659e98dccf5edff53f25fd087",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/invention-structuring/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/jurisdiction-format/references/support/skills/shared-references/patent-format-cn.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-cn.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e5be6c2c6fab3c84c795b53ca419198192b95f2c1ccd63833b5d0510a8f93c1f",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/jurisdiction-format/references/support/skills/shared-references/patent-format-ep.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-ep.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8cf58ac775fe524c230cd7f371abd0ce25eb774029129bc336f884026c58ba23",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/jurisdiction-format/references/support/skills/shared-references/patent-format-us.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-us.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "13f179cc70fc8664f356d5258bdaa52a4cc577496e385e5ac5cdd421a12f4f65",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/jurisdiction-format/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/jurisdiction-format/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7683f58c4ad6465b4c4dd4f360876b12b0132777ca4ba40c1e48b777f4b40bb9",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/jurisdiction-format/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/assurance-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/assurance-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/fan-out-pattern.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/fan-out-pattern.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "a788fd9fdc88d8b8e1331bcd9c64979914a44cf69018e1ce5be4cfd071a240cb",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "151fd817e746dfbebfd9988d7f09660d6f2f8d1e43cd5d67c91acbdb58201434",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/kill-argument/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/kill-argument/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7a222081ddd9548f7ce560a202c3888783cc34ee0fe81c35ee87c5a7b652aa59",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/kill-argument/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/mermaid-diagram/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/mermaid-diagram/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b7cb4fb550b43be0c49224b608ff2a3a4a208997b8c8ce1d6a6310d165915f50",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/mermaid-diagram/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/review-scope-limits.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-scope-limits.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e383dbaa57aed6f8fd2c2bb6bcaefc6806648126d11b21cb6c39eeeec76100f6",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/skill-governance.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/skill-governance.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "2da8e745ce5dc511206ab3a6a378a26d3bc6e4ca035c1f763f7a0b1793155c73",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-apply/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/meta-apply/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "0760749e7a26315d836f0ce52c94b2014f09b186f5de015cb3da5ead9875e629",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-apply/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/capture-antipatterns.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/capture-antipatterns.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "419b914ade074842b815bff5133c18993a31305ca36e40b08918856777857378",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/meta-optimize/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "0599dcc7eec1b7204e67bb7960487c652b5034af8b2d18323f0a3ff057580fd2",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/meta-optimize/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/monitor-experiment/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/monitor-experiment/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/monitor-experiment/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "0527977308bb7b26139ffb56cd2d45ecc72a9dd2961073ad51fac4aac106961d",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/monitor-experiment/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/novelty-check/references/support/skills/shared-references/citation-discipline.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/citation-discipline.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01fc1cf751d7e0e6bef04897df6ef1bcf1e1b20e5b56d9f208e020cc48ba6725",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/novelty-check/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/novelty-check/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/novelty-check/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/novelty-check/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7738e665e8a7ad358e016ea3fcfa0f994e1f064f3626fe2fa454217a2750f3a0",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/novelty-check/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/openalex/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/openalex/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/openalex/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "4c853b646987c4472a8360e044ad232aa9731dcfb60c7183073e8e5f3e6ac9c1",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/openalex/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/overleaf-sync/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/overleaf-sync/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "15644b418d9d043ac1f66e03242a9f8ecebc63569fc0a43f913252f3bfb2abe7",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/overleaf-sync/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/assurance-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/assurance-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-claim-audit/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-claim-audit/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7a6e76d6355a99c53ec451db2325343c46bd9ef1ca825889a4f26e781ec5c1d4",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-claim-audit/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-compile/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-compile/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ca064e9b7dffe80d9c3bcabb060f81c651e4926eb1c069a04c6416a8e58fed93",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-compile/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-figure/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-figure/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "1bcc797faf94af2bb06b1627d686c110c04fc358fed97225776a8128eb1c0ac6",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-figure/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-illustration-image2/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-illustration-image2/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-illustration-image2/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "178b200cd549e53dd1b02450a8bf086cfde7dbf4042613d8d87fe555b9411842",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-illustration-image2/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-illustration/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-illustration/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-illustration/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "af9307d178b8242c9a8d2e94c1264add91d5aa2bbc6444556b51b501c1918e65",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-illustration/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/assurance-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/assurance-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/venue-checklists.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/venue-checklists.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "712396be66d4db85f0038c5ff5479a5fc66db03bc7175c8ed931f7284802f4e2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "25c71f6b76fad1a198b47b4eae9b1d101561578cc0a8767e91706957829f0abe",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-plan/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "755e0f06c488dc1887162120f112a978010cd4123a0e29e3d7a5266a8ca8d819",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-plan/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/paper-poster-html/DESIGN_FINAL.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-poster-html/DESIGN_FINAL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "1e1931569efe301a05ce815c238f48b05b7f27a92a7d179f84ebe1d5e22fdf25",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/paper-poster-html/IMPLEMENTATION_CONVENTIONS.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-poster-html/IMPLEMENTATION_CONVENTIONS.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "59cdf8fafb92a22efa93971b647e05386f46c473909c752674d65990b8886483",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/posterly-MIT.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-poster-html/LICENSES/posterly-MIT.txt",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "0f097b552f2be95d202723d681c73a1dec10d64d0afea3ee0a0eaf63def9a5be",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/NOTICE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-poster-html/NOTICE.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "058090d55f2c7d143f70b4e3020cb7bcb8349480edd9dbf46921e05067862ab1",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/paper-poster-html/templates/COMPONENTS.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-poster-html/templates/COMPONENTS.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "382e60604f4bbe9a8aa96272348f34314089de847760c1897a6f701b5984f8b8",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/paper-poster-html/templates/README.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-poster-html/templates/README.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "366923d0de663296a2e3aca8479775423ac280b126d9d9272aa0041413dca309",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/shared-references/taste-calibration.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/taste-calibration.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "245e12a52b6c013022ddbcd8c682e4e5290bda6e38ecc6f14d7b2eaeb2988af8",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/support/templates/README.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "templates/README.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "334aac9654abd110dd1201f0e56915f11a3e1e47304079856ce0db66c25dc635",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-poster-html/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b3c55d212f5c0cbccc94ec62813ad8df9302467edd825c62959edb4ba2778f8e",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster-html/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-poster/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7dec9b7f9bc2d12df23148cd38f51ea344b0b23370051ef6e03779ed41e97260",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-poster/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-slides/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-slides/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-slides/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e887b9b393753f9e8af1aabfc1ce93e9b01a500ebf2c2ace775b45a3f93fd3fc",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-slides/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-talk/references/support/skills/shared-references/assurance-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/assurance-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-talk/references/support/skills/shared-references/effort-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/effort-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "c1cb84a099d7d465ce71e0fc6c8fe7449c8273072b4cb977e0e58744d767f482",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-talk/references/support/skills/shared-references/experiment-integrity.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/experiment-integrity.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "22150fbdc5867e7790c88f968bccb367079c2db4c190ddce980709aea7e76f60",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-talk/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-talk/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-talk/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "0bd7722963e9dc721cff4d66fda72e5e4242a116370dfae2fc9669b408d2f199",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-talk/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/citation-discipline.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/citation-discipline.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01fc1cf751d7e0e6bef04897df6ef1bcf1e1b20e5b56d9f208e020cc48ba6725",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/venue-checklists.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/venue-checklists.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "712396be66d4db85f0038c5ff5479a5fc66db03bc7175c8ed931f7284802f4e2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "25c71f6b76fad1a198b47b4eae9b1d101561578cc0a8767e91706957829f0abe",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-write/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/paper-write/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "dc4f4024d6cdcb639d8bf75b796132408f75d14a4b4b316f388c884e35a62366",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/paper-write/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-novelty-check/references/support/skills/shared-references/patent-format-us.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-us.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "13f179cc70fc8664f356d5258bdaa52a4cc577496e385e5ac5cdd421a12f4f65",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-novelty-check/references/support/skills/shared-references/patent-writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8c8dc8250948bd0741b792d350e3afdc686ed194a1bf02359fb0e55b81468d1d",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-novelty-check/references/support/skills/shared-references/writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "25c71f6b76fad1a198b47b4eae9b1d101561578cc0a8767e91706957829f0abe",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-novelty-check/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/patent-novelty-check/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "895a084526fafaaa6d90504d0958b30a23b43ee006327af87aadceb0312268f4",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-novelty-check/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-pipeline/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/patent-pipeline/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "4c6a598de26fe5f8e4b78e16ce8d47ada9b3f63a2999c7c1ae2732f4abd11201",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-pipeline/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-review/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/patent-review/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "69b9d09cf150ebdcb73c5f0b7fb4d74b141be8392d00735b01e3c8d40a319866",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/patent-review/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/pixel-art/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/pixel-art/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e65d74863168eeefb0405c6da9db1858bd7940d4bda40af9d3e85acffba5dc8c",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/pixel-art/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/prior-art-search/references/support/skills/shared-references/prior-art-databases.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/prior-art-databases.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8225843987fbabb5f11788c19ed8a739f10691319865485d5cb876e7bc2a3cb7",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/prior-art-search/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/prior-art-search/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8793fb26c522de4c44a64b68df81e5d12718a99866c639658261cea680bd58b2",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/prior-art-search/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/assurance-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/assurance-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/fan-out-pattern.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/fan-out-pattern.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "a788fd9fdc88d8b8e1331bcd9c64979914a44cf69018e1ce5be4cfd071a240cb",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "151fd817e746dfbebfd9988d7f09660d6f2f8d1e43cd5d67c91acbdb58201434",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-checker/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-checker/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "65900678dc8d68c5157971c087497094c8cc0e05b3c6d22e6a9351b88882657e",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-checker/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/NOTICE.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-orchestrator/NOTICE.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "a496eb4ac401ae1fcfcd0958f47e585c1949e4cf43553517468fcdf73fc17124",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/audit-output-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-orchestrator/references/audit-output-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "cff8da1ef42794c64aba244decb19895b97ae912651e023c5c0b54a110e3eb7e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/deepseek-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-orchestrator/references/deepseek-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "1a3072362c8831b602b4adc4d69fba743a27584fac1c1413ca79a5831e9715eb",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/dispatch-prompts.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-orchestrator/references/dispatch-prompts.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "a32693defd4ec03fe7c23a813d3e7a6b5b868ce34ac3ffe34b798ad624f469b7",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/notation-audit.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-orchestrator/references/notation-audit.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8db3079a9209d9c71b977d448cff1abe33c5cf6414b1923735c813c9fc56e757",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/proof-audit-rubric.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-orchestrator/references/proof-audit-rubric.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fb962314da5291f5376da55f502f94a9337f380b481cf12208d6b586341b86bf",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/stress-tests.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-orchestrator/references/stress-tests.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "5d865f4bc1df6d872103b6da7cfb2a24c6b8d40432c6228e94285e136fe48614",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-orchestrator/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "bde239fa93e051281a529fb436c9dc277b82221cffe0941e1aab54c203fbc9f5",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-orchestrator/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-writer/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/proof-writer/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d59b1865ba06f060b40920ace4ff8f61dc729615387bb91b1eb22a5d5442f2fe",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/proof-writer/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/qzcli/references/support/skills/shared-references/compute-env-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/compute-env-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "293606bcf6281712e0f5e1a05be9b67e001f2e5b567e2a956e2099de9c648974",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/qzcli/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/qzcli/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "328953e6e4a21f8a38e979f9729818721af387724b799cb7cc96e072d0012d2f",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/qzcli/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/render-html/references/support/docs/SKILLS_CATALOG.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "docs/SKILLS_CATALOG.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "77dcf928a85e033c51a22b56fe1e50196bc2d2a39f481c9176031073de1f0c40",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/render-html/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/render-html/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/render-html/references/support/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "151fd817e746dfbebfd9988d7f09660d6f2f8d1e43cd5d67c91acbdb58201434",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/render-html/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/render-html/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "2d34c2a878194209e1d4679147cfa8eef47eaa75271d4abbee6721060bead97b",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/render-html/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/citation-discipline.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/citation-discipline.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01fc1cf751d7e0e6bef04897df6ef1bcf1e1b20e5b56d9f208e020cc48ba6725",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/fan-out-pattern.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/fan-out-pattern.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "a788fd9fdc88d8b8e1331bcd9c64979914a44cf69018e1ce5be4cfd071a240cb",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/output-composition.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-composition.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8de81708431091a21a641be5f91db7958bb9f9a4b85d4fe03f52c5b496948651",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/wiki-helper-resolution.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-lit/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/research-lit/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "00d9f549e4db72f3b02d55b9f6dcd61b20403f5a7e25cf3396160423140b9183",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-lit/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine-pipeline/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine-pipeline/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine-pipeline/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine-pipeline/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/research-refine-pipeline/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d5091663645dae48b84ce273d0f774090aeb2c553ed064d2d4cfc17fad9c52e9",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine-pipeline/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine/references/support/skills/shared-references/output-versioning.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-versioning.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "73a4269b537be728b0ecc35789f11fa6d1fafa6d0430d07ad2738f064b1e4da3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine/references/support/skills/shared-references/taste-calibration.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/taste-calibration.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "245e12a52b6c013022ddbcd8c682e4e5290bda6e38ecc6f14d7b2eaeb2988af8",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/research-refine/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "2888a5d78cce27851dc029240a76dd50fb8d8114f34e2041c67fb15651017837",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-refine/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-wiki/references/support/skills/shared-references/capture-antipatterns.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/capture-antipatterns.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "419b914ade074842b815bff5133c18993a31305ca36e40b08918856777857378",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-wiki/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-wiki/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/research-wiki/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "3bd314f83f2db97fcfafb74495f1ca23bebad37a69d355bc61aaea8cbb519552",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/research-wiki/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/resubmit-pipeline/references/support/skills/shared-references/assurance-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/assurance-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "01745ff874cf2e662ce1349f79fa7549db4d6f25182af86ef90b621d598b755b",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/resubmit-pipeline/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/resubmit-pipeline/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/resubmit-pipeline/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "4fa03710fe1f0ec8ad7009c07204a0380d2f72cd719d053a64c75e27178a4763",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/resubmit-pipeline/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/evidence-precheck.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/evidence-precheck.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "919a437a2e4a618ff6bcac6c03b7ec12bde3fef33d1a2aea25c9d98fcbd5e2d2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/experiment-integrity.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/experiment-integrity.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "22150fbdc5867e7790c88f968bccb367079c2db4c190ddce980709aea7e76f60",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "151fd817e746dfbebfd9988d7f09660d6f2f8d1e43cd5d67c91acbdb58201434",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/wiki-helper-resolution.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/result-to-claim/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ba53865e333fb05271ad116b94879d567d1e681f592dec2a7e8ae7eac6ef13d6",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/result-to-claim/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/semantic-scholar/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/semantic-scholar/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/wiki-helper-resolution.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/semantic-scholar/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/semantic-scholar/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "41be9cd7d08d2d795d4fe0c87d23288712febd2807b8d4d38a2ea9c54ebb31e8",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/semantic-scholar/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/serverless-modal/references/support/skills/shared-references/compute-env-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/compute-env-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "293606bcf6281712e0f5e1a05be9b67e001f2e5b567e2a956e2099de9c648974",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/serverless-modal/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/serverless-modal/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e8444d7c5e4cb53f400602a96bf9fbb8c682b85ffda8c24bcceb19cc3337e31f",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/serverless-modal/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/effort-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/effort-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "c1cb84a099d7d465ce71e0fc6c8fe7449c8273072b4cb977e0e58744d767f482",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/experiment-integrity.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/experiment-integrity.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "22150fbdc5867e7790c88f968bccb367079c2db4c190ddce980709aea7e76f60",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/review-tracing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/review-tracing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b531253ccee0414bde9e3d233e743d9dba9a4283cd40ec527c5863ba0fee6d44",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/reviewer-independence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-independence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "fbbfcb6e7ff53010b596e8e01ce456d1906734f5bd198745f76ccd62787af3e3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/reviewer-routing.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/reviewer-routing.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "151fd817e746dfbebfd9988d7f09660d6f2f8d1e43cd5d67c91acbdb58201434",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/slides-polish/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/slides-polish/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "dbb0b8b507c45aae428562ba64ccbb328589210d75fc801eb25881efae5322f9",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/slides-polish/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/patent-format-cn.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-cn.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e5be6c2c6fab3c84c795b53ca419198192b95f2c1ccd63833b5d0510a8f93c1f",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/patent-format-ep.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-ep.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8cf58ac775fe524c230cd7f371abd0ce25eb774029129bc336f884026c58ba23",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/patent-format-us.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-format-us.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "13f179cc70fc8664f356d5258bdaa52a4cc577496e385e5ac5cdd421a12f4f65",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/patent-writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/patent-writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "8c8dc8250948bd0741b792d350e3afdc686ed194a1bf02359fb0e55b81468d1d",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/writing-principles.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/writing-principles.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "25c71f6b76fad1a198b47b4eae9b1d101561578cc0a8767e91706957829f0abe",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/specification-writing/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/specification-writing/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "69fdfc8a5d46a603881d3fa301d981e113b9897189703d96a5f289e6f9c04ac4",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/specification-writing/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/system-profile/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/system-profile/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "9d31e32d2a63cf2f27a843e171c652327596c3f9e911c265660618d4ba27c48e",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/system-profile/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/training-check/references/support/skills/shared-references/external-cadence.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/external-cadence.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "d0d8e92c9c8f5e60555c8ddf32cf15c78d0bdc61a367ef35d8b0fef8dab906f3",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/training-check/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/training-check/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "b4f27bbc58aaae314d8c51fe309fb41e42f47dce4f69ba07fac1ce7f0080c789",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/training-check/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/vast-gpu/references/support/skills/shared-references/compute-env-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/compute-env-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "293606bcf6281712e0f5e1a05be9b67e001f2e5b567e2a956e2099de9c648974",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/vast-gpu/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/vast-gpu/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "69aabce36540fd6fce55bf47b6f043166fc118fd708d03efddb57d168a99f4e5",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/vast-gpu/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/web-debug-search/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/web-debug-search/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ffb5f3ccf61c45d90c41901c251263f945c67baba0f91cb300cc1d53dcd63d01",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/web-debug-search/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/wiki-enrich/references/support/skills/shared-references/integration-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/integration-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "891b4254337b6da02b25bef55cbe750e90f36fd7c8b537218e49febf6d69ddc0",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/wiki-enrich/references/support/skills/shared-references/output-language.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-language.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "7b326400dca5130ce4beedf72fc2010680afe96eb56a6ab21210d323adc9a52e",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/wiki-enrich/references/support/skills/shared-references/output-manifest.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/output-manifest.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "28e29bc8e53c52afe4eeeb590df8893282a3bbced08e105e154ad228b6cd1922",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/wiki-enrich/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/wiki-helper-resolution.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ef6af207034a2eea17d437ac2f4c620962f72960ae7a5bf0d00818e1bafc71c2",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/wiki-enrich/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/wiki-enrich/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "ef2636d24dedbf0824f4b0bec96dee8daf1aef3c4b72ebe772b87a2febe3ea39",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/wiki-enrich/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/writing-systems-papers/references/upstream.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/writing-systems-papers/SKILL.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "385fcf41742514b4aa9ecf93a0582a1bfd3452cacd12a54c87cf5bd82adccf7f",
+      "license": "MIT",
+      "scope": "verbatim original; reference only"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/writing-systems-papers/LICENSE.txt",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "LICENSE",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "license": "MIT"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/ablation-planner/references/support/skills/shared-references/experiment-integrity.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/experiment-integrity.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "22150fbdc5867e7790c88f968bccb367079c2db4c190ddce980709aea7e76f60",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/ablation-planner/references/support/skills/shared-references/acceptance-gate.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/acceptance-gate.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "acfe2e790d97445396ff4eb605b91e4de756082d617b89cf9278bff76dc25623",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/compute-env-contract.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/compute-env-contract.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "293606bcf6281712e0f5e1a05be9b67e001f2e5b567e2a956e2099de9c648974",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/experiment-integrity.md",
+      "repository": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "upstream_path": "skills/shared-references/experiment-integrity.md",
+      "commit": "0472e530251cdbd3364c33b110063c58f819edd7",
+      "sha256": "22150fbdc5867e7790c88f968bccb367079c2db4c190ddce980709aea7e76f60",
+      "license": "MIT",
+      "scope": "text-reference-only; runtime disabled"
+    },
+    {
+      "local_path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/LICENSE",
+      "repository": "hugohe3/ppt-master",
+      "upstream_path": "LICENSE",
+      "commit": "d3d81fe3cf4cc642de225159586308bbe98eeb4d",
+      "sha256": "80cefc234c1ec12a8cece4344f16300c634fa03df7891686fcf979e3828f0921",
+      "license": "MIT",
+      "scope": "selected method text only; no scripts or assets"
+    },
+    {
+      "local_path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/references/plan-core.md",
+      "repository": "hugohe3/ppt-master",
+      "upstream_path": "skills/ppt-master/references/plan-core.md",
+      "commit": "d3d81fe3cf4cc642de225159586308bbe98eeb4d",
+      "sha256": "2a673154c38c4afa1470849c886f28f1ca2f01ff53305e0ffa1aa69de2f66f71",
+      "license": "MIT",
+      "scope": "selected method text only; no scripts or assets"
+    },
+    {
+      "local_path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/references/artifact-ownership.md",
+      "repository": "hugohe3/ppt-master",
+      "upstream_path": "skills/ppt-master/references/artifact-ownership.md",
+      "commit": "d3d81fe3cf4cc642de225159586308bbe98eeb4d",
+      "sha256": "71fbee530cd2090d2836910141fb83f6ae177623122f31ad5ce3bde588a86b48",
+      "license": "MIT",
+      "scope": "selected method text only; no scripts or assets"
+    },
+    {
+      "local_path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/references/visual-review.md",
+      "repository": "hugohe3/ppt-master",
+      "upstream_path": "skills/ppt-master/references/visual-review.md",
+      "commit": "d3d81fe3cf4cc642de225159586308bbe98eeb4d",
+      "sha256": "de3461cdc87b4827691474b55e703996569af8cd29f033aacaa25d456bee91cb",
+      "license": "MIT",
+      "scope": "selected method text only; no scripts or assets"
+    },
+    {
+      "local_path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/references/native-data-interface.md",
+      "repository": "hugohe3/ppt-master",
+      "upstream_path": "skills/ppt-master/references/native-data-interface.md",
+      "commit": "d3d81fe3cf4cc642de225159586308bbe98eeb4d",
+      "sha256": "0ee82e69914b3330e6c6000cea115f551b535ba4bab200f991b6029e5b98f57a",
+      "license": "MIT",
+      "scope": "selected method text only; no scripts or assets"
+    },
+    {
+      "local_path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/workflows/governance/failure-recovery.md",
+      "repository": "hugohe3/ppt-master",
+      "upstream_path": "skills/ppt-master/workflows/governance/failure-recovery.md",
+      "commit": "d3d81fe3cf4cc642de225159586308bbe98eeb4d",
+      "sha256": "40110e212df00840c7598bc60d25002d8d7d617eb5a9bb017c8e7b737683e391",
+      "license": "MIT",
+      "scope": "selected method text only; no scripts or assets"
+    },
+    {
+      "local_path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/gitignore.txt",
+      "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "upstream_path": ".gitignore",
+      "commit": "102c8b21acf5eda3a0aef3d9779a65db646c8980",
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e",
+      "license": "MIT",
+      "scope": "complete original text snapshot for provenance; adapted entrypoint controls method use"
+    },
+    {
+      "local_path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/LICENSE",
+      "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "upstream_path": "LICENSE",
+      "commit": "102c8b21acf5eda3a0aef3d9779a65db646c8980",
+      "sha256": "fdf440e5214588d9edcdc1ec315cddbd8525fe509242c24989a8472d283325f4",
+      "license": "MIT",
+      "scope": "complete original text snapshot for provenance; adapted entrypoint controls method use"
+    },
+    {
+      "local_path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/README.md",
+      "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "upstream_path": "README.md",
+      "commit": "102c8b21acf5eda3a0aef3d9779a65db646c8980",
+      "sha256": "cde69873aadb90cc8145147262b7a892e884fa551e61374339550030365aab66",
+      "license": "MIT",
+      "scope": "complete original text snapshot for provenance; adapted entrypoint controls method use"
+    },
+    {
+      "local_path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/README_EN.md",
+      "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "upstream_path": "README_EN.md",
+      "commit": "102c8b21acf5eda3a0aef3d9779a65db646c8980",
+      "sha256": "2d1199bc24ee0262de0c459d6b120bf78972affc73ed12c6c5f90a79b69a9f64",
+      "license": "MIT",
+      "scope": "complete original text snapshot for provenance; adapted entrypoint controls method use"
+    },
+    {
+      "local_path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/prompts/quick-prompt-en.txt",
+      "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "upstream_path": "prompts/quick-prompt-en.txt",
+      "commit": "102c8b21acf5eda3a0aef3d9779a65db646c8980",
+      "sha256": "e771ee6efe1cfdf83ada543963cbe5f0c485f43781d6354d5c6c3dfaacbff16a",
+      "license": "MIT",
+      "scope": "complete original text snapshot for provenance; adapted entrypoint controls method use"
+    },
+    {
+      "local_path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/prompts/精简版提示词.txt",
+      "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "upstream_path": "prompts/精简版提示词.txt",
+      "commit": "102c8b21acf5eda3a0aef3d9779a65db646c8980",
+      "sha256": "8a52d3a5d5def26d22acf9024ab31169f74cc4d944e1b6a7c6280c3886a01e86",
+      "license": "MIT",
+      "scope": "complete original text snapshot for provenance; adapted entrypoint controls method use"
+    },
+    {
+      "local_path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/skills/anti-defensive-writing-en/SKILL.md",
+      "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "upstream_path": "skills/anti-defensive-writing-en/SKILL.md",
+      "commit": "102c8b21acf5eda3a0aef3d9779a65db646c8980",
+      "sha256": "49705a92677d06b1be9f78be5be4f966b1d30c4ed72a3b97c86a973d06683b9b",
+      "license": "MIT",
+      "scope": "complete original text snapshot for provenance; adapted entrypoint controls method use"
+    },
+    {
+      "local_path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/skills/anti-defensive-writing/SKILL.md",
+      "repository": "Adkid-Zephyr/anti-defensive-writing-Skill",
+      "upstream_path": "skills/anti-defensive-writing/SKILL.md",
+      "commit": "102c8b21acf5eda3a0aef3d9779a65db646c8980",
+      "sha256": "6f072e66f6adf813bc1b4291754f2bc07ed4e65a398359844e97bfa215a1c28e",
+      "license": "MIT",
+      "scope": "complete original text snapshot for provenance; adapted entrypoint controls method use"
+    }
+  ],
+  "excluded": {
+    "conference_assets": 55,
+    "aris_runtime_helpers": 32,
+    "unresolved_provenance": 3
+  },
+  "legacy_path_map": "技能库/业务/paper/sources/legacy-research/path-map.json",
+  "release_projection": {
+    "rule": "Only existing source snapshots with verified hashes",
+    "retained_records": 415,
+    "excluded_records": 389,
+    "excluded_reason": "Not selected for this package; absence is not a missing-license finding."
+  },
+  "upstream_audit_sha256": "b63b60000079c43d1ff67df090ac8681942d580e9a6f90e971b5e54a507fd0bd"
+}

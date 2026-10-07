@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "original_lock": "技能库/业务/paper/sources/legacy-research/sources.lock.original.json",
+  "files": [
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/LICENSE",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/LICENSE",
+      "sha256": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+      "upstream_path": "LICENSE",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/LICENSE",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/ablation-planner/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/ablation-planner/SKILL.md",
+      "sha256": "ce51bfff265e5f0a6e8fd03333bfa8dee679e728e0d325830988ca5bd31307da",
+      "upstream_path": "skills/ablation-planner/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/ablation-planner/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/analyze-results/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/analyze-results/SKILL.md",
+      "sha256": "2b97b8ae1a279ac8a7db14e7d7bea67934c88352d55c95e20fcfb681a8640930",
+      "upstream_path": "skills/analyze-results/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/analyze-results/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/experiment-plan/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/experiment-plan/SKILL.md",
+      "sha256": "c5b53692ff95b0b55e80702e33afc79d9fe8d4f55a69e2a39714013f97ac595e",
+      "upstream_path": "skills/experiment-plan/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/experiment-plan/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/figure-spec/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/figure-spec/SKILL.md",
+      "sha256": "090a28a1b6464d3b88cf32b9bf59f6a1008e7e63d638801070f0b888c3ef9c5b",
+      "upstream_path": "skills/figure-spec/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/figure-spec/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/idea-discovery/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/idea-discovery/SKILL.md",
+      "sha256": "ac2d06bde65bf7335d9e9a290cc1c10bbc813b6256480e7d1da9cf102a76fa23",
+      "upstream_path": "skills/idea-discovery/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/idea-discovery/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/novelty-check/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/novelty-check/SKILL.md",
+      "sha256": "7738e665e8a7ad358e016ea3fcfa0f994e1f064f3626fe2fa454217a2750f3a0",
+      "upstream_path": "skills/novelty-check/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/novelty-check/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/paper-claim-audit/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/paper-claim-audit/SKILL.md",
+      "sha256": "9bc3eabfe3ec2d3125d4d94e8c6689ba4f0d6ed9021e3d86489a96086bba1a16",
+      "upstream_path": "skills/paper-claim-audit/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/paper-claim-audit/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/rebuttal/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/rebuttal/SKILL.md",
+      "sha256": "36b9f570181c5afcf4149e4a911613f421733d4f3fcb84579709c8097d514f02",
+      "upstream_path": "skills/rebuttal/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/rebuttal/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/research-pipeline/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/research-pipeline/SKILL.md",
+      "sha256": "3dd1f071770ffd700c55e607f8a6f641b7be5d4fbd3c2e0ab203bbfe22fd2d3b",
+      "upstream_path": "skills/research-pipeline/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/research-pipeline/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/resubmit-pipeline/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/resubmit-pipeline/SKILL.md",
+      "sha256": "11d8c78dcb9fbdb4e9882b0d2d292f16e99b6bbd1fc2e0daee0b531e1e03251f",
+      "upstream_path": "skills/resubmit-pipeline/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/resubmit-pipeline/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/result-to-claim/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/result-to-claim/SKILL.md",
+      "sha256": "ba53865e333fb05271ad116b94879d567d1e681f592dec2a7e8ae7eac6ef13d6",
+      "upstream_path": "skills/result-to-claim/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/result-to-claim/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/run-experiment/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/run-experiment/SKILL.md",
+      "sha256": "4d481ce95d8bcadb93b095c3dd9bda51d68b6edea6b710316d6c0c74bb5bcfa8",
+      "upstream_path": "skills/run-experiment/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/run-experiment/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/aris/skills/training-check/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/aris/skills/training-check/SKILL.md",
+      "sha256": "b4f27bbc58aaae314d8c51fe309fb41e42f47dce4f69ba07fac1ce7f0080c789",
+      "upstream_path": "skills/training-check/SKILL.md",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/training-check/SKILL.md",
+      "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/LICENSE.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/LICENSE.md",
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "upstream_path": "LICENSE.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/LICENSE.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/citation-management/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/citation-management/SKILL.md",
+      "sha256": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+      "upstream_path": "skills/citation-management/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/SKILL.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/citation-management/references/citation_validation.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/citation-management/references/citation_validation.md",
+      "sha256": "f235f82e02db282f0abdd23fd8d2973d870d427d355979e869f736259ba95774",
+      "upstream_path": "skills/citation-management/references/citation_validation.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/citation-management/references/citation_validation.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/hypothesis-generation/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/hypothesis-generation/SKILL.md",
+      "sha256": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719",
+      "upstream_path": "skills/hypothesis-generation/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/SKILL.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "sha256": "a86a8f464fb555212e79bf13e307f3c129e9c853069856eb3c93c3c8a60bb7fc",
+      "upstream_path": "skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/literature-review/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/literature-review/SKILL.md",
+      "sha256": "16a9e85bcdcb9bb859e1646bf836e51b22900445ba2e367d8d75be05b5a5cba8",
+      "upstream_path": "skills/literature-review/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/SKILL.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/literature-review/references/core_workflow.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/literature-review/references/core_workflow.md",
+      "sha256": "4d63f1087c98efeec7c7bf622bed6e0456a9c7c3defe584995917f2de6f2c601",
+      "upstream_path": "skills/literature-review/references/core_workflow.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/literature-review/references/core_workflow.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/peer-review/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/peer-review/SKILL.md",
+      "sha256": "a042ccdc76d3399431b9a6c4cd4f98968eab964b1c14baeea4d9e73de82c7d19",
+      "upstream_path": "skills/peer-review/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/peer-review/SKILL.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/scientific-critical-thinking/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/scientific-critical-thinking/SKILL.md",
+      "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "upstream_path": "skills/scientific-critical-thinking/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/SKILL.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+      "upstream_path": "skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/154988403bb5a18e9d3c0ce4e6d5e2e4b184a298/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "commit": "154988403bb5a18e9d3c0ce4e6d5e2e4b184a298",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-writer/LICENSE",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-writer/LICENSE",
+      "sha256": "6ea149808a174cbe116b4726cd06fe251d91eb9277c2842339c7ae14c4bc8523",
+      "upstream_path": "LICENSE",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/LICENSE",
+      "commit": "529b9f73ab4b48925027145800d7b49e96ccfd3c",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/SKILL.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/SKILL.md",
+      "sha256": "f6026e7d79cd3133e9343a7d6e6c5e06f4ad061888efb6a73fcb95e073eebf67",
+      "upstream_path": "scientific_writer/.claude/skills/scientific-writing/SKILL.md",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/SKILL.md",
+      "commit": "529b9f73ab4b48925027145800d7b49e96ccfd3c",
+      "license": "MIT"
+    },
+    {
+      "old_path": "资料/文献/方法/科研/来源/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/references/evidence_workflow.md",
+      "local_path": "技能库/业务/paper/sources/legacy-research/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/references/evidence_workflow.md",
+      "sha256": "c7db56a223978307f9f43921eb393d87fef8c051a492c3d7e3c016c62b9e1409",
+      "upstream_path": "scientific_writer/.claude/skills/scientific-writing/references/evidence_workflow.md",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-writer/blob/529b9f73ab4b48925027145800d7b49e96ccfd3c/scientific_writer/.claude/skills/scientific-writing/references/evidence_workflow.md",
+      "commit": "529b9f73ab4b48925027145800d7b49e96ccfd3c",
+      "license": "MIT"
+    }
+  ],
+  "note": "Copies preserve old pins and bytes; old source lock and Chinese entrypoints were not modified."
+}

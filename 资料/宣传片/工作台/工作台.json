@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "id": "materials",
+      "title": "素材",
+      "en": "Materials",
+      "kind": "documents",
+      "folder": "素材",
+      "templates": []
+    },
+    {
+      "id": "results",
+      "title": "成果",
+      "en": "Results",
+      "kind": "documents",
+      "folder": "成果",
+      "templates": []
+    }
+  ]
+}

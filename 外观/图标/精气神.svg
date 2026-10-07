@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-labelledby="spirit-title" focusable="false">
+  <title id="spirit-title">精气神 · 三色火苗</title>
+  <style>
+    .spirit-tongue{transform-box:fill-box;transform-origin:50% 100%;animation:spirit-flicker 2.4s ease-in-out infinite}
+    .spirit-jade{animation-delay:-.8s}.spirit-violet{animation-delay:-1.6s}
+    @keyframes spirit-flicker{0%,100%{transform:translateY(0) scaleY(1)}35%{transform:translateY(-.25px) scaleY(1.025)}70%{transform:translateY(.12px) scaleY(.975)}}
+    @media(prefers-reduced-motion:reduce){.spirit-tongue{animation:none}}
+  </style>
+  <g id="spirit" stroke-width=".9" stroke-linecap="round" stroke-linejoin="round">
+    <path class="spirit-tongue spirit-jade" fill="#77c7b8" fill-opacity=".18" stroke="#6cae9f" d="M12 21C10.1 17.9 5.6 17.1 5.8 12.9C5.9 10.6 8.4 8.9 7.1 6.4C11.2 8.9 8 11.9 8.3 14.5C8.6 17.1 11.5 17.1 12 21Z"/>
+    <path class="spirit-tongue spirit-violet" fill="#989bd9" fill-opacity=".16" stroke="#9699cb" d="M12 21C13.9 17.7 18.7 17.2 18.2 12.8C17.9 10.3 15.4 8.9 16.9 6.9C12.5 8.8 15.6 11.5 15.5 14.2C15.3 17.1 12.4 17.4 12 21Z"/>
+    <path class="spirit-tongue spirit-gold" fill="#cfb474" fill-opacity=".18" stroke="#bda064" d="M12 21C12.6 17.5 14.9 16.7 13.7 13.8C11.8 10.3 15.6 6.7 11.8 2.5C13.1 6.2 9 9 10.1 12.7C10.8 15.3 13.2 16.7 12 21Z"/>
+  </g>
+</svg>

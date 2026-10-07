@@ -1,0 +1,5889 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": ".claude/settings.json",
+      "bytes": 45
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 2512
+    },
+    {
+      "path": ".mcp.json",
+      "bytes": 133
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 7755
+    },
+    {
+      "path": "backend/agents.py",
+      "bytes": 41273
+    },
+    {
+      "path": "backend/answers.py",
+      "bytes": 8318
+    },
+    {
+      "path": "backend/archive.py",
+      "bytes": 11633
+    },
+    {
+      "path": "backend/atomic.py",
+      "bytes": 847
+    },
+    {
+      "path": "backend/autolaunch.py",
+      "bytes": 18458
+    },
+    {
+      "path": "backend/automation_mcp.py",
+      "bytes": 18534
+    },
+    {
+      "path": "backend/blueprint.py",
+      "bytes": 16259
+    },
+    {
+      "path": "backend/board.py",
+      "bytes": 15494
+    },
+    {
+      "path": "backend/bplook.py",
+      "bytes": 6596
+    },
+    {
+      "path": "backend/branching.py",
+      "bytes": 19127
+    },
+    {
+      "path": "backend/builtin.py",
+      "bytes": 44097
+    },
+    {
+      "path": "backend/builtin_resources.json",
+      "bytes": 1127
+    },
+    {
+      "path": "backend/capture.py",
+      "bytes": 13780
+    },
+    {
+      "path": "backend/claims.py",
+      "bytes": 5811
+    },
+    {
+      "path": "backend/codemap.py",
+      "bytes": 16417
+    },
+    {
+      "path": "backend/commands.py",
+      "bytes": 5607
+    },
+    {
+      "path": "backend/construction_plans.py",
+      "bytes": 21776
+    },
+    {
+      "path": "backend/content_modules.py",
+      "bytes": 26478
+    },
+    {
+      "path": "backend/deliveries.py",
+      "bytes": 25625
+    },
+    {
+      "path": "backend/digest.py",
+      "bytes": 11726
+    },
+    {
+      "path": "backend/dispatch.py",
+      "bytes": 35752
+    },
+    {
+      "path": "backend/downloads.py",
+      "bytes": 21992
+    },
+    {
+      "path": "backend/drafts.py",
+      "bytes": 13657
+    },
+    {
+      "path": "backend/employee_assignments.py",
+      "bytes": 6603
+    },
+    {
+      "path": "backend/employee_runner.py",
+      "bytes": 24531
+    },
+    {
+      "path": "backend/file_actions.py",
+      "bytes": 11304
+    },
+    {
+      "path": "backend/files.py",
+      "bytes": 20742
+    },
+    {
+      "path": "backend/freeze.py",
+      "bytes": 4657
+    },
+    {
+      "path": "backend/governance.py",
+      "bytes": 12432
+    },
+    {
+      "path": "backend/governance_paths.py",
+      "bytes": 6945
+    },
+    {
+      "path": "backend/hotkeys.py",
+      "bytes": 5357
+    },
+    {
+      "path": "backend/ideas.py",
+      "bytes": 13465
+    },
+    {
+      "path": "backend/intake.py",
+      "bytes": 11606
+    },
+    {
+      "path": "backend/journal.py",
+      "bytes": 7638
+    },
+    {
+      "path": "backend/knobs.py",
+      "bytes": 9445
+    },
+    {
+      "path": "backend/library.py",
+      "bytes": 25684
+    },
+    {
+      "path": "backend/links.py",
+      "bytes": 1546
+    },
+    {
+      "path": "backend/machine.py",
+      "bytes": 2566
+    },
+    {
+      "path": "backend/main.py",
+      "bytes": 176241
+    },
+    {
+      "path": "backend/mcp_server.py",
+      "bytes": 101145
+    },
+    {
+      "path": "backend/new_project.py",
+      "bytes": 34072
+    },
+    {
+      "path": "backend/notebook.py",
+      "bytes": 22061
+    },
+    {
+      "path": "backend/office.py",
+      "bytes": 4694
+    },
+    {
+      "path": "backend/onboarding_examples.py",
+      "bytes": 18996
+    },
+    {
+      "path": "backend/outline.py",
+      "bytes": 19282
+    },
+    {
+      "path": "backend/panorama.py",
+      "bytes": 11521
+    },
+    {
+      "path": "backend/plugins.py",
+      "bytes": 13872
+    },
+    {
+      "path": "backend/project.py",
+      "bytes": 11234
+    },
+    {
+      "path": "backend/readiness.py",
+      "bytes": 21694
+    },
+    {
+      "path": "backend/rebirth.py",
+      "bytes": 15227
+    },
+    {
+      "path": "backend/record_refs.py",
+      "bytes": 18806
+    },
+    {
+      "path": "backend/release.py",
+      "bytes": 12956
+    },
+    {
+      "path": "backend/release_clean.py",
+      "bytes": 23455
+    },
+    {
+      "path": "backend/repos.py",
+      "bytes": 13942
+    },
+    {
+      "path": "backend/requirements.py",
+      "bytes": 15099
+    },
+    {
+      "path": "backend/requirements.txt",
+      "bytes": 401
+    },
+    {
+      "path": "backend/rewrite.py",
+      "bytes": 14804
+    },
+    {
+      "path": "backend/runs.py",
+      "bytes": 9208
+    },
+    {
+      "path": "backend/scanmap.py",
+      "bytes": 20229
+    },
+    {
+      "path": "backend/sessions.py",
+      "bytes": 14346
+    },
+    {
+      "path": "backend/skills.py",
+      "bytes": 35262
+    },
+    {
+      "path": "backend/skins.py",
+      "bytes": 3132
+    },
+    {
+      "path": "backend/snapshot.py",
+      "bytes": 54895
+    },
+    {
+      "path": "backend/store.py",
+      "bytes": 30857
+    },
+    {
+      "path": "backend/supervise.py",
+      "bytes": 20474
+    },
+    {
+      "path": "backend/template_profiles.json",
+      "bytes": 11636
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "bytes": 1302
+    },
+    {
+      "path": "backend/tests/test_agent_allocation.js",
+      "bytes": 25041
+    },
+    {
+      "path": "backend/tests/test_agents.py",
+      "bytes": 15211
+    },
+    {
+      "path": "backend/tests/test_anti_defensive_builtin.py",
+      "bytes": 3149
+    },
+    {
+      "path": "backend/tests/test_api.py",
+      "bytes": 9764
+    },
+    {
+      "path": "backend/tests/test_appearance_controls.js",
+      "bytes": 6081
+    },
+    {
+      "path": "backend/tests/test_archive_navigation.js",
+      "bytes": 18744
+    },
+    {
+      "path": "backend/tests/test_ask_agent.py",
+      "bytes": 1955
+    },
+    {
+      "path": "backend/tests/test_auto_dashboard.js",
+      "bytes": 11844
+    },
+    {
+      "path": "backend/tests/test_auto_relay.py",
+      "bytes": 14316
+    },
+    {
+      "path": "backend/tests/test_automation_budget.py",
+      "bytes": 13174
+    },
+    {
+      "path": "backend/tests/test_automation_mcp.py",
+      "bytes": 7097
+    },
+    {
+      "path": "backend/tests/test_autopilot.py",
+      "bytes": 19250
+    },
+    {
+      "path": "backend/tests/test_board.py",
+      "bytes": 8942
+    },
+    {
+      "path": "backend/tests/test_bplook.py",
+      "bytes": 3181
+    },
+    {
+      "path": "backend/tests/test_bronze_chip_tree.js",
+      "bytes": 14716
+    },
+    {
+      "path": "backend/tests/test_builtin.py",
+      "bytes": 24070
+    },
+    {
+      "path": "backend/tests/test_builtin_layout.py",
+      "bytes": 11409
+    },
+    {
+      "path": "backend/tests/test_builtin_marks.py",
+      "bytes": 16820
+    },
+    {
+      "path": "backend/tests/test_builtin_marks_http.py",
+      "bytes": 6283
+    },
+    {
+      "path": "backend/tests/test_builtin_marks_navigation.js",
+      "bytes": 17458
+    },
+    {
+      "path": "backend/tests/test_builtin_marks_reader.js",
+      "bytes": 4912
+    },
+    {
+      "path": "backend/tests/test_builtin_marks_snapshot.py",
+      "bytes": 11506
+    },
+    {
+      "path": "backend/tests/test_builtin_marks_ui.js",
+      "bytes": 16678
+    },
+    {
+      "path": "backend/tests/test_builtin_marks_worldtree.py",
+      "bytes": 3433
+    },
+    {
+      "path": "backend/tests/test_builtin_presentation_inheritance.py",
+      "bytes": 8067
+    },
+    {
+      "path": "backend/tests/test_business_module_selection.js",
+      "bytes": 6282
+    },
+    {
+      "path": "backend/tests/test_business_module_selection.py",
+      "bytes": 9576
+    },
+    {
+      "path": "backend/tests/test_business_skills.py",
+      "bytes": 25074
+    },
+    {
+      "path": "backend/tests/test_capture.py",
+      "bytes": 15904
+    },
+    {
+      "path": "backend/tests/test_codemap.py",
+      "bytes": 6176
+    },
+    {
+      "path": "backend/tests/test_codemap_overview.js",
+      "bytes": 23550
+    },
+    {
+      "path": "backend/tests/test_common_route_loading.js",
+      "bytes": 20803
+    },
+    {
+      "path": "backend/tests/test_construction_plans.py",
+      "bytes": 16716
+    },
+    {
+      "path": "backend/tests/test_content_modules.py",
+      "bytes": 31944
+    },
+    {
+      "path": "backend/tests/test_content_workspace.js",
+      "bytes": 23391
+    },
+    {
+      "path": "backend/tests/test_core_saves_and_teamwork.py",
+      "bytes": 26074
+    },
+    {
+      "path": "backend/tests/test_delivery_policy.py",
+      "bytes": 10905
+    },
+    {
+      "path": "backend/tests/test_delivery_review.py",
+      "bytes": 18795
+    },
+    {
+      "path": "backend/tests/test_digest_rewrite.py",
+      "bytes": 12710
+    },
+    {
+      "path": "backend/tests/test_downloads.py",
+      "bytes": 16110
+    },
+    {
+      "path": "backend/tests/test_drafts.py",
+      "bytes": 4589
+    },
+    {
+      "path": "backend/tests/test_employee_assignments.py",
+      "bytes": 23497
+    },
+    {
+      "path": "backend/tests/test_employee_runner.py",
+      "bytes": 13669
+    },
+    {
+      "path": "backend/tests/test_employee_runtime.py",
+      "bytes": 6420
+    },
+    {
+      "path": "backend/tests/test_file_delete.py",
+      "bytes": 30967
+    },
+    {
+      "path": "backend/tests/test_file_delete_ui.js",
+      "bytes": 21798
+    },
+    {
+      "path": "backend/tests/test_freeze.py",
+      "bytes": 2191
+    },
+    {
+      "path": "backend/tests/test_generic_content_inheritance.py",
+      "bytes": 14109
+    },
+    {
+      "path": "backend/tests/test_governance.py",
+      "bytes": 12008
+    },
+    {
+      "path": "backend/tests/test_governance_map.js",
+      "bytes": 74094
+    },
+    {
+      "path": "backend/tests/test_guide_ui.js",
+      "bytes": 12241
+    },
+    {
+      "path": "backend/tests/test_ideas_needs.py",
+      "bytes": 13874
+    },
+    {
+      "path": "backend/tests/test_intake.py",
+      "bytes": 8250
+    },
+    {
+      "path": "backend/tests/test_knobs.py",
+      "bytes": 13619
+    },
+    {
+      "path": "backend/tests/test_library.py",
+      "bytes": 6624
+    },
+    {
+      "path": "backend/tests/test_live_scan.py",
+      "bytes": 14303
+    },
+    {
+      "path": "backend/tests/test_machine.py",
+      "bytes": 2588
+    },
+    {
+      "path": "backend/tests/test_manual_tools.py",
+      "bytes": 27470
+    },
+    {
+      "path": "backend/tests/test_mcp.py",
+      "bytes": 7367
+    },
+    {
+      "path": "backend/tests/test_module_loading.js",
+      "bytes": 35782
+    },
+    {
+      "path": "backend/tests/test_module_skill.py",
+      "bytes": 2603
+    },
+    {
+      "path": "backend/tests/test_new_project.py",
+      "bytes": 7691
+    },
+    {
+      "path": "backend/tests/test_notebook.py",
+      "bytes": 11497
+    },
+    {
+      "path": "backend/tests/test_office.py",
+      "bytes": 4443
+    },
+    {
+      "path": "backend/tests/test_onboarding_examples.py",
+      "bytes": 20427
+    },
+    {
+      "path": "backend/tests/test_order.py",
+      "bytes": 1532
+    },
+    {
+      "path": "backend/tests/test_outline.py",
+      "bytes": 5129
+    },
+    {
+      "path": "backend/tests/test_overview_height.js",
+      "bytes": 6423
+    },
+    {
+      "path": "backend/tests/test_overview_settings.js",
+      "bytes": 20492
+    },
+    {
+      "path": "backend/tests/test_pane_spirit.js",
+      "bytes": 25077
+    },
+    {
+      "path": "backend/tests/test_panorama.py",
+      "bytes": 7695
+    },
+    {
+      "path": "backend/tests/test_paper_aris_catalog.py",
+      "bytes": 7643
+    },
+    {
+      "path": "backend/tests/test_planning.py",
+      "bytes": 8269
+    },
+    {
+      "path": "backend/tests/test_plugins.py",
+      "bytes": 5125
+    },
+    {
+      "path": "backend/tests/test_ppt_workspace.py",
+      "bytes": 5729
+    },
+    {
+      "path": "backend/tests/test_promo_inheritance.py",
+      "bytes": 6510
+    },
+    {
+      "path": "backend/tests/test_promo_workspace.py",
+      "bytes": 4423
+    },
+    {
+      "path": "backend/tests/test_reader.py",
+      "bytes": 11667
+    },
+    {
+      "path": "backend/tests/test_reader_sticky_note.js",
+      "bytes": 21486
+    },
+    {
+      "path": "backend/tests/test_rebirth.py",
+      "bytes": 5976
+    },
+    {
+      "path": "backend/tests/test_record_refs.py",
+      "bytes": 10033
+    },
+    {
+      "path": "backend/tests/test_release.py",
+      "bytes": 29921
+    },
+    {
+      "path": "backend/tests/test_repos.py",
+      "bytes": 4722
+    },
+    {
+      "path": "backend/tests/test_review_dispatch.py",
+      "bytes": 4538
+    },
+    {
+      "path": "backend/tests/test_scan_activity.py",
+      "bytes": 3664
+    },
+    {
+      "path": "backend/tests/test_scan_spirit.js",
+      "bytes": 31259
+    },
+    {
+      "path": "backend/tests/test_science_pack.py",
+      "bytes": 11003
+    },
+    {
+      "path": "backend/tests/test_sessions.py",
+      "bytes": 6095
+    },
+    {
+      "path": "backend/tests/test_skills_commands.py",
+      "bytes": 5223
+    },
+    {
+      "path": "backend/tests/test_skills_in_project.py",
+      "bytes": 4285
+    },
+    {
+      "path": "backend/tests/test_skills_ui.js",
+      "bytes": 12781
+    },
+    {
+      "path": "backend/tests/test_skins.py",
+      "bytes": 2471
+    },
+    {
+      "path": "backend/tests/test_snapshot.py",
+      "bytes": 13377
+    },
+    {
+      "path": "backend/tests/test_startup.py",
+      "bytes": 8727
+    },
+    {
+      "path": "backend/tests/test_store.py",
+      "bytes": 11976
+    },
+    {
+      "path": "backend/tests/test_supervise.py",
+      "bytes": 8188
+    },
+    {
+      "path": "backend/tests/test_terminal.py",
+      "bytes": 18419
+    },
+    {
+      "path": "backend/tests/test_tidy.py",
+      "bytes": 8349
+    },
+    {
+      "path": "backend/tests/test_timeline.py",
+      "bytes": 5110
+    },
+    {
+      "path": "backend/tests/test_tool_guides.py",
+      "bytes": 13185
+    },
+    {
+      "path": "backend/tests/test_tool_images.js",
+      "bytes": 6429
+    },
+    {
+      "path": "backend/tests/test_toolbox.py",
+      "bytes": 5714
+    },
+    {
+      "path": "backend/tests/test_tools_auto.py",
+      "bytes": 5812
+    },
+    {
+      "path": "backend/tests/test_trash.py",
+      "bytes": 3620
+    },
+    {
+      "path": "backend/tests/test_update.py",
+      "bytes": 1444
+    },
+    {
+      "path": "backend/tests/test_wallpaper_ui.js",
+      "bytes": 30074
+    },
+    {
+      "path": "backend/tests/test_work_package_ui.js",
+      "bytes": 22463
+    },
+    {
+      "path": "backend/tests/test_work_packages.py",
+      "bytes": 32726
+    },
+    {
+      "path": "backend/tests/test_workflow_editor.js",
+      "bytes": 30903
+    },
+    {
+      "path": "backend/tests/test_workflow_graph.py",
+      "bytes": 27812
+    },
+    {
+      "path": "backend/tests/test_workorder_summary_plans.py",
+      "bytes": 4719
+    },
+    {
+      "path": "backend/tests/test_worldtree.py",
+      "bytes": 10052
+    },
+    {
+      "path": "backend/tests/test_zen_layout.js",
+      "bytes": 2063
+    },
+    {
+      "path": "backend/tests/test_zips.py",
+      "bytes": 3379
+    },
+    {
+      "path": "backend/tidy.py",
+      "bytes": 8829
+    },
+    {
+      "path": "backend/timeline.py",
+      "bytes": 8885
+    },
+    {
+      "path": "backend/tool_guides.py",
+      "bytes": 10732
+    },
+    {
+      "path": "backend/toolbox.py",
+      "bytes": 4302
+    },
+    {
+      "path": "backend/tools.py",
+      "bytes": 15820
+    },
+    {
+      "path": "backend/trash.py",
+      "bytes": 10949
+    },
+    {
+      "path": "backend/vcs.py",
+      "bytes": 4521
+    },
+    {
+      "path": "backend/work_packages.py",
+      "bytes": 28912
+    },
+    {
+      "path": "backend/workflow_graph.py",
+      "bytes": 34327
+    },
+    {
+      "path": "backend/workorders.py",
+      "bytes": 25351
+    },
+    {
+      "path": "backend/worldtree.py",
+      "bytes": 32289
+    },
+    {
+      "path": "backend/zips.py",
+      "bytes": 3285
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 165
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 32555
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 4563
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1203
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 2818
+    },
+    {
+      "path": "README.md",
+      "bytes": 2959
+    },
+    {
+      "path": "代码地图.js",
+      "bytes": 94484
+    },
+    {
+      "path": "使用说明.en.md",
+      "bytes": 130083
+    },
+    {
+      "path": "使用说明.md",
+      "bytes": 124653
+    },
+    {
+      "path": "内容工作台.js",
+      "bytes": 21651
+    },
+    {
+      "path": "内置标记.json",
+      "bytes": 725
+    },
+    {
+      "path": "启动.bat",
+      "bytes": 910
+    },
+    {
+      "path": "员工分配图.js",
+      "bytes": 45699
+    },
+    {
+      "path": "品牌/miracle-bird-mark.png",
+      "bytes": 856333
+    },
+    {
+      "path": "品牌/miracleharness2-hero.png",
+      "bytes": 1887477
+    },
+    {
+      "path": "品牌/miracleharness2-media.png",
+      "bytes": 1929882
+    },
+    {
+      "path": "品牌/miracleharness2-slides.png",
+      "bytes": 1803055
+    },
+    {
+      "path": "品牌/miracleharness2-terminal.png",
+      "bytes": 1725366
+    },
+    {
+      "path": "品牌/图标/icons.svg",
+      "bytes": 2059
+    },
+    {
+      "path": "品牌/生成记录.md",
+      "bytes": 1320
+    },
+    {
+      "path": "外观/品牌/凤凰.png",
+      "bytes": 220208
+    },
+    {
+      "path": "外观/图标/品牌M.svg",
+      "bytes": 1030
+    },
+    {
+      "path": "外观/图标/玉金.svg",
+      "bytes": 5111
+    },
+    {
+      "path": "外观/图标/神话.svg",
+      "bytes": 3394
+    },
+    {
+      "path": "外观/图标/精气神.svg",
+      "bytes": 1411
+    },
+    {
+      "path": "外观/图标/精气神参考.png",
+      "bytes": 210323
+    },
+    {
+      "path": "外观/图标/经典.svg",
+      "bytes": 3519
+    },
+    {
+      "path": "外观/图标/说明.md",
+      "bytes": 2497
+    },
+    {
+      "path": "外观/壁纸/02 白金世界树.png",
+      "bytes": 1982636
+    },
+    {
+      "path": "外观/壁纸/03 金顶金字塔.png",
+      "bytes": 2294026
+    },
+    {
+      "path": "外观/壁纸/04 四时圣域.png",
+      "bytes": 3547072
+    },
+    {
+      "path": "外观/壁纸/05 星空观测台.png",
+      "bytes": 3181059
+    },
+    {
+      "path": "外观/壁纸/06 智慧之泉.png",
+      "bytes": 3325903
+    },
+    {
+      "path": "外观/壁纸/清单.json",
+      "bytes": 1748
+    },
+    {
+      "path": "外观/壁纸/说明.md",
+      "bytes": 4556
+    },
+    {
+      "path": "外观/暖色纸质.css",
+      "bytes": 1368
+    },
+    {
+      "path": "外观/玉色科技.css",
+      "bytes": 1708
+    },
+    {
+      "path": "外观/精密深色.css",
+      "bytes": 1340
+    },
+    {
+      "path": "外观/说明.md",
+      "bytes": 2115
+    },
+    {
+      "path": "外观/黑白极简.css",
+      "bytes": 2056
+    },
+    {
+      "path": "小窗.js",
+      "bytes": 23470
+    },
+    {
+      "path": "工具库/T1 LaTeX.md",
+      "bytes": 1385
+    },
+    {
+      "path": "工具库/T10 pdf.js.md",
+      "bytes": 1495
+    },
+    {
+      "path": "工具库/T11 pdfminer.six.md",
+      "bytes": 896
+    },
+    {
+      "path": "工具库/T12 KaTeX.md",
+      "bytes": 1078
+    },
+    {
+      "path": "工具库/T13 Mermaid.md",
+      "bytes": 979
+    },
+    {
+      "path": "工具库/T14 Three.js.md",
+      "bytes": 1570
+    },
+    {
+      "path": "工具库/T15 SheetJS.md",
+      "bytes": 1250
+    },
+    {
+      "path": "工具库/T16 docx-preview.md",
+      "bytes": 1254
+    },
+    {
+      "path": "工具库/T17 python-pptx.md",
+      "bytes": 1359
+    },
+    {
+      "path": "工具库/T2 draw.io.md",
+      "bytes": 1515
+    },
+    {
+      "path": "工具库/T3 Git.md",
+      "bytes": 971
+    },
+    {
+      "path": "工具库/T4 Python.md",
+      "bytes": 846
+    },
+    {
+      "path": "工具库/T5 FastAPI + uvicorn.md",
+      "bytes": 808
+    },
+    {
+      "path": "工具库/T6 SQLite.md",
+      "bytes": 745
+    },
+    {
+      "path": "工具库/T7 MCP.md",
+      "bytes": 762
+    },
+    {
+      "path": "工具库/T8 pytest.md",
+      "bytes": 485
+    },
+    {
+      "path": "工具库/T9 网页.md",
+      "bytes": 798
+    },
+    {
+      "path": "工具库/下载/docx-preview/docx-preview.min.js",
+      "bytes": 75527
+    },
+    {
+      "path": "工具库/下载/docx-preview/LICENSE",
+      "bytes": 11558
+    },
+    {
+      "path": "工具库/下载/jszip/jszip.min.js",
+      "bytes": 97781
+    },
+    {
+      "path": "工具库/下载/jszip/LICENSE",
+      "bytes": 33753
+    },
+    {
+      "path": "工具库/下载/katex/contrib/auto-render.min.js",
+      "bytes": 3486
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_AMS-Regular.woff2",
+      "bytes": 28076
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "bytes": 6912
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "bytes": 6908
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Fraktur-Bold.woff2",
+      "bytes": 11348
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Fraktur-Regular.woff2",
+      "bytes": 11316
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Main-Bold.woff2",
+      "bytes": 25324
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Main-BoldItalic.woff2",
+      "bytes": 16780
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Main-Italic.woff2",
+      "bytes": 16988
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Main-Regular.woff2",
+      "bytes": 26272
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Math-BoldItalic.woff2",
+      "bytes": 16400
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Math-Italic.woff2",
+      "bytes": 16440
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_SansSerif-Bold.woff2",
+      "bytes": 12216
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_SansSerif-Italic.woff2",
+      "bytes": 12028
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_SansSerif-Regular.woff2",
+      "bytes": 10344
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Script-Regular.woff2",
+      "bytes": 9644
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Size1-Regular.woff2",
+      "bytes": 5468
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Size2-Regular.woff2",
+      "bytes": 5208
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Size3-Regular.woff2",
+      "bytes": 3624
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Size4-Regular.woff2",
+      "bytes": 4928
+    },
+    {
+      "path": "工具库/下载/katex/fonts/KaTeX_Typewriter-Regular.woff2",
+      "bytes": 13568
+    },
+    {
+      "path": "工具库/下载/katex/fonts/OFL.txt",
+      "bytes": 4625
+    },
+    {
+      "path": "工具库/下载/katex/fonts/字体许可证来源.json",
+      "bytes": 25877
+    },
+    {
+      "path": "工具库/下载/katex/katex.min.css",
+      "bytes": 24788
+    },
+    {
+      "path": "工具库/下载/katex/katex.min.js",
+      "bytes": 272755
+    },
+    {
+      "path": "工具库/下载/katex/LICENSE",
+      "bytes": 1107
+    },
+    {
+      "path": "工具库/下载/mermaid/LICENSE",
+      "bytes": 1089
+    },
+    {
+      "path": "工具库/下载/mermaid/mermaid.min.js",
+      "bytes": 5575485
+    },
+    {
+      "path": "工具库/下载/pdfjs/LICENSE",
+      "bytes": 10174
+    },
+    {
+      "path": "工具库/下载/pdfjs/pdf.min.mjs",
+      "bytes": 458705
+    },
+    {
+      "path": "工具库/下载/pdfjs/pdf.worker.min.mjs",
+      "bytes": 1265413
+    },
+    {
+      "path": "工具库/下载/sheetjs/LICENSE",
+      "bytes": 11355
+    },
+    {
+      "path": "工具库/下载/sheetjs/xlsx.full.min.js",
+      "bytes": 951904
+    },
+    {
+      "path": "工具库/下载/three/addons/controls/OrbitControls.js",
+      "bytes": 40755
+    },
+    {
+      "path": "工具库/下载/three/addons/loaders/GLTFLoader.js",
+      "bytes": 117570
+    },
+    {
+      "path": "工具库/下载/three/addons/utils/BufferGeometryUtils.js",
+      "bytes": 37712
+    },
+    {
+      "path": "工具库/下载/three/addons/utils/SkeletonUtils.js",
+      "bytes": 11535
+    },
+    {
+      "path": "工具库/下载/three/LICENSE",
+      "bytes": 1081
+    },
+    {
+      "path": "工具库/下载/three/three.core.js",
+      "bytes": 1458113
+    },
+    {
+      "path": "工具库/下载/three/three.module.js",
+      "bytes": 662772
+    },
+    {
+      "path": "工具库/下载/xterm/addon-fit.js",
+      "bytes": 1521
+    },
+    {
+      "path": "工具库/下载/xterm/LICENSE",
+      "bytes": 1261
+    },
+    {
+      "path": "工具库/下载/xterm/LICENSE-addon-fit.txt",
+      "bytes": 1103
+    },
+    {
+      "path": "工具库/下载/xterm/xterm.css",
+      "bytes": 5559
+    },
+    {
+      "path": "工具库/下载/xterm/xterm.js",
+      "bytes": 289441
+    },
+    {
+      "path": "工具库/下载/世界树玉树/layout.js",
+      "bytes": 12521
+    },
+    {
+      "path": "工具库/下载/世界树玉树/renderer.js",
+      "bytes": 38267
+    },
+    {
+      "path": "工具库/下载/世界树玉树/THREE-LICENSE.txt",
+      "bytes": 1081
+    },
+    {
+      "path": "工具库/下载/世界树玉树/精简模型.glb",
+      "bytes": 2509396
+    },
+    {
+      "path": "工具库/下载/清单.md",
+      "bytes": 3028
+    },
+    {
+      "path": "工具库/下载/许可证来源.json",
+      "bytes": 2170
+    },
+    {
+      "path": "工具库/安装指南/Agent接入.md",
+      "bytes": 4266
+    },
+    {
+      "path": "工具库/安装指南/catalog.json",
+      "bytes": 61176
+    },
+    {
+      "path": "工具库/安装指南/从这里开始.md",
+      "bytes": 8172
+    },
+    {
+      "path": "工具库/安装指南/全球方案/cpp-toolchain.md",
+      "bytes": 2983
+    },
+    {
+      "path": "工具库/安装指南/全球方案/pycharm.md",
+      "bytes": 2732
+    },
+    {
+      "path": "工具库/安装指南/全球方案/vscode.md",
+      "bytes": 2521
+    },
+    {
+      "path": "工具库/安装指南/参考/开源项目.md",
+      "bytes": 15034
+    },
+    {
+      "path": "工具库/安装指南/参考/网页链接.md",
+      "bytes": 33033
+    },
+    {
+      "path": "工具库/安装指南/国内与国外方案.md",
+      "bytes": 8526
+    },
+    {
+      "path": "工具库/安装指南/国内方案/cpp-toolchain.md",
+      "bytes": 3238
+    },
+    {
+      "path": "工具库/安装指南/国内方案/pycharm.md",
+      "bytes": 2895
+    },
+    {
+      "path": "工具库/安装指南/国内方案/vscode.md",
+      "bytes": 2827
+    },
+    {
+      "path": "工具库/安装指南/图示/backend-dependencies.svg",
+      "bytes": 2721
+    },
+    {
+      "path": "工具库/安装指南/图示/blender.svg",
+      "bytes": 2735
+    },
+    {
+      "path": "工具库/安装指南/图示/bundled-web-libraries.svg",
+      "bytes": 2727
+    },
+    {
+      "path": "工具库/安装指南/图示/claude-code.svg",
+      "bytes": 2739
+    },
+    {
+      "path": "工具库/安装指南/图示/codebuddy.svg",
+      "bytes": 2237
+    },
+    {
+      "path": "工具库/安装指南/图示/codex.svg",
+      "bytes": 2727
+    },
+    {
+      "path": "工具库/安装指南/图示/cursor.svg",
+      "bytes": 2729
+    },
+    {
+      "path": "工具库/安装指南/图示/deepseek-harness.svg",
+      "bytes": 2231
+    },
+    {
+      "path": "工具库/安装指南/图示/drawio.svg",
+      "bytes": 2715
+    },
+    {
+      "path": "工具库/安装指南/图示/ffmpeg.svg",
+      "bytes": 2739
+    },
+    {
+      "path": "工具库/安装指南/图示/git.svg",
+      "bytes": 2701
+    },
+    {
+      "path": "工具库/安装指南/图示/jupyterlab.svg",
+      "bytes": 2727
+    },
+    {
+      "path": "工具库/安装指南/图示/libreoffice.svg",
+      "bytes": 2725
+    },
+    {
+      "path": "工具库/安装指南/图示/lingma.svg",
+      "bytes": 2238
+    },
+    {
+      "path": "工具库/安装指南/图示/media-edit.svg",
+      "bytes": 2743
+    },
+    {
+      "path": "工具库/安装指南/图示/nodejs.svg",
+      "bytes": 2731
+    },
+    {
+      "path": "工具库/安装指南/图示/ppt-preview.svg",
+      "bytes": 2735
+    },
+    {
+      "path": "工具库/安装指南/图示/python.svg",
+      "bytes": 2703
+    },
+    {
+      "path": "工具库/安装指南/图示/qwen-code.svg",
+      "bytes": 2725
+    },
+    {
+      "path": "工具库/安装指南/图示/stepfun.svg",
+      "bytes": 2237
+    },
+    {
+      "path": "工具库/安装指南/图示/texlive.svg",
+      "bytes": 2749
+    },
+    {
+      "path": "工具库/安装指南/图示/trae-cn.svg",
+      "bytes": 2235
+    },
+    {
+      "path": "工具库/安装指南/图示/web-terminal.svg",
+      "bytes": 2745
+    },
+    {
+      "path": "工具库/安装指南/图示/workbuddy.svg",
+      "bytes": 2234
+    },
+    {
+      "path": "工具库/安装指南/图示/zcode.svg",
+      "bytes": 2223
+    },
+    {
+      "path": "工具库/安装指南/图示/zotero.svg",
+      "bytes": 2723
+    },
+    {
+      "path": "工具库/安装指南/图示/安装路线.svg",
+      "bytes": 2763
+    },
+    {
+      "path": "工具库/安装指南/应用图片/GitHub 标识来源.md",
+      "bytes": 959
+    },
+    {
+      "path": "工具库/安装指南/应用图片/Jupyter-LICENSE.txt",
+      "bytes": 1491
+    },
+    {
+      "path": "工具库/安装指南/应用图片/miracleharness-repo-links.png",
+      "bytes": 1826497
+    },
+    {
+      "path": "工具库/安装指南/应用图片/miracleharness-research-links.png",
+      "bytes": 1770321
+    },
+    {
+      "path": "工具库/安装指南/应用图片/miracleharness-web-links.png",
+      "bytes": 1808116
+    },
+    {
+      "path": "工具库/安装指南/应用图片/来源.json",
+      "bytes": 2302
+    },
+    {
+      "path": "工具库/安装指南/应用图片/来源.md",
+      "bytes": 16830
+    },
+    {
+      "path": "工具库/安装指南/应用图片/网页链接生成记录.md",
+      "bytes": 1642
+    },
+    {
+      "path": "工具库/安装指南/应用图片/链接卡片生成记录.md",
+      "bytes": 2766
+    },
+    {
+      "path": "工具库/安装指南/应用截图/来源.json",
+      "bytes": 181
+    },
+    {
+      "path": "工具库/安装指南/应用截图/来源.md",
+      "bytes": 5919
+    },
+    {
+      "path": "工具库/安装指南/应用截图/链接来源.json",
+      "bytes": 96307
+    },
+    {
+      "path": "工具库/安装指南/应用截图/链接来源.md",
+      "bytes": 67183
+    },
+    {
+      "path": "工具库/安装指南/开发工具/cpp-toolchain.md",
+      "bytes": 6554
+    },
+    {
+      "path": "工具库/安装指南/开发工具/pycharm.md",
+      "bytes": 5412
+    },
+    {
+      "path": "工具库/安装指南/开发工具/vscode.md",
+      "bytes": 5066
+    },
+    {
+      "path": "工具库/安装指南/方案/backend-dependencies-cn.md",
+      "bytes": 2907
+    },
+    {
+      "path": "工具库/安装指南/方案/backend-dependencies-global.md",
+      "bytes": 2684
+    },
+    {
+      "path": "工具库/安装指南/方案/blender-cn.md",
+      "bytes": 2726
+    },
+    {
+      "path": "工具库/安装指南/方案/blender-global.md",
+      "bytes": 2649
+    },
+    {
+      "path": "工具库/安装指南/方案/bundled-web-libraries-cn.md",
+      "bytes": 2870
+    },
+    {
+      "path": "工具库/安装指南/方案/bundled-web-libraries-global.md",
+      "bytes": 2870
+    },
+    {
+      "path": "工具库/安装指南/方案/claude-code-cn.md",
+      "bytes": 3087
+    },
+    {
+      "path": "工具库/安装指南/方案/claude-code-global.md",
+      "bytes": 3075
+    },
+    {
+      "path": "工具库/安装指南/方案/codebuddy-cn.md",
+      "bytes": 3073
+    },
+    {
+      "path": "工具库/安装指南/方案/codebuddy-global.md",
+      "bytes": 3177
+    },
+    {
+      "path": "工具库/安装指南/方案/codex-cn.md",
+      "bytes": 3154
+    },
+    {
+      "path": "工具库/安装指南/方案/codex-global.md",
+      "bytes": 3146
+    },
+    {
+      "path": "工具库/安装指南/方案/cursor-cn.md",
+      "bytes": 2652
+    },
+    {
+      "path": "工具库/安装指南/方案/cursor-global.md",
+      "bytes": 2672
+    },
+    {
+      "path": "工具库/安装指南/方案/deepseek-harness-cn.md",
+      "bytes": 3523
+    },
+    {
+      "path": "工具库/安装指南/方案/deepseek-harness-global.md",
+      "bytes": 3476
+    },
+    {
+      "path": "工具库/安装指南/方案/drawio-cn.md",
+      "bytes": 2779
+    },
+    {
+      "path": "工具库/安装指南/方案/drawio-global.md",
+      "bytes": 2761
+    },
+    {
+      "path": "工具库/安装指南/方案/ffmpeg-cn.md",
+      "bytes": 2697
+    },
+    {
+      "path": "工具库/安装指南/方案/ffmpeg-global.md",
+      "bytes": 2711
+    },
+    {
+      "path": "工具库/安装指南/方案/git-cn.md",
+      "bytes": 2709
+    },
+    {
+      "path": "工具库/安装指南/方案/git-global.md",
+      "bytes": 2457
+    },
+    {
+      "path": "工具库/安装指南/方案/jupyterlab-cn.md",
+      "bytes": 2822
+    },
+    {
+      "path": "工具库/安装指南/方案/jupyterlab-global.md",
+      "bytes": 2562
+    },
+    {
+      "path": "工具库/安装指南/方案/libreoffice-cn.md",
+      "bytes": 2774
+    },
+    {
+      "path": "工具库/安装指南/方案/libreoffice-global.md",
+      "bytes": 2693
+    },
+    {
+      "path": "工具库/安装指南/方案/lingma-cn.md",
+      "bytes": 3139
+    },
+    {
+      "path": "工具库/安装指南/方案/lingma-global.md",
+      "bytes": 3200
+    },
+    {
+      "path": "工具库/安装指南/方案/media-edit-cn.md",
+      "bytes": 2731
+    },
+    {
+      "path": "工具库/安装指南/方案/media-edit-global.md",
+      "bytes": 2723
+    },
+    {
+      "path": "工具库/安装指南/方案/nodejs-cn.md",
+      "bytes": 2798
+    },
+    {
+      "path": "工具库/安装指南/方案/nodejs-global.md",
+      "bytes": 2525
+    },
+    {
+      "path": "工具库/安装指南/方案/ppt-preview-cn.md",
+      "bytes": 2784
+    },
+    {
+      "path": "工具库/安装指南/方案/ppt-preview-global.md",
+      "bytes": 2549
+    },
+    {
+      "path": "工具库/安装指南/方案/python-cn.md",
+      "bytes": 2922
+    },
+    {
+      "path": "工具库/安装指南/方案/python-global.md",
+      "bytes": 2650
+    },
+    {
+      "path": "工具库/安装指南/方案/qwen-code-cn.md",
+      "bytes": 2996
+    },
+    {
+      "path": "工具库/安装指南/方案/qwen-code-global.md",
+      "bytes": 3007
+    },
+    {
+      "path": "工具库/安装指南/方案/stepfun-cn.md",
+      "bytes": 3626
+    },
+    {
+      "path": "工具库/安装指南/方案/stepfun-global.md",
+      "bytes": 3631
+    },
+    {
+      "path": "工具库/安装指南/方案/texlive-cn.md",
+      "bytes": 2750
+    },
+    {
+      "path": "工具库/安装指南/方案/texlive-global.md",
+      "bytes": 2679
+    },
+    {
+      "path": "工具库/安装指南/方案/trae-cn-cn.md",
+      "bytes": 3024
+    },
+    {
+      "path": "工具库/安装指南/方案/trae-cn-global.md",
+      "bytes": 3029
+    },
+    {
+      "path": "工具库/安装指南/方案/web-terminal-cn.md",
+      "bytes": 2948
+    },
+    {
+      "path": "工具库/安装指南/方案/web-terminal-global.md",
+      "bytes": 2650
+    },
+    {
+      "path": "工具库/安装指南/方案/workbuddy-cn.md",
+      "bytes": 3172
+    },
+    {
+      "path": "工具库/安装指南/方案/workbuddy-global.md",
+      "bytes": 3226
+    },
+    {
+      "path": "工具库/安装指南/方案/zcode-cn.md",
+      "bytes": 3043
+    },
+    {
+      "path": "工具库/安装指南/方案/zcode-global.md",
+      "bytes": 3011
+    },
+    {
+      "path": "工具库/安装指南/方案/zotero-cn.md",
+      "bytes": 2703
+    },
+    {
+      "path": "工具库/安装指南/方案/zotero-global.md",
+      "bytes": 2707
+    },
+    {
+      "path": "工具库/安装指南/软件/Blender.md",
+      "bytes": 4118
+    },
+    {
+      "path": "工具库/安装指南/软件/Claude Code.md",
+      "bytes": 3899
+    },
+    {
+      "path": "工具库/安装指南/软件/CodeBuddy.md",
+      "bytes": 5422
+    },
+    {
+      "path": "工具库/安装指南/软件/Codex.md",
+      "bytes": 4813
+    },
+    {
+      "path": "工具库/安装指南/软件/Cursor.md",
+      "bytes": 4007
+    },
+    {
+      "path": "工具库/安装指南/软件/DeepSeek Harness.md",
+      "bytes": 6532
+    },
+    {
+      "path": "工具库/安装指南/软件/draw.io.md",
+      "bytes": 3803
+    },
+    {
+      "path": "工具库/安装指南/软件/FFmpeg.md",
+      "bytes": 4823
+    },
+    {
+      "path": "工具库/安装指南/软件/Git.md",
+      "bytes": 3675
+    },
+    {
+      "path": "工具库/安装指南/软件/Hermes Agent.md",
+      "bytes": 1286
+    },
+    {
+      "path": "工具库/安装指南/软件/JupyterLab.md",
+      "bytes": 4191
+    },
+    {
+      "path": "工具库/安装指南/软件/LaTeX.md",
+      "bytes": 4332
+    },
+    {
+      "path": "工具库/安装指南/软件/LibreOffice.md",
+      "bytes": 4407
+    },
+    {
+      "path": "工具库/安装指南/软件/Node.js.md",
+      "bytes": 4068
+    },
+    {
+      "path": "工具库/安装指南/软件/PPT预览.md",
+      "bytes": 3786
+    },
+    {
+      "path": "工具库/安装指南/软件/Python.md",
+      "bytes": 4500
+    },
+    {
+      "path": "工具库/安装指南/软件/Qwen Code.md",
+      "bytes": 4055
+    },
+    {
+      "path": "工具库/安装指南/软件/TRAE CN.md",
+      "bytes": 5312
+    },
+    {
+      "path": "工具库/安装指南/软件/WorkBuddy.md",
+      "bytes": 5899
+    },
+    {
+      "path": "工具库/安装指南/软件/ZCode.md",
+      "bytes": 5376
+    },
+    {
+      "path": "工具库/安装指南/软件/Zotero.md",
+      "bytes": 4010
+    },
+    {
+      "path": "工具库/安装指南/软件/剪辑插件.md",
+      "bytes": 3739
+    },
+    {
+      "path": "工具库/安装指南/软件/后台依赖.md",
+      "bytes": 5735
+    },
+    {
+      "path": "工具库/安装指南/软件/网页终端.md",
+      "bytes": 4197
+    },
+    {
+      "path": "工具库/安装指南/软件/通义灵码.md",
+      "bytes": 5651
+    },
+    {
+      "path": "工具库/安装指南/软件/阶跃 AI.md",
+      "bytes": 7377
+    },
+    {
+      "path": "工具库/安装指南/软件/随带网页库.md",
+      "bytes": 5379
+    },
+    {
+      "path": "工具库/安装指南/通用安装.md",
+      "bytes": 1219
+    },
+    {
+      "path": "工具库/应用/PPTMaster/README.en.md",
+      "bytes": 987
+    },
+    {
+      "path": "工具库/应用/PPTMaster/README.md",
+      "bytes": 941
+    },
+    {
+      "path": "工具库/智能体.md",
+      "bytes": 5712
+    },
+    {
+      "path": "工具库/网页链接.md",
+      "bytes": 4978
+    },
+    {
+      "path": "快捷指令/交接给新agent.md",
+      "bytes": 628
+    },
+    {
+      "path": "快捷指令/分拣外部资料.md",
+      "bytes": 645
+    },
+    {
+      "path": "快捷指令/整理本周进展.md",
+      "bytes": 511
+    },
+    {
+      "path": "快捷指令/检查有没有违反戒律.md",
+      "bytes": 443
+    },
+    {
+      "path": "快捷指令/自动推进.md",
+      "bytes": 1523
+    },
+    {
+      "path": "技能库/research-experiment-design/assets/实验方案.md",
+      "bytes": 850
+    },
+    {
+      "path": "技能库/research-experiment-design/LICENSE.txt",
+      "bytes": 1170
+    },
+    {
+      "path": "技能库/research-experiment-design/references/机器学习评价边界.md",
+      "bytes": 851
+    },
+    {
+      "path": "技能库/research-experiment-design/references/来源与改编.md",
+      "bytes": 1429
+    },
+    {
+      "path": "技能库/research-experiment-design/SKILL.en.md",
+      "bytes": 5524
+    },
+    {
+      "path": "技能库/research-experiment-design/SKILL.md",
+      "bytes": 4010
+    },
+    {
+      "path": "技能库/research-literature-evidence/assets/文献证据表.md",
+      "bytes": 724
+    },
+    {
+      "path": "技能库/research-literature-evidence/LICENSE.txt",
+      "bytes": 1139
+    },
+    {
+      "path": "技能库/research-literature-evidence/references/来源与改编.md",
+      "bytes": 1415
+    },
+    {
+      "path": "技能库/research-literature-evidence/references/证据核验.md",
+      "bytes": 567
+    },
+    {
+      "path": "技能库/research-literature-evidence/SKILL.en.md",
+      "bytes": 5225
+    },
+    {
+      "path": "技能库/research-literature-evidence/SKILL.md",
+      "bytes": 3735
+    },
+    {
+      "path": "技能库/research-manuscript-citations/assets/论文核验表.md",
+      "bytes": 608
+    },
+    {
+      "path": "技能库/research-manuscript-citations/LICENSE.txt",
+      "bytes": 1208
+    },
+    {
+      "path": "技能库/research-manuscript-citations/references/来源与改编.md",
+      "bytes": 1437
+    },
+    {
+      "path": "技能库/research-manuscript-citations/references/证据到正文.md",
+      "bytes": 633
+    },
+    {
+      "path": "技能库/research-manuscript-citations/SKILL.en.md",
+      "bytes": 5579
+    },
+    {
+      "path": "技能库/research-manuscript-citations/SKILL.md",
+      "bytes": 3947
+    },
+    {
+      "path": "技能库/research-reproduce-run/assets/运行记录.md",
+      "bytes": 670
+    },
+    {
+      "path": "技能库/research-reproduce-run/LICENSE.txt",
+      "bytes": 1137
+    },
+    {
+      "path": "技能库/research-reproduce-run/references/来源与改编.md",
+      "bytes": 1240
+    },
+    {
+      "path": "技能库/research-reproduce-run/references/运行与故障.md",
+      "bytes": 552
+    },
+    {
+      "path": "技能库/research-reproduce-run/SKILL.en.md",
+      "bytes": 5158
+    },
+    {
+      "path": "技能库/research-reproduce-run/SKILL.md",
+      "bytes": 3667
+    },
+    {
+      "path": "技能库/research-results-figures/assets/结果与图表清单.md",
+      "bytes": 625
+    },
+    {
+      "path": "技能库/research-results-figures/LICENSE.txt",
+      "bytes": 1170
+    },
+    {
+      "path": "技能库/research-results-figures/references/来源与改编.md",
+      "bytes": 1588
+    },
+    {
+      "path": "技能库/research-results-figures/references/结果解释与图表.md",
+      "bytes": 720
+    },
+    {
+      "path": "技能库/research-results-figures/SKILL.en.md",
+      "bytes": 5652
+    },
+    {
+      "path": "技能库/research-results-figures/SKILL.md",
+      "bytes": 4109
+    },
+    {
+      "path": "技能库/research-revision/assets/返修矩阵.md",
+      "bytes": 580
+    },
+    {
+      "path": "技能库/research-revision/LICENSE.txt",
+      "bytes": 1170
+    },
+    {
+      "path": "技能库/research-revision/references/来源与改编.md",
+      "bytes": 1383
+    },
+    {
+      "path": "技能库/research-revision/SKILL.en.md",
+      "bytes": 5404
+    },
+    {
+      "path": "技能库/research-revision/SKILL.md",
+      "bytes": 3659
+    },
+    {
+      "path": "技能库/research-route/assets/路线卡.md",
+      "bytes": 1420
+    },
+    {
+      "path": "技能库/research-route/LICENSE.txt",
+      "bytes": 1137
+    },
+    {
+      "path": "技能库/research-route/references/来源与改编.md",
+      "bytes": 1079
+    },
+    {
+      "path": "技能库/research-route/references/路线与阶段.md",
+      "bytes": 1074
+    },
+    {
+      "path": "技能库/research-route/SKILL.en.md",
+      "bytes": 5020
+    },
+    {
+      "path": "技能库/research-route/SKILL.md",
+      "bytes": 3526
+    },
+    {
+      "path": "技能库/research-submission-package/assets/投稿清单.md",
+      "bytes": 813
+    },
+    {
+      "path": "技能库/research-submission-package/LICENSE.txt",
+      "bytes": 1144
+    },
+    {
+      "path": "技能库/research-submission-package/references/来源与改编.md",
+      "bytes": 1099
+    },
+    {
+      "path": "技能库/research-submission-package/SKILL.en.md",
+      "bytes": 5005
+    },
+    {
+      "path": "技能库/research-submission-package/SKILL.md",
+      "bytes": 3391
+    },
+    {
+      "path": "技能库/research-topic/assets/选题卡.md",
+      "bytes": 664
+    },
+    {
+      "path": "技能库/research-topic/LICENSE.txt",
+      "bytes": 1170
+    },
+    {
+      "path": "技能库/research-topic/references/来源与改编.md",
+      "bytes": 1407
+    },
+    {
+      "path": "技能库/research-topic/references/问题与反证.md",
+      "bytes": 583
+    },
+    {
+      "path": "技能库/research-topic/SKILL.en.md",
+      "bytes": 5059
+    },
+    {
+      "path": "技能库/research-topic/SKILL.md",
+      "bytes": 3597
+    },
+    {
+      "path": "技能库/业务/manifest.json",
+      "bytes": 681433
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/LICENSE.txt",
+      "bytes": 1069
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/examples.md",
+      "bytes": 4064
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/gitignore.txt",
+      "bytes": 10
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/LICENSE",
+      "bytes": 1069
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/prompts/quick-prompt-en.txt",
+      "bytes": 2424
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/prompts/精简版提示词.txt",
+      "bytes": 1910
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/README.md",
+      "bytes": 3931
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/README_EN.md",
+      "bytes": 4123
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/skills/anti-defensive-writing/SKILL.md",
+      "bytes": 5523
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/references/original/skills/anti-defensive-writing-en/SKILL.md",
+      "bytes": 6419
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/SKILL.en.md",
+      "bytes": 5491
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/SKILL.md",
+      "bytes": 4255
+    },
+    {
+      "path": "技能库/业务/paper/adkid-zephyr/anti-defensive-writing/SOURCE.md",
+      "bytes": 5873
+    },
+    {
+      "path": "技能库/业务/paper/aris/experiment-plan/assets/experiment-matrix.en.md",
+      "bytes": 450
+    },
+    {
+      "path": "技能库/业务/paper/aris/experiment-plan/assets/experiment-matrix.md",
+      "bytes": 403
+    },
+    {
+      "path": "技能库/业务/paper/aris/experiment-plan/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/paper/aris/experiment-plan/references/claim-blocks.en.md",
+      "bytes": 561
+    },
+    {
+      "path": "技能库/业务/paper/aris/experiment-plan/references/claim-blocks.md",
+      "bytes": 489
+    },
+    {
+      "path": "技能库/业务/paper/aris/experiment-plan/SKILL.en.md",
+      "bytes": 3304
+    },
+    {
+      "path": "技能库/业务/paper/aris/experiment-plan/SKILL.md",
+      "bytes": 2947
+    },
+    {
+      "path": "技能库/业务/paper/aris/experiment-plan/SOURCE.md",
+      "bytes": 3139
+    },
+    {
+      "path": "技能库/业务/paper/aris/idea-discovery/assets/candidate-card.en.md",
+      "bytes": 409
+    },
+    {
+      "path": "技能库/业务/paper/aris/idea-discovery/assets/candidate-card.md",
+      "bytes": 358
+    },
+    {
+      "path": "技能库/业务/paper/aris/idea-discovery/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/paper/aris/idea-discovery/references/novelty-candidates.en.md",
+      "bytes": 606
+    },
+    {
+      "path": "技能库/业务/paper/aris/idea-discovery/references/novelty-candidates.md",
+      "bytes": 501
+    },
+    {
+      "path": "技能库/业务/paper/aris/idea-discovery/SKILL.en.md",
+      "bytes": 3501
+    },
+    {
+      "path": "技能库/业务/paper/aris/idea-discovery/SKILL.md",
+      "bytes": 2991
+    },
+    {
+      "path": "技能库/业务/paper/aris/idea-discovery/SOURCE.md",
+      "bytes": 3135
+    },
+    {
+      "path": "技能库/业务/paper/aris/paper-writing/assets/writing-ledger.en.md",
+      "bytes": 396
+    },
+    {
+      "path": "技能库/业务/paper/aris/paper-writing/assets/writing-ledger.md",
+      "bytes": 351
+    },
+    {
+      "path": "技能库/业务/paper/aris/paper-writing/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/paper/aris/paper-writing/references/evidence-citations.en.md",
+      "bytes": 561
+    },
+    {
+      "path": "技能库/业务/paper/aris/paper-writing/references/evidence-citations.md",
+      "bytes": 489
+    },
+    {
+      "path": "技能库/业务/paper/aris/paper-writing/SKILL.en.md",
+      "bytes": 3293
+    },
+    {
+      "path": "技能库/业务/paper/aris/paper-writing/SKILL.md",
+      "bytes": 3008
+    },
+    {
+      "path": "技能库/业务/paper/aris/paper-writing/SOURCE.md",
+      "bytes": 3131
+    },
+    {
+      "path": "技能库/业务/paper/aris/rebuttal/assets/response-matrix.en.md",
+      "bytes": 428
+    },
+    {
+      "path": "技能库/业务/paper/aris/rebuttal/assets/response-matrix.md",
+      "bytes": 376
+    },
+    {
+      "path": "技能库/业务/paper/aris/rebuttal/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/paper/aris/rebuttal/references/review-coverage.en.md",
+      "bytes": 569
+    },
+    {
+      "path": "技能库/业务/paper/aris/rebuttal/references/review-coverage.md",
+      "bytes": 510
+    },
+    {
+      "path": "技能库/业务/paper/aris/rebuttal/SKILL.en.md",
+      "bytes": 3340
+    },
+    {
+      "path": "技能库/业务/paper/aris/rebuttal/SKILL.md",
+      "bytes": 2957
+    },
+    {
+      "path": "技能库/业务/paper/aris/rebuttal/SOURCE.md",
+      "bytes": 3111
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-pipeline/assets/stage-handoff.en.md",
+      "bytes": 415
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-pipeline/assets/stage-handoff.md",
+      "bytes": 369
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-pipeline/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-pipeline/references/stage-resume.en.md",
+      "bytes": 664
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-pipeline/references/stage-resume.md",
+      "bytes": 547
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-pipeline/SKILL.en.md",
+      "bytes": 3682
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-pipeline/SKILL.md",
+      "bytes": 3295
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-pipeline/SOURCE.md",
+      "bytes": 3393
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-review/assets/review-findings.en.md",
+      "bytes": 407
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-review/assets/review-findings.md",
+      "bytes": 376
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-review/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-review/references/review-evidence.en.md",
+      "bytes": 572
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-review/references/review-evidence.md",
+      "bytes": 497
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-review/SKILL.en.md",
+      "bytes": 3380
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-review/SKILL.md",
+      "bytes": 3005
+    },
+    {
+      "path": "技能库/业务/paper/aris/research-review/SOURCE.md",
+      "bytes": 3139
+    },
+    {
+      "path": "技能库/业务/paper/aris/run-experiment/assets/run-record.en.md",
+      "bytes": 444
+    },
+    {
+      "path": "技能库/业务/paper/aris/run-experiment/assets/run-record.md",
+      "bytes": 411
+    },
+    {
+      "path": "技能库/业务/paper/aris/run-experiment/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/paper/aris/run-experiment/references/run-integrity.en.md",
+      "bytes": 602
+    },
+    {
+      "path": "技能库/业务/paper/aris/run-experiment/references/run-integrity.md",
+      "bytes": 538
+    },
+    {
+      "path": "技能库/业务/paper/aris/run-experiment/SKILL.en.md",
+      "bytes": 3386
+    },
+    {
+      "path": "技能库/业务/paper/aris/run-experiment/SKILL.md",
+      "bytes": 3012
+    },
+    {
+      "path": "技能库/业务/paper/aris/run-experiment/SOURCE.md",
+      "bytes": 3135
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/LICENSE",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/ablation-planner/SKILL.md",
+      "bytes": 5137
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/analyze-results/SKILL.md",
+      "bytes": 1660
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/experiment-plan/SKILL.md",
+      "bytes": 9728
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/figure-spec/SKILL.md",
+      "bytes": 10979
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/idea-discovery/SKILL.md",
+      "bytes": 27649
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/novelty-check/SKILL.md",
+      "bytes": 7205
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/paper-claim-audit/SKILL.md",
+      "bytes": 14255
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/rebuttal/SKILL.md",
+      "bytes": 24627
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/research-pipeline/SKILL.md",
+      "bytes": 22866
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/resubmit-pipeline/SKILL.md",
+      "bytes": 33464
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/result-to-claim/SKILL.md",
+      "bytes": 16705
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/run-experiment/SKILL.md",
+      "bytes": 12848
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/aris/skills/training-check/SKILL.md",
+      "bytes": 5770
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/path-map.json",
+      "bytes": 17292
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/README.md",
+      "bytes": 882
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/LICENSE.md",
+      "bytes": 1068
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/citation-management/references/citation_validation.md",
+      "bytes": 18996
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/citation-management/SKILL.md",
+      "bytes": 16630
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "bytes": 7341
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/hypothesis-generation/SKILL.md",
+      "bytes": 16622
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/literature-review/references/core_workflow.md",
+      "bytes": 11876
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/literature-review/SKILL.md",
+      "bytes": 12869
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/peer-review/SKILL.md",
+      "bytes": 13853
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "bytes": 21151
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-agent-skills/skills/scientific-critical-thinking/SKILL.md",
+      "bytes": 13146
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-writer/LICENSE",
+      "bytes": 1075
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/references/evidence_workflow.md",
+      "bytes": 3929
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/SKILL.md",
+      "bytes": 14005
+    },
+    {
+      "path": "技能库/业务/paper/sources/legacy-research/sources.lock.original.json",
+      "bytes": 68392
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/assets/slide-plan.en.md",
+      "bytes": 334
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/assets/slide-plan.md",
+      "bytes": 334
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/LICENSE.txt",
+      "bytes": 1069
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/references/presentation-contract.en.md",
+      "bytes": 692
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/references/presentation-contract.md",
+      "bytes": 663
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/references/visual-review.en.md",
+      "bytes": 606
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/references/visual-review.md",
+      "bytes": 559
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/SKILL.en.md",
+      "bytes": 2479
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/SKILL.md",
+      "bytes": 2297
+    },
+    {
+      "path": "技能库/业务/presentation/ppt-master/SOURCE.md",
+      "bytes": 3914
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/LICENSE",
+      "bytes": 1067
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/README.md",
+      "bytes": 231046
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/experiment-plan/SKILL.md",
+      "bytes": 9728
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/idea-discovery/SKILL.md",
+      "bytes": 27649
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/paper-writing/SKILL.md",
+      "bytes": 50774
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/rebuttal/SKILL.md",
+      "bytes": 24627
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/research-pipeline/SKILL.md",
+      "bytes": 22866
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/research-review/SKILL.md",
+      "bytes": 12447
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/run-experiment/SKILL.md",
+      "bytes": 12848
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/assurance-contract.md",
+      "bytes": 11801
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/capture-antipatterns.md",
+      "bytes": 4516
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/citation-discipline.md",
+      "bytes": 20131
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/compute-env-contract.md",
+      "bytes": 10567
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/effort-contract.md",
+      "bytes": 8352
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/evidence-precheck.md",
+      "bytes": 3248
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/experiment-integrity.md",
+      "bytes": 2355
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/fan-out-pattern.md",
+      "bytes": 19911
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/injection-hygiene.md",
+      "bytes": 7435
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-composition.md",
+      "bytes": 5005
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/resumable-runs.md",
+      "bytes": 6694
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/review-scope-limits.md",
+      "bytes": 4174
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/reviewer-routing.md",
+      "bytes": 49735
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/skill-governance.md",
+      "bytes": 5710
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/taste-calibration.md",
+      "bytes": 4515
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/venue-checklists.md",
+      "bytes": 5582
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/wiki-helper-resolution.md",
+      "bytes": 6482
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/skills/shared-references/writing-principles.md",
+      "bytes": 14939
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/EXPERIMENT_PLAN_TEMPLATE.md",
+      "bytes": 1926
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/NARRATIVE_REPORT_TEMPLATE.md",
+      "bytes": 1098
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/PAPER_PLAN_TEMPLATE.md",
+      "bytes": 1172
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/RESEARCH_BRIEF_TEMPLATE.md",
+      "bytes": 1382
+    },
+    {
+      "path": "技能库/业务/sources/aris/2132036060e03e8d0df69a4b21e5971819c0c2d6/templates/RESEARCH_CONTRACT_TEMPLATE.md",
+      "bytes": 2374
+    },
+    {
+      "path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/LICENSE",
+      "bytes": 1069
+    },
+    {
+      "path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/references/artifact-ownership.md",
+      "bytes": 20282
+    },
+    {
+      "path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/references/native-data-interface.md",
+      "bytes": 11320
+    },
+    {
+      "path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/references/plan-core.md",
+      "bytes": 30464
+    },
+    {
+      "path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/references/visual-review.md",
+      "bytes": 12425
+    },
+    {
+      "path": "技能库/业务/sources/ppt-master/d3d81fe3cf4cc642de225159586308bbe98eeb4d/skills/ppt-master/workflows/governance/failure-recovery.md",
+      "bytes": 12207
+    },
+    {
+      "path": "技能库/业务/sources.lock.json",
+      "bytes": 194553
+    },
+    {
+      "path": "技能库/交付自查/SKILL.md",
+      "bytes": 1657
+    },
+    {
+      "path": "技能库/网页前端/SKILL.md",
+      "bytes": 6676
+    },
+    {
+      "path": "技能库/网页前端/参考/模板.html",
+      "bytes": 253544
+    },
+    {
+      "path": "技能库/网页前端/参考/界面英文.js",
+      "bytes": 51191
+    },
+    {
+      "path": "技能库/自动化科研交互界面/SKILL.md",
+      "bytes": 13326
+    },
+    {
+      "path": "插件/PPT预览/安装指南.md",
+      "bytes": 786
+    },
+    {
+      "path": "插件/PPT预览/插件.md",
+      "bytes": 2593
+    },
+    {
+      "path": "插件/PPT预览/检查.ps1",
+      "bytes": 666
+    },
+    {
+      "path": "插件/PPT预览/转换.ps1",
+      "bytes": 1616
+    },
+    {
+      "path": "插件/剪辑/安装指南.md",
+      "bytes": 771
+    },
+    {
+      "path": "插件/剪辑/插件.md",
+      "bytes": 12776
+    },
+    {
+      "path": "插件/网页终端/check.py",
+      "bytes": 802
+    },
+    {
+      "path": "插件/网页终端/index.html",
+      "bytes": 17315
+    },
+    {
+      "path": "插件/网页终端/server.py",
+      "bytes": 13429
+    },
+    {
+      "path": "插件/网页终端/安装指南.md",
+      "bytes": 808
+    },
+    {
+      "path": "插件/网页终端/插件.md",
+      "bytes": 12394
+    },
+    {
+      "path": "新项目.bat",
+      "bytes": 894
+    },
+    {
+      "path": "模板.html",
+      "bytes": 914377
+    },
+    {
+      "path": "模板配置.json",
+      "bytes": 4781
+    },
+    {
+      "path": "治理/戒律/1 通用戒律.md",
+      "bytes": 5740
+    },
+    {
+      "path": "治理/戒律/2 项目戒律.md",
+      "bytes": 94
+    },
+    {
+      "path": "治理界面.js",
+      "bytes": 98167
+    },
+    {
+      "path": "流程编辑器.js",
+      "bytes": 55138
+    },
+    {
+      "path": "界面英文.js",
+      "bytes": 131511
+    },
+    {
+      "path": "第三方许可证.md",
+      "bytes": 8289
+    },
+    {
+      "path": "索引/state.db",
+      "bytes": 49152
+    },
+    {
+      "path": "自动化/交付策略.json",
+      "bytes": 44
+    },
+    {
+      "path": "自动化/协议.md",
+      "bytes": 23650
+    },
+    {
+      "path": "自动化/工作流/W1 自动推进.md",
+      "bytes": 4946
+    },
+    {
+      "path": "自动化面板.js",
+      "bytes": 43453
+    },
+    {
+      "path": "资料/PPT/导出/MiracleHarness 项目介绍.pdf",
+      "bytes": 2221297
+    },
+    {
+      "path": "资料/PPT/导出/MiracleHarness 项目介绍.pptx",
+      "bytes": 3613813
+    },
+    {
+      "path": "资料/PPT/工作台/README.en.md",
+      "bytes": 1260
+    },
+    {
+      "path": "资料/PPT/工作台/README.md",
+      "bytes": 1216
+    },
+    {
+      "path": "资料/PPT/工作台/作品/MiracleHarness 项目介绍.pptx",
+      "bytes": 3613813
+    },
+    {
+      "path": "资料/PPT/工作台/入门示例.json",
+      "bytes": 185
+    },
+    {
+      "path": "资料/PPT/工作台/工作台.json",
+      "bytes": 417
+    },
+    {
+      "path": "资料/PPT/工作台/模板/导出检查.md",
+      "bytes": 491
+    },
+    {
+      "path": "资料/PPT/工作台/模板/材料清单.md",
+      "bytes": 373
+    },
+    {
+      "path": "资料/PPT/工作台/模板/检查记录.md",
+      "bytes": 463
+    },
+    {
+      "path": "资料/PPT/工作台/模板/演示大纲.md",
+      "bytes": 310
+    },
+    {
+      "path": "资料/PPT/工作台/模板/页面设计.md",
+      "bytes": 376
+    },
+    {
+      "path": "资料/PPT/技能/SKILL.en.md",
+      "bytes": 1916
+    },
+    {
+      "path": "资料/PPT/技能/SKILL.md",
+      "bytes": 1689
+    },
+    {
+      "path": "资料/写小说/方法/任务简报.en.md",
+      "bytes": 631
+    },
+    {
+      "path": "资料/写小说/方法/任务简报.md",
+      "bytes": 594
+    },
+    {
+      "path": "资料/写小说/方法/开始这里.en.md",
+      "bytes": 407
+    },
+    {
+      "path": "资料/写小说/方法/开始这里.md",
+      "bytes": 373
+    },
+    {
+      "path": "资料/写小说/方法/章节接手.en.md",
+      "bytes": 342
+    },
+    {
+      "path": "资料/写小说/方法/章节接手.md",
+      "bytes": 310
+    },
+    {
+      "path": "资料/写小说/方法/阶段路线.en.md",
+      "bytes": 4818
+    },
+    {
+      "path": "资料/写小说/方法/阶段路线.md",
+      "bytes": 4327
+    },
+    {
+      "path": "资料/写论文/方法/任务简报.en.md",
+      "bytes": 631
+    },
+    {
+      "path": "资料/写论文/方法/任务简报.md",
+      "bytes": 594
+    },
+    {
+      "path": "资料/写论文/方法/开始这里.en.md",
+      "bytes": 358
+    },
+    {
+      "path": "资料/写论文/方法/开始这里.md",
+      "bytes": 343
+    },
+    {
+      "path": "资料/写论文/方法/证据账本.csv",
+      "bytes": 72
+    },
+    {
+      "path": "资料/写论文/方法/阶段路线.en.md",
+      "bytes": 10951
+    },
+    {
+      "path": "资料/写论文/方法/阶段路线.md",
+      "bytes": 9736
+    },
+    {
+      "path": "资料/实验/方法/LICENSE.txt",
+      "bytes": 1084
+    },
+    {
+      "path": "资料/实验/方法/README.md",
+      "bytes": 1524
+    },
+    {
+      "path": "资料/实验/方法/实验设计卡.md",
+      "bytes": 1436
+    },
+    {
+      "path": "资料/实验/方法/实验运行卡.md",
+      "bytes": 1353
+    },
+    {
+      "path": "资料/实验/方法/许可范围.md",
+      "bytes": 651
+    },
+    {
+      "path": "资料/宣传片/工作台/工作台.json",
+      "bytes": 382
+    },
+    {
+      "path": "资料/宣传片/成果/宣传片-爱琴海.mp4",
+      "bytes": 25417037
+    },
+    {
+      "path": "资料/想法/方法/科研/LICENSE.txt",
+      "bytes": 1170
+    },
+    {
+      "path": "资料/想法/方法/科研/README.md",
+      "bytes": 422
+    },
+    {
+      "path": "资料/想法/方法/科研/选题卡.md",
+      "bytes": 664
+    },
+    {
+      "path": "资料/投稿与返修/方法/LICENSE.txt",
+      "bytes": 1084
+    },
+    {
+      "path": "资料/投稿与返修/方法/README.md",
+      "bytes": 1482
+    },
+    {
+      "path": "资料/投稿与返修/方法/投稿检查清单.md",
+      "bytes": 1562
+    },
+    {
+      "path": "资料/投稿与返修/方法/许可范围.md",
+      "bytes": 654
+    },
+    {
+      "path": "资料/投稿与返修/方法/返修回复卡.md",
+      "bytes": 1358
+    },
+    {
+      "path": "资料/数据与分析/方法/LICENSE.txt",
+      "bytes": 1084
+    },
+    {
+      "path": "资料/数据与分析/方法/README.md",
+      "bytes": 1585
+    },
+    {
+      "path": "资料/数据与分析/方法/分析与图表卡.md",
+      "bytes": 1305
+    },
+    {
+      "path": "资料/数据与分析/方法/字段来源卡.md",
+      "bytes": 1326
+    },
+    {
+      "path": "资料/数据与分析/方法/数据分割卡.md",
+      "bytes": 1663
+    },
+    {
+      "path": "资料/数据与分析/方法/许可范围.md",
+      "bytes": 675
+    },
+    {
+      "path": "资料/文献/下载清单.md",
+      "bytes": 1591
+    },
+    {
+      "path": "资料/文献/原文/L1 MiracleHarness 项目介绍.pdf",
+      "bytes": 2221297
+    },
+    {
+      "path": "资料/文献/工作台/README.en.md",
+      "bytes": 1116
+    },
+    {
+      "path": "资料/文献/工作台/README.md",
+      "bytes": 1012
+    },
+    {
+      "path": "资料/文献/工作台/入门示例.json",
+      "bytes": 1716
+    },
+    {
+      "path": "资料/文献/工作台/工作台.json",
+      "bytes": 572
+    },
+    {
+      "path": "资料/文献/工作台/示例/MiracleHarness 项目介绍.pdf",
+      "bytes": 2221297
+    },
+    {
+      "path": "资料/文献/工作台/示例/下载示例.json",
+      "bytes": 1602
+    },
+    {
+      "path": "资料/文献/工作台/示例/官方来源.md",
+      "bytes": 1211
+    },
+    {
+      "path": "资料/文献/工作台/示例/示例说明.md",
+      "bytes": 850
+    },
+    {
+      "path": "资料/文献/工作台/示例/讲解.md",
+      "bytes": 2282
+    },
+    {
+      "path": "资料/文献/技能/SKILL.en.md",
+      "bytes": 3027
+    },
+    {
+      "path": "资料/文献/技能/SKILL.md",
+      "bytes": 7751
+    },
+    {
+      "path": "资料/文献/方法/科研/LICENSE.txt",
+      "bytes": 1137
+    },
+    {
+      "path": "资料/文献/方法/科研/README.md",
+      "bytes": 2208
+    },
+    {
+      "path": "资料/文献/方法/科研/skills-manifest.json",
+      "bytes": 8660
+    },
+    {
+      "path": "资料/文献/方法/科研/安装与使用.md",
+      "bytes": 4652
+    },
+    {
+      "path": "资料/文献/方法/科研/改编与未内置清单.md",
+      "bytes": 1651
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/LICENSE",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/ablation-planner/SKILL.md",
+      "bytes": 5137
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/analyze-results/SKILL.md",
+      "bytes": 1660
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/experiment-plan/SKILL.md",
+      "bytes": 9728
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/figure-spec/SKILL.md",
+      "bytes": 10979
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/idea-discovery/SKILL.md",
+      "bytes": 27649
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/novelty-check/SKILL.md",
+      "bytes": 7205
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/paper-claim-audit/SKILL.md",
+      "bytes": 14255
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/rebuttal/SKILL.md",
+      "bytes": 24627
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/research-pipeline/SKILL.md",
+      "bytes": 22866
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/resubmit-pipeline/SKILL.md",
+      "bytes": 33464
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/result-to-claim/SKILL.md",
+      "bytes": 16705
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/run-experiment/SKILL.md",
+      "bytes": 12848
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/aris/skills/training-check/SKILL.md",
+      "bytes": 5770
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/LICENSE.md",
+      "bytes": 1068
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/citation-management/references/citation_validation.md",
+      "bytes": 18996
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/citation-management/SKILL.md",
+      "bytes": 16630
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "bytes": 7341
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/hypothesis-generation/SKILL.md",
+      "bytes": 16622
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/literature-review/references/core_workflow.md",
+      "bytes": 11876
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/literature-review/SKILL.md",
+      "bytes": 12869
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/peer-review/SKILL.md",
+      "bytes": 13853
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "bytes": 21151
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-agent-skills/skills/scientific-critical-thinking/SKILL.md",
+      "bytes": 13146
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-writer/LICENSE",
+      "bytes": 1075
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/references/evidence_workflow.md",
+      "bytes": 3929
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/scientific-writer/scientific_writer/public-snapshot/skills/scientific-writing/SKILL.md",
+      "bytes": 14005
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/sources.lock.json",
+      "bytes": 68649
+    },
+    {
+      "path": "资料/文献/方法/科研/来源/阅读说明.md",
+      "bytes": 917
+    },
+    {
+      "path": "资料/文献/方法/科研/许可证范围.md",
+      "bytes": 634
+    },
+    {
+      "path": "资料/文献/方法/科研/验收记录.md",
+      "bytes": 2247
+    },
+    {
+      "path": "资料/文献/解读/L1 MiracleHarness 项目介绍/信息.json",
+      "bytes": 634
+    },
+    {
+      "path": "资料/文献/解读/L1 MiracleHarness 项目介绍/文本/讲解.md",
+      "bytes": 2282
+    },
+    {
+      "path": "资料/汇报/方法/LICENSE.txt",
+      "bytes": 1084
+    },
+    {
+      "path": "资料/汇报/方法/PPT汇报卡.md",
+      "bytes": 1347
+    },
+    {
+      "path": "资料/汇报/方法/README.md",
+      "bytes": 1382
+    },
+    {
+      "path": "资料/汇报/方法/许可范围.md",
+      "bytes": 627
+    },
+    {
+      "path": "资料/测试/工作台/README.en.md",
+      "bytes": 794
+    },
+    {
+      "path": "资料/测试/工作台/README.md",
+      "bytes": 732
+    },
+    {
+      "path": "资料/测试/工作台/工作台.json",
+      "bytes": 929
+    },
+    {
+      "path": "资料/测试/工作台/模板/实验结果卡.md",
+      "bytes": 468
+    },
+    {
+      "path": "资料/测试/工作台/模板/数据集卡.md",
+      "bytes": 485
+    },
+    {
+      "path": "资料/测试/工作台/模板/样板.csv",
+      "bytes": 43
+    },
+    {
+      "path": "资料/测试/工作台/模板/检查脚本.py",
+      "bytes": 793
+    },
+    {
+      "path": "资料/测试/工作台/模板/测试记录卡.md",
+      "bytes": 834
+    },
+    {
+      "path": "资料/素材/方法/LICENSE.txt",
+      "bytes": 1084
+    },
+    {
+      "path": "资料/素材/方法/README.md",
+      "bytes": 1460
+    },
+    {
+      "path": "资料/素材/方法/图表交付卡.md",
+      "bytes": 1131
+    },
+    {
+      "path": "资料/素材/方法/素材来源卡.md",
+      "bytes": 1171
+    },
+    {
+      "path": "资料/素材/方法/许可范围.md",
+      "bytes": 651
+    },
+    {
+      "path": "资料/论文/工作台/README.en.md",
+      "bytes": 920
+    },
+    {
+      "path": "资料/论文/工作台/README.md",
+      "bytes": 825
+    },
+    {
+      "path": "资料/论文/工作台/工作台.json",
+      "bytes": 2175
+    },
+    {
+      "path": "资料/论文/工作台/模板/参考文献.md",
+      "bytes": 628
+    },
+    {
+      "path": "资料/论文/工作台/模板/实验.md",
+      "bytes": 575
+    },
+    {
+      "path": "资料/论文/工作台/模板/应用.md",
+      "bytes": 596
+    },
+    {
+      "path": "资料/论文/工作台/模板/引言.md",
+      "bytes": 595
+    },
+    {
+      "path": "资料/论文/工作台/模板/摘要.md",
+      "bytes": 576
+    },
+    {
+      "path": "资料/论文/工作台/模板/方法.md",
+      "bytes": 596
+    },
+    {
+      "path": "资料/论文/工作台/模板/未来展望.md",
+      "bytes": 563
+    },
+    {
+      "path": "资料/论文/工作台/模板/相关工作.md",
+      "bytes": 591
+    },
+    {
+      "path": "资料/论文/工作台/模板/结果.md",
+      "bytes": 630
+    },
+    {
+      "path": "资料/论文/工作台/模板/结论.md",
+      "bytes": 557
+    },
+    {
+      "path": "资料/论文/工作台/模板/超参数.md",
+      "bytes": 614
+    },
+    {
+      "path": "资料/论文/工作台/模板/项目文书.md",
+      "bytes": 637
+    },
+    {
+      "path": "资料/论文/技能/ARIS/ablation-planner/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/ablation-planner/references/support/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "资料/论文/技能/ARIS/ablation-planner/references/support/skills/shared-references/experiment-integrity.md",
+      "bytes": 2355
+    },
+    {
+      "path": "资料/论文/技能/ARIS/ablation-planner/references/upstream.md",
+      "bytes": 5137
+    },
+    {
+      "path": "资料/论文/技能/ARIS/ablation-planner/SKILL.en.md",
+      "bytes": 3191
+    },
+    {
+      "path": "资料/论文/技能/ARIS/ablation-planner/SKILL.md",
+      "bytes": 2780
+    },
+    {
+      "path": "资料/论文/技能/ARIS/ablation-planner/SOURCE.md",
+      "bytes": 2929
+    },
+    {
+      "path": "资料/论文/技能/ARIS/alphaxiv/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/alphaxiv/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/alphaxiv/references/upstream.md",
+      "bytes": 9042
+    },
+    {
+      "path": "资料/论文/技能/ARIS/alphaxiv/SKILL.en.md",
+      "bytes": 3001
+    },
+    {
+      "path": "资料/论文/技能/ARIS/alphaxiv/SKILL.md",
+      "bytes": 2618
+    },
+    {
+      "path": "资料/论文/技能/ARIS/alphaxiv/SOURCE.md",
+      "bytes": 2665
+    },
+    {
+      "path": "资料/论文/技能/ARIS/analyze-results/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/analyze-results/references/upstream.md",
+      "bytes": 1660
+    },
+    {
+      "path": "资料/论文/技能/ARIS/analyze-results/SKILL.en.md",
+      "bytes": 2805
+    },
+    {
+      "path": "资料/论文/技能/ARIS/analyze-results/SKILL.md",
+      "bytes": 2423
+    },
+    {
+      "path": "资料/论文/技能/ARIS/analyze-results/SOURCE.md",
+      "bytes": 2522
+    },
+    {
+      "path": "资料/论文/技能/ARIS/arxiv/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/arxiv/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/arxiv/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "bytes": 6482
+    },
+    {
+      "path": "资料/论文/技能/ARIS/arxiv/references/upstream.md",
+      "bytes": 9289
+    },
+    {
+      "path": "资料/论文/技能/ARIS/arxiv/SKILL.en.md",
+      "bytes": 3084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/arxiv/SKILL.md",
+      "bytes": 2691
+    },
+    {
+      "path": "资料/论文/技能/ARIS/arxiv/SOURCE.md",
+      "bytes": 2963
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/support/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/references/upstream.md",
+      "bytes": 41169
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/SKILL.en.md",
+      "bytes": 2295
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/SKILL.md",
+      "bytes": 2136
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-paper-improvement-loop/SOURCE.md",
+      "bytes": 3423
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/references/support/skills/shared-references/reviewer-routing.md",
+      "bytes": 49383
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/references/upstream.md",
+      "bytes": 69873
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/SKILL.en.md",
+      "bytes": 2367
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/SKILL.md",
+      "bytes": 2134
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop/SOURCE.md",
+      "bytes": 4050
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/references/upstream.md",
+      "bytes": 8178
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/SKILL.en.md",
+      "bytes": 2272
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/SKILL.md",
+      "bytes": 2062
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-llm/SOURCE.md",
+      "bytes": 3326
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/references/upstream.md",
+      "bytes": 13037
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/SKILL.en.md",
+      "bytes": 2308
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/SKILL.md",
+      "bytes": 2098
+    },
+    {
+      "path": "资料/论文/技能/ARIS/auto-review-loop-minimax/SOURCE.md",
+      "bytes": 3291
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/assurance-contract.md",
+      "bytes": 11801
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/citation-discipline.md",
+      "bytes": 20131
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/references/upstream.md",
+      "bytes": 31067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/SKILL.en.md",
+      "bytes": 2293
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/SKILL.md",
+      "bytes": 2079
+    },
+    {
+      "path": "资料/论文/技能/ARIS/citation-audit/SOURCE.md",
+      "bytes": 3735
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/patent-format-cn.md",
+      "bytes": 9352
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/patent-format-ep.md",
+      "bytes": 6542
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/patent-format-us.md",
+      "bytes": 6151
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/patent-writing-principles.md",
+      "bytes": 9032
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/references/support/skills/shared-references/writing-principles.md",
+      "bytes": 14939
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/references/upstream.md",
+      "bytes": 10148
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/SKILL.en.md",
+      "bytes": 2222
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/SKILL.md",
+      "bytes": 2028
+    },
+    {
+      "path": "资料/论文/技能/ARIS/claims-drafting/SOURCE.md",
+      "bytes": 3507
+    },
+    {
+      "path": "资料/论文/技能/ARIS/comm-lit-review/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/comm-lit-review/references/upstream.md",
+      "bytes": 8683
+    },
+    {
+      "path": "资料/论文/技能/ARIS/comm-lit-review/SKILL.en.md",
+      "bytes": 2819
+    },
+    {
+      "path": "资料/论文/技能/ARIS/comm-lit-review/SKILL.md",
+      "bytes": 2410
+    },
+    {
+      "path": "资料/论文/技能/ARIS/comm-lit-review/SOURCE.md",
+      "bytes": 2502
+    },
+    {
+      "path": "资料/论文/技能/ARIS/deepxiv/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/deepxiv/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/deepxiv/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "bytes": 6482
+    },
+    {
+      "path": "资料/论文/技能/ARIS/deepxiv/references/upstream.md",
+      "bytes": 8231
+    },
+    {
+      "path": "资料/论文/技能/ARIS/deepxiv/SKILL.en.md",
+      "bytes": 2970
+    },
+    {
+      "path": "资料/论文/技能/ARIS/deepxiv/SKILL.md",
+      "bytes": 2612
+    },
+    {
+      "path": "资料/论文/技能/ARIS/deepxiv/SOURCE.md",
+      "bytes": 2949
+    },
+    {
+      "path": "资料/论文/技能/ARIS/dse-loop/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/dse-loop/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/dse-loop/references/upstream.md",
+      "bytes": 14175
+    },
+    {
+      "path": "资料/论文/技能/ARIS/dse-loop/SKILL.en.md",
+      "bytes": 3446
+    },
+    {
+      "path": "资料/论文/技能/ARIS/dse-loop/SKILL.md",
+      "bytes": 2884
+    },
+    {
+      "path": "资料/论文/技能/ARIS/dse-loop/SOURCE.md",
+      "bytes": 2672
+    },
+    {
+      "path": "资料/论文/技能/ARIS/embodiment-description/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/embodiment-description/references/upstream.md",
+      "bytes": 6732
+    },
+    {
+      "path": "资料/论文/技能/ARIS/embodiment-description/SKILL.en.md",
+      "bytes": 2232
+    },
+    {
+      "path": "资料/论文/技能/ARIS/embodiment-description/SKILL.md",
+      "bytes": 2046
+    },
+    {
+      "path": "资料/论文/技能/ARIS/embodiment-description/SOURCE.md",
+      "bytes": 2543
+    },
+    {
+      "path": "资料/论文/技能/ARIS/exa-search/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/exa-search/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/exa-search/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "bytes": 6482
+    },
+    {
+      "path": "资料/论文/技能/ARIS/exa-search/references/upstream.md",
+      "bytes": 8672
+    },
+    {
+      "path": "资料/论文/技能/ARIS/exa-search/SKILL.en.md",
+      "bytes": 2932
+    },
+    {
+      "path": "资料/论文/技能/ARIS/exa-search/SKILL.md",
+      "bytes": 2638
+    },
+    {
+      "path": "资料/论文/技能/ARIS/exa-search/SOURCE.md",
+      "bytes": 2957
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/experiment-integrity.md",
+      "bytes": 2355
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/references/support/skills/shared-references/reviewer-routing.md",
+      "bytes": 49383
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/references/upstream.md",
+      "bytes": 12732
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/SKILL.en.md",
+      "bytes": 3581
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/SKILL.md",
+      "bytes": 3145
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-audit/SOURCE.md",
+      "bytes": 3855
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/docs/SESSION_RECOVERY_GUIDE.md",
+      "bytes": 17978
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/compute-env-contract.md",
+      "bytes": 10567
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/experiment-integrity.md",
+      "bytes": 2355
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/support/templates/RESEARCH_CONTRACT_TEMPLATE.md",
+      "bytes": 2374
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/references/upstream.md",
+      "bytes": 18600
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/SKILL.en.md",
+      "bytes": 3865
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/SKILL.md",
+      "bytes": 3341
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-bridge/SOURCE.md",
+      "bytes": 4333
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-queue/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-queue/references/support/skills/shared-references/compute-env-contract.md",
+      "bytes": 10567
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-queue/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-queue/references/upstream.md",
+      "bytes": 20108
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-queue/SKILL.en.md",
+      "bytes": 2274
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-queue/SKILL.md",
+      "bytes": 2071
+    },
+    {
+      "path": "资料/论文/技能/ARIS/experiment-queue/SOURCE.md",
+      "bytes": 3177
+    },
+    {
+      "path": "资料/论文/技能/ARIS/feishu-notify/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/feishu-notify/references/upstream.md",
+      "bytes": 6172
+    },
+    {
+      "path": "资料/论文/技能/ARIS/feishu-notify/SKILL.en.md",
+      "bytes": 2214
+    },
+    {
+      "path": "资料/论文/技能/ARIS/feishu-notify/SKILL.md",
+      "bytes": 2011
+    },
+    {
+      "path": "资料/论文/技能/ARIS/feishu-notify/SOURCE.md",
+      "bytes": 2523
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-description/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-description/references/upstream.md",
+      "bytes": 5000
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-description/SKILL.en.md",
+      "bytes": 2191
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-description/SKILL.md",
+      "bytes": 2001
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-description/SOURCE.md",
+      "bytes": 2480
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-spec/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-spec/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-spec/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-spec/references/upstream.md",
+      "bytes": 10979
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-spec/SKILL.en.md",
+      "bytes": 2240
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-spec/SKILL.md",
+      "bytes": 2025
+    },
+    {
+      "path": "资料/论文/技能/ARIS/figure-spec/SOURCE.md",
+      "bytes": 2948
+    },
+    {
+      "path": "资料/论文/技能/ARIS/formula-derivation/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/formula-derivation/references/upstream.md",
+      "bytes": 9261
+    },
+    {
+      "path": "资料/论文/技能/ARIS/formula-derivation/SKILL.en.md",
+      "bytes": 2273
+    },
+    {
+      "path": "资料/论文/技能/ARIS/formula-derivation/SKILL.md",
+      "bytes": 2001
+    },
+    {
+      "path": "资料/论文/技能/ARIS/formula-derivation/SOURCE.md",
+      "bytes": 2531
+    },
+    {
+      "path": "资料/论文/技能/ARIS/gemini-search/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/gemini-search/references/upstream.md",
+      "bytes": 9051
+    },
+    {
+      "path": "资料/论文/技能/ARIS/gemini-search/SKILL.en.md",
+      "bytes": 2664
+    },
+    {
+      "path": "资料/论文/技能/ARIS/gemini-search/SKILL.md",
+      "bytes": 2315
+    },
+    {
+      "path": "资料/论文/技能/ARIS/gemini-search/SOURCE.md",
+      "bytes": 2526
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/references/upstream.md",
+      "bytes": 35026
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/SKILL.en.md",
+      "bytes": 2274
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/SKILL.md",
+      "bytes": 2068
+    },
+    {
+      "path": "资料/论文/技能/ARIS/grant-proposal/SOURCE.md",
+      "bytes": 3375
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/citation-discipline.md",
+      "bytes": 20131
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/fan-out-pattern.md",
+      "bytes": 19911
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/injection-hygiene.md",
+      "bytes": 7435
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/output-composition.md",
+      "bytes": 5005
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/support/skills/shared-references/reviewer-routing.md",
+      "bytes": 49383
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/references/upstream.md",
+      "bytes": 33326
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/SKILL.en.md",
+      "bytes": 3864
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/SKILL.md",
+      "bytes": 3336
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-creator/SOURCE.md",
+      "bytes": 4840
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-discovery-robot/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-discovery-robot/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-discovery-robot/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-discovery-robot/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-discovery-robot/references/upstream.md",
+      "bytes": 15232
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-discovery-robot/SKILL.en.md",
+      "bytes": 3480
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-discovery-robot/SKILL.md",
+      "bytes": 2949
+    },
+    {
+      "path": "资料/论文/技能/ARIS/idea-discovery-robot/SOURCE.md",
+      "bytes": 3101
+    },
+    {
+      "path": "资料/论文/技能/ARIS/integrity-forensics/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/integrity-forensics/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/integrity-forensics/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/integrity-forensics/references/upstream.md",
+      "bytes": 17170
+    },
+    {
+      "path": "资料/论文/技能/ARIS/integrity-forensics/SKILL.en.md",
+      "bytes": 2343
+    },
+    {
+      "path": "资料/论文/技能/ARIS/integrity-forensics/SKILL.md",
+      "bytes": 2138
+    },
+    {
+      "path": "资料/论文/技能/ARIS/integrity-forensics/SOURCE.md",
+      "bytes": 3002
+    },
+    {
+      "path": "资料/论文/技能/ARIS/interview-cheatsheet/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/interview-cheatsheet/references/support/docs/tutorials/attention_tutorial.md",
+      "bytes": 30353
+    },
+    {
+      "path": "资料/论文/技能/ARIS/interview-cheatsheet/references/support/docs/tutorials/flow_matching_tutorial.md",
+      "bytes": 24162
+    },
+    {
+      "path": "资料/论文/技能/ARIS/interview-cheatsheet/references/support/docs/tutorials/README.md",
+      "bytes": 8735
+    },
+    {
+      "path": "资料/论文/技能/ARIS/interview-cheatsheet/references/upstream.md",
+      "bytes": 13568
+    },
+    {
+      "path": "资料/论文/技能/ARIS/interview-cheatsheet/SKILL.en.md",
+      "bytes": 2248
+    },
+    {
+      "path": "资料/论文/技能/ARIS/interview-cheatsheet/SKILL.md",
+      "bytes": 2059
+    },
+    {
+      "path": "资料/论文/技能/ARIS/interview-cheatsheet/SOURCE.md",
+      "bytes": 3096
+    },
+    {
+      "path": "资料/论文/技能/ARIS/invention-structuring/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/invention-structuring/references/support/skills/shared-references/patent-writing-principles.md",
+      "bytes": 9032
+    },
+    {
+      "path": "资料/论文/技能/ARIS/invention-structuring/references/support/skills/shared-references/writing-principles.md",
+      "bytes": 14939
+    },
+    {
+      "path": "资料/论文/技能/ARIS/invention-structuring/references/upstream.md",
+      "bytes": 6754
+    },
+    {
+      "path": "资料/论文/技能/ARIS/invention-structuring/SKILL.en.md",
+      "bytes": 2236
+    },
+    {
+      "path": "资料/论文/技能/ARIS/invention-structuring/SKILL.md",
+      "bytes": 1991
+    },
+    {
+      "path": "资料/论文/技能/ARIS/invention-structuring/SOURCE.md",
+      "bytes": 2808
+    },
+    {
+      "path": "资料/论文/技能/ARIS/jurisdiction-format/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/jurisdiction-format/references/support/skills/shared-references/patent-format-cn.md",
+      "bytes": 9352
+    },
+    {
+      "path": "资料/论文/技能/ARIS/jurisdiction-format/references/support/skills/shared-references/patent-format-ep.md",
+      "bytes": 6542
+    },
+    {
+      "path": "资料/论文/技能/ARIS/jurisdiction-format/references/support/skills/shared-references/patent-format-us.md",
+      "bytes": 6151
+    },
+    {
+      "path": "资料/论文/技能/ARIS/jurisdiction-format/references/upstream.md",
+      "bytes": 6816
+    },
+    {
+      "path": "资料/论文/技能/ARIS/jurisdiction-format/SKILL.en.md",
+      "bytes": 2278
+    },
+    {
+      "path": "资料/论文/技能/ARIS/jurisdiction-format/SKILL.md",
+      "bytes": 2040
+    },
+    {
+      "path": "资料/论文/技能/ARIS/jurisdiction-format/SOURCE.md",
+      "bytes": 2988
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/assurance-contract.md",
+      "bytes": 11801
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/fan-out-pattern.md",
+      "bytes": 19911
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/references/support/skills/shared-references/reviewer-routing.md",
+      "bytes": 49383
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/references/upstream.md",
+      "bytes": 24876
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/SKILL.en.md",
+      "bytes": 2321
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/SKILL.md",
+      "bytes": 2077
+    },
+    {
+      "path": "资料/论文/技能/ARIS/kill-argument/SOURCE.md",
+      "bytes": 3684
+    },
+    {
+      "path": "资料/论文/技能/ARIS/mermaid-diagram/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/mermaid-diagram/references/upstream.md",
+      "bytes": 16321
+    },
+    {
+      "path": "资料/论文/技能/ARIS/mermaid-diagram/SKILL.en.md",
+      "bytes": 2247
+    },
+    {
+      "path": "资料/论文/技能/ARIS/mermaid-diagram/SKILL.md",
+      "bytes": 2025
+    },
+    {
+      "path": "资料/论文/技能/ARIS/mermaid-diagram/SOURCE.md",
+      "bytes": 2554
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/review-scope-limits.md",
+      "bytes": 4174
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/references/support/skills/shared-references/skill-governance.md",
+      "bytes": 5710
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/references/upstream.md",
+      "bytes": 7912
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/SKILL.en.md",
+      "bytes": 2276
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/SKILL.md",
+      "bytes": 2056
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-apply/SOURCE.md",
+      "bytes": 3489
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/capture-antipatterns.md",
+      "bytes": 4516
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/references/upstream.md",
+      "bytes": 23816
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/SKILL.en.md",
+      "bytes": 2302
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/SKILL.md",
+      "bytes": 2064
+    },
+    {
+      "path": "资料/论文/技能/ARIS/meta-optimize/SOURCE.md",
+      "bytes": 4183
+    },
+    {
+      "path": "资料/论文/技能/ARIS/monitor-experiment/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/monitor-experiment/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/monitor-experiment/references/upstream.md",
+      "bytes": 5050
+    },
+    {
+      "path": "资料/论文/技能/ARIS/monitor-experiment/SKILL.en.md",
+      "bytes": 2289
+    },
+    {
+      "path": "资料/论文/技能/ARIS/monitor-experiment/SKILL.md",
+      "bytes": 2076
+    },
+    {
+      "path": "资料/论文/技能/ARIS/monitor-experiment/SOURCE.md",
+      "bytes": 2682
+    },
+    {
+      "path": "资料/论文/技能/ARIS/novelty-check/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/novelty-check/references/support/skills/shared-references/citation-discipline.md",
+      "bytes": 20131
+    },
+    {
+      "path": "资料/论文/技能/ARIS/novelty-check/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/novelty-check/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/novelty-check/references/upstream.md",
+      "bytes": 7205
+    },
+    {
+      "path": "资料/论文/技能/ARIS/novelty-check/SKILL.en.md",
+      "bytes": 3131
+    },
+    {
+      "path": "资料/论文/技能/ARIS/novelty-check/SKILL.md",
+      "bytes": 2740
+    },
+    {
+      "path": "资料/论文/技能/ARIS/novelty-check/SOURCE.md",
+      "bytes": 3060
+    },
+    {
+      "path": "资料/论文/技能/ARIS/openalex/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/openalex/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/openalex/references/upstream.md",
+      "bytes": 9771
+    },
+    {
+      "path": "资料/论文/技能/ARIS/openalex/SKILL.en.md",
+      "bytes": 3011
+    },
+    {
+      "path": "资料/论文/技能/ARIS/openalex/SKILL.md",
+      "bytes": 2542
+    },
+    {
+      "path": "资料/论文/技能/ARIS/openalex/SOURCE.md",
+      "bytes": 2702
+    },
+    {
+      "path": "资料/论文/技能/ARIS/overleaf-sync/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/overleaf-sync/references/upstream.md",
+      "bytes": 11115
+    },
+    {
+      "path": "资料/论文/技能/ARIS/overleaf-sync/SKILL.en.md",
+      "bytes": 2271
+    },
+    {
+      "path": "资料/论文/技能/ARIS/overleaf-sync/SKILL.md",
+      "bytes": 2071
+    },
+    {
+      "path": "资料/论文/技能/ARIS/overleaf-sync/SOURCE.md",
+      "bytes": 2624
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/assurance-contract.md",
+      "bytes": 11801
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/references/upstream.md",
+      "bytes": 14248
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/SKILL.en.md",
+      "bytes": 2265
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/SKILL.md",
+      "bytes": 2107
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-claim-audit/SOURCE.md",
+      "bytes": 3479
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-compile/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-compile/references/upstream.md",
+      "bytes": 10070
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-compile/SKILL.en.md",
+      "bytes": 2279
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-compile/SKILL.md",
+      "bytes": 2060
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-compile/SOURCE.md",
+      "bytes": 2521
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-figure/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-figure/references/upstream.md",
+      "bytes": 13677
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-figure/SKILL.en.md",
+      "bytes": 2224
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-figure/SKILL.md",
+      "bytes": 2036
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-figure/SOURCE.md",
+      "bytes": 2465
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration/references/upstream.md",
+      "bytes": 33241
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration/SKILL.en.md",
+      "bytes": 2258
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration/SKILL.md",
+      "bytes": 2059
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration/SOURCE.md",
+      "bytes": 2851
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration-image2/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration-image2/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration-image2/references/upstream.md",
+      "bytes": 18777
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration-image2/SKILL.en.md",
+      "bytes": 2262
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration-image2/SKILL.md",
+      "bytes": 2067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-illustration-image2/SOURCE.md",
+      "bytes": 2934
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/assurance-contract.md",
+      "bytes": 11801
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/venue-checklists.md",
+      "bytes": 5582
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/support/skills/shared-references/writing-principles.md",
+      "bytes": 14939
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/references/upstream.md",
+      "bytes": 20623
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/SKILL.en.md",
+      "bytes": 2160
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/SKILL.md",
+      "bytes": 1974
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-plan/SOURCE.md",
+      "bytes": 4078
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster/references/upstream.md",
+      "bytes": 828
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster/SKILL.en.md",
+      "bytes": 2075
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster/SKILL.md",
+      "bytes": 1900
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster/SOURCE.md",
+      "bytes": 2470
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/NOTICE.md",
+      "bytes": 3288
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/posterly-MIT.txt",
+      "bytes": 1069
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/paper-poster-html/DESIGN_FINAL.md",
+      "bytes": 9948
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/paper-poster-html/IMPLEMENTATION_CONVENTIONS.md",
+      "bytes": 8942
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/paper-poster-html/templates/COMPONENTS.md",
+      "bytes": 31274
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/paper-poster-html/templates/README.md",
+      "bytes": 10442
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/support/skills/shared-references/taste-calibration.md",
+      "bytes": 4515
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/support/templates/README.md",
+      "bytes": 3064
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/references/upstream.md",
+      "bytes": 18468
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/SKILL.en.md",
+      "bytes": 2359
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/SKILL.md",
+      "bytes": 2149
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-poster-html/SOURCE.md",
+      "bytes": 5597
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-slides/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-slides/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-slides/references/upstream.md",
+      "bytes": 22974
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-slides/SKILL.en.md",
+      "bytes": 2191
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-slides/SKILL.md",
+      "bytes": 2025
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-slides/SOURCE.md",
+      "bytes": 2744
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/references/support/skills/shared-references/assurance-contract.md",
+      "bytes": 11801
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/references/support/skills/shared-references/effort-contract.md",
+      "bytes": 8352
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/references/support/skills/shared-references/experiment-integrity.md",
+      "bytes": 2355
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/references/upstream.md",
+      "bytes": 20937
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/SKILL.en.md",
+      "bytes": 2196
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/SKILL.md",
+      "bytes": 2031
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-talk/SOURCE.md",
+      "bytes": 3251
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/citation-discipline.md",
+      "bytes": 20131
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/venue-checklists.md",
+      "bytes": 5582
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/references/support/skills/shared-references/writing-principles.md",
+      "bytes": 14939
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/references/upstream.md",
+      "bytes": 38112
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/SKILL.en.md",
+      "bytes": 2262
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/SKILL.md",
+      "bytes": 2045
+    },
+    {
+      "path": "资料/论文/技能/ARIS/paper-write/SOURCE.md",
+      "bytes": 4000
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-novelty-check/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-novelty-check/references/support/skills/shared-references/patent-format-us.md",
+      "bytes": 6151
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-novelty-check/references/support/skills/shared-references/patent-writing-principles.md",
+      "bytes": 9032
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-novelty-check/references/support/skills/shared-references/writing-principles.md",
+      "bytes": 14939
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-novelty-check/references/upstream.md",
+      "bytes": 5789
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-novelty-check/SKILL.en.md",
+      "bytes": 2249
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-novelty-check/SKILL.md",
+      "bytes": 2021
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-novelty-check/SOURCE.md",
+      "bytes": 3044
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-pipeline/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-pipeline/references/upstream.md",
+      "bytes": 14542
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-pipeline/SKILL.en.md",
+      "bytes": 2252
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-pipeline/SKILL.md",
+      "bytes": 2063
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-pipeline/SOURCE.md",
+      "bytes": 2573
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-review/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-review/references/upstream.md",
+      "bytes": 6651
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-review/SKILL.en.md",
+      "bytes": 2193
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-review/SKILL.md",
+      "bytes": 2029
+    },
+    {
+      "path": "资料/论文/技能/ARIS/patent-review/SOURCE.md",
+      "bytes": 2444
+    },
+    {
+      "path": "资料/论文/技能/ARIS/pixel-art/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/pixel-art/references/upstream.md",
+      "bytes": 5342
+    },
+    {
+      "path": "资料/论文/技能/ARIS/pixel-art/SKILL.en.md",
+      "bytes": 2080
+    },
+    {
+      "path": "资料/论文/技能/ARIS/pixel-art/SKILL.md",
+      "bytes": 1880
+    },
+    {
+      "path": "资料/论文/技能/ARIS/pixel-art/SOURCE.md",
+      "bytes": 2504
+    },
+    {
+      "path": "资料/论文/技能/ARIS/prior-art-search/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/prior-art-search/references/support/skills/shared-references/prior-art-databases.md",
+      "bytes": 5455
+    },
+    {
+      "path": "资料/论文/技能/ARIS/prior-art-search/references/upstream.md",
+      "bytes": 5538
+    },
+    {
+      "path": "资料/论文/技能/ARIS/prior-art-search/SKILL.en.md",
+      "bytes": 2238
+    },
+    {
+      "path": "资料/论文/技能/ARIS/prior-art-search/SKILL.md",
+      "bytes": 2019
+    },
+    {
+      "path": "资料/论文/技能/ARIS/prior-art-search/SOURCE.md",
+      "bytes": 2684
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/assurance-contract.md",
+      "bytes": 11801
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/fan-out-pattern.md",
+      "bytes": 19911
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/references/support/skills/shared-references/reviewer-routing.md",
+      "bytes": 49383
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/references/upstream.md",
+      "bytes": 54345
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/SKILL.en.md",
+      "bytes": 2431
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/SKILL.md",
+      "bytes": 2184
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-checker/SOURCE.md",
+      "bytes": 3749
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/NOTICE.md",
+      "bytes": 1147
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/audit-output-contract.md",
+      "bytes": 4503
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/deepseek-routing.md",
+      "bytes": 3301
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/dispatch-prompts.md",
+      "bytes": 7841
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/notation-audit.md",
+      "bytes": 5327
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/proof-audit-rubric.md",
+      "bytes": 4430
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/references/support/skills/proof-orchestrator/references/stress-tests.md",
+      "bytes": 1825
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/references/upstream.md",
+      "bytes": 18556
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/SKILL.en.md",
+      "bytes": 3093
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/SKILL.md",
+      "bytes": 2769
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-orchestrator/SOURCE.md",
+      "bytes": 4067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-writer/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-writer/references/upstream.md",
+      "bytes": 7596
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-writer/SKILL.en.md",
+      "bytes": 2274
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-writer/SKILL.md",
+      "bytes": 2015
+    },
+    {
+      "path": "资料/论文/技能/ARIS/proof-writer/SOURCE.md",
+      "bytes": 2513
+    },
+    {
+      "path": "资料/论文/技能/ARIS/qzcli/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/qzcli/references/support/skills/shared-references/compute-env-contract.md",
+      "bytes": 10567
+    },
+    {
+      "path": "资料/论文/技能/ARIS/qzcli/references/upstream.md",
+      "bytes": 7947
+    },
+    {
+      "path": "资料/论文/技能/ARIS/qzcli/SKILL.en.md",
+      "bytes": 2213
+    },
+    {
+      "path": "资料/论文/技能/ARIS/qzcli/SKILL.md",
+      "bytes": 2030
+    },
+    {
+      "path": "资料/论文/技能/ARIS/qzcli/SOURCE.md",
+      "bytes": 2747
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/references/support/docs/SKILLS_CATALOG.md",
+      "bytes": 20289
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/references/support/skills/shared-references/reviewer-routing.md",
+      "bytes": 49383
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/references/upstream.md",
+      "bytes": 21841
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/SKILL.en.md",
+      "bytes": 2240
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/SKILL.md",
+      "bytes": 2024
+    },
+    {
+      "path": "资料/论文/技能/ARIS/render-html/SOURCE.md",
+      "bytes": 3434
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/citation-discipline.md",
+      "bytes": 20131
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/fan-out-pattern.md",
+      "bytes": 19911
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/output-composition.md",
+      "bytes": 5005
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "bytes": 6482
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/references/upstream.md",
+      "bytes": 43992
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/SKILL.en.md",
+      "bytes": 3694
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/SKILL.md",
+      "bytes": 3170
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-lit/SOURCE.md",
+      "bytes": 4000
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/references/support/skills/shared-references/taste-calibration.md",
+      "bytes": 4515
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/references/upstream.md",
+      "bytes": 33480
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/SKILL.en.md",
+      "bytes": 3508
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/SKILL.md",
+      "bytes": 3024
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine/SOURCE.md",
+      "bytes": 3258
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine-pipeline/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine-pipeline/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine-pipeline/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine-pipeline/references/support/skills/shared-references/output-versioning.md",
+      "bytes": 4807
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine-pipeline/references/upstream.md",
+      "bytes": 6281
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine-pipeline/SKILL.en.md",
+      "bytes": 3234
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine-pipeline/SKILL.md",
+      "bytes": 2736
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-refine-pipeline/SOURCE.md",
+      "bytes": 3072
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-wiki/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-wiki/references/support/skills/shared-references/capture-antipatterns.md",
+      "bytes": 4516
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-wiki/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-wiki/references/upstream.md",
+      "bytes": 20511
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-wiki/SKILL.en.md",
+      "bytes": 3371
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-wiki/SKILL.md",
+      "bytes": 2935
+    },
+    {
+      "path": "资料/论文/技能/ARIS/research-wiki/SOURCE.md",
+      "bytes": 3062
+    },
+    {
+      "path": "资料/论文/技能/ARIS/resubmit-pipeline/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/resubmit-pipeline/references/support/skills/shared-references/assurance-contract.md",
+      "bytes": 11801
+    },
+    {
+      "path": "资料/论文/技能/ARIS/resubmit-pipeline/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/resubmit-pipeline/references/upstream.md",
+      "bytes": 33457
+    },
+    {
+      "path": "资料/论文/技能/ARIS/resubmit-pipeline/SKILL.en.md",
+      "bytes": 2274
+    },
+    {
+      "path": "资料/论文/技能/ARIS/resubmit-pipeline/SKILL.md",
+      "bytes": 2060
+    },
+    {
+      "path": "资料/论文/技能/ARIS/resubmit-pipeline/SOURCE.md",
+      "bytes": 2980
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/acceptance-gate.md",
+      "bytes": 16967
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/evidence-precheck.md",
+      "bytes": 3248
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/experiment-integrity.md",
+      "bytes": 2355
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/reviewer-routing.md",
+      "bytes": 49383
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "bytes": 6482
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/references/upstream.md",
+      "bytes": 16705
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/SKILL.en.md",
+      "bytes": 4059
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/SKILL.md",
+      "bytes": 3547
+    },
+    {
+      "path": "资料/论文/技能/ARIS/result-to-claim/SOURCE.md",
+      "bytes": 4253
+    },
+    {
+      "path": "资料/论文/技能/ARIS/semantic-scholar/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/semantic-scholar/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/semantic-scholar/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "bytes": 6482
+    },
+    {
+      "path": "资料/论文/技能/ARIS/semantic-scholar/references/upstream.md",
+      "bytes": 10943
+    },
+    {
+      "path": "资料/论文/技能/ARIS/semantic-scholar/SKILL.en.md",
+      "bytes": 2203
+    },
+    {
+      "path": "资料/论文/技能/ARIS/semantic-scholar/SKILL.md",
+      "bytes": 2013
+    },
+    {
+      "path": "资料/论文/技能/ARIS/semantic-scholar/SOURCE.md",
+      "bytes": 3006
+    },
+    {
+      "path": "资料/论文/技能/ARIS/serverless-modal/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/serverless-modal/references/support/skills/shared-references/compute-env-contract.md",
+      "bytes": 10567
+    },
+    {
+      "path": "资料/论文/技能/ARIS/serverless-modal/references/upstream.md",
+      "bytes": 13161
+    },
+    {
+      "path": "资料/论文/技能/ARIS/serverless-modal/SKILL.en.md",
+      "bytes": 2275
+    },
+    {
+      "path": "资料/论文/技能/ARIS/serverless-modal/SKILL.md",
+      "bytes": 2067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/serverless-modal/SOURCE.md",
+      "bytes": 2729
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/effort-contract.md",
+      "bytes": 8352
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/experiment-integrity.md",
+      "bytes": 2355
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/review-tracing.md",
+      "bytes": 18505
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/reviewer-independence.md",
+      "bytes": 3473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/references/support/skills/shared-references/reviewer-routing.md",
+      "bytes": 49383
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/references/upstream.md",
+      "bytes": 28429
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/SKILL.en.md",
+      "bytes": 2184
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/SKILL.md",
+      "bytes": 2004
+    },
+    {
+      "path": "资料/论文/技能/ARIS/slides-polish/SOURCE.md",
+      "bytes": 3486
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/patent-format-cn.md",
+      "bytes": 9352
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/patent-format-ep.md",
+      "bytes": 6542
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/patent-format-us.md",
+      "bytes": 6151
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/patent-writing-principles.md",
+      "bytes": 9032
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/references/support/skills/shared-references/writing-principles.md",
+      "bytes": 14939
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/references/upstream.md",
+      "bytes": 8565
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/SKILL.en.md",
+      "bytes": 2176
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/SKILL.md",
+      "bytes": 2016
+    },
+    {
+      "path": "资料/论文/技能/ARIS/specification-writing/SOURCE.md",
+      "bytes": 3477
+    },
+    {
+      "path": "资料/论文/技能/ARIS/system-profile/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/system-profile/references/upstream.md",
+      "bytes": 4473
+    },
+    {
+      "path": "资料/论文/技能/ARIS/system-profile/SKILL.en.md",
+      "bytes": 2241
+    },
+    {
+      "path": "资料/论文/技能/ARIS/system-profile/SKILL.md",
+      "bytes": 2036
+    },
+    {
+      "path": "资料/论文/技能/ARIS/system-profile/SOURCE.md",
+      "bytes": 2575
+    },
+    {
+      "path": "资料/论文/技能/ARIS/training-check/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/training-check/references/support/skills/shared-references/external-cadence.md",
+      "bytes": 19084
+    },
+    {
+      "path": "资料/论文/技能/ARIS/training-check/references/upstream.md",
+      "bytes": 5770
+    },
+    {
+      "path": "资料/论文/技能/ARIS/training-check/SKILL.en.md",
+      "bytes": 2276
+    },
+    {
+      "path": "资料/论文/技能/ARIS/training-check/SKILL.md",
+      "bytes": 2036
+    },
+    {
+      "path": "资料/论文/技能/ARIS/training-check/SOURCE.md",
+      "bytes": 2728
+    },
+    {
+      "path": "资料/论文/技能/ARIS/vast-gpu/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/vast-gpu/references/support/skills/shared-references/compute-env-contract.md",
+      "bytes": 10567
+    },
+    {
+      "path": "资料/论文/技能/ARIS/vast-gpu/references/upstream.md",
+      "bytes": 15737
+    },
+    {
+      "path": "资料/论文/技能/ARIS/vast-gpu/SKILL.en.md",
+      "bytes": 2319
+    },
+    {
+      "path": "资料/论文/技能/ARIS/vast-gpu/SKILL.md",
+      "bytes": 2089
+    },
+    {
+      "path": "资料/论文/技能/ARIS/vast-gpu/SOURCE.md",
+      "bytes": 2709
+    },
+    {
+      "path": "资料/论文/技能/ARIS/web-debug-search/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/web-debug-search/references/upstream.md",
+      "bytes": 15068
+    },
+    {
+      "path": "资料/论文/技能/ARIS/web-debug-search/SKILL.en.md",
+      "bytes": 2271
+    },
+    {
+      "path": "资料/论文/技能/ARIS/web-debug-search/SKILL.md",
+      "bytes": 2064
+    },
+    {
+      "path": "资料/论文/技能/ARIS/web-debug-search/SOURCE.md",
+      "bytes": 2527
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/references/support/skills/shared-references/integration-contract.md",
+      "bytes": 25765
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/references/support/skills/shared-references/output-language.md",
+      "bytes": 2215
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/references/support/skills/shared-references/output-manifest.md",
+      "bytes": 2354
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/references/support/skills/shared-references/wiki-helper-resolution.md",
+      "bytes": 6482
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/references/upstream.md",
+      "bytes": 16599
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/SKILL.en.md",
+      "bytes": 3332
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/SKILL.md",
+      "bytes": 2838
+    },
+    {
+      "path": "资料/论文/技能/ARIS/wiki-enrich/SOURCE.md",
+      "bytes": 3266
+    },
+    {
+      "path": "资料/论文/技能/ARIS/writing-systems-papers/LICENSE.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "资料/论文/技能/ARIS/writing-systems-papers/references/upstream.md",
+      "bytes": 6903
+    },
+    {
+      "path": "资料/论文/技能/ARIS/writing-systems-papers/SKILL.en.md",
+      "bytes": 2334
+    },
+    {
+      "path": "资料/论文/技能/ARIS/writing-systems-papers/SKILL.md",
+      "bytes": 2056
+    },
+    {
+      "path": "资料/论文/技能/ARIS/writing-systems-papers/SOURCE.md",
+      "bytes": 2520
+    },
+    {
+      "path": "资料/论文/技能/ARIS/来源与融合说明.md",
+      "bytes": 9226
+    },
+    {
+      "path": "资料/论文/技能/ARIS/来源清单.json",
+      "bytes": 230886
+    },
+    {
+      "path": "资料/论文/技能/SKILL.en.md",
+      "bytes": 16260
+    },
+    {
+      "path": "资料/论文/技能/SKILL.md",
+      "bytes": 15145
+    },
+    {
+      "path": "资料/论文/方法/LICENSE.txt",
+      "bytes": 1084
+    },
+    {
+      "path": "资料/论文/方法/README.md",
+      "bytes": 1477
+    },
+    {
+      "path": "资料/论文/方法/引用核验卡.md",
+      "bytes": 1131
+    },
+    {
+      "path": "资料/论文/方法/许可范围.md",
+      "bytes": 651
+    },
+    {
+      "path": "资料/论文/方法/论文证据卡.md",
+      "bytes": 1233
+    }
+  ],
+  "file_count": 1421,
+  "bytes": 95914727,
+  "config": {
+    "version": 1,
+    "extra": []
+  },
+  "profile": "research",
+  "onboarding_examples": {
+    "created": [
+      "资料/PPT/导出/MiracleHarness 项目介绍.pptx",
+      "资料/文献/原文/L1 MiracleHarness 项目介绍.pdf",
+      "资料/文献/解读/L1 MiracleHarness 项目介绍/文本/讲解.md"
+    ],
+    "skipped": [],
+    "conflicts": [],
+    "library": [
+      {
+        "code": "L1",
+        "pdf": "原文/L1 MiracleHarness 项目介绍.pdf",
+        "created": true
+      }
+    ],
+    "downloads": [
+      {
+        "code": "下-1",
+        "title": "Attention Is All You Need",
+        "created": true,
+        "state": "还没下"
+      },
+      {
+        "code": "下-2",
+        "title": "Language Models are Few-Shot Learners",
+        "created": true,
+        "state": "还没下"
+      },
+      {
+        "code": "下-3",
+        "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "created": true,
+        "state": "还没下"
+      }
+    ],
+    "fresh_public_demo_db": true,
+    "preloaded_builtin_files": [
+      "资料/PPT/导出/MiracleHarness 项目介绍.pdf"
+    ]
+  },
+  "builtin_marks": {
+    "paths": [
+      "资料/PPT/导出/MiracleHarness 项目介绍.pdf",
+      "资料/PPT/工作台",
+      "资料/PPT/技能",
+      "资料/写小说/方法",
+      "资料/写论文/方法",
+      "资料/实验/方法",
+      "资料/宣传片/工作台",
+      "资料/宣传片/成果",
+      "资料/想法/方法",
+      "资料/想法/方法/科研",
+      "资料/投稿与返修/方法",
+      "资料/数据与分析/方法",
+      "资料/文献/工作台",
+      "资料/文献/技能",
+      "资料/文献/方法",
+      "资料/汇报/方法",
+      "资料/测试/工作台",
+      "资料/素材/方法",
+      "资料/论文/工作台",
+      "资料/论文/技能",
+      "资料/论文/方法"
+    ]
+  },
+  "release_cleanup": {
+    "removed_files": [
+      "工具库/安装指南/应用图片/backend-dependencies-official-favicon.png",
+      "工具库/安装指南/应用图片/bundled-web-libraries-official-favicon.ico",
+      "工具库/安装指南/应用图片/codebuddy-official-favicon.svg",
+      "工具库/安装指南/应用图片/codex-official-favicon.png",
+      "工具库/安装指南/应用图片/cursor-official-favicon.svg",
+      "工具库/安装指南/应用图片/deepseek-harness-official-favicon.svg",
+      "工具库/安装指南/应用图片/ffmpeg-official-favicon.ico",
+      "工具库/安装指南/应用图片/git-official.png",
+      "工具库/安装指南/应用图片/github-official.svg",
+      "工具库/安装指南/应用图片/jupyter-official.png",
+      "工具库/安装指南/应用图片/libreoffice-official-favicon.ico",
+      "工具库/安装指南/应用图片/lingma-official-favicon.png",
+      "工具库/安装指南/应用图片/msys2-official.svg",
+      "工具库/安装指南/应用图片/nodejs-official.svg",
+      "工具库/安装指南/应用图片/pycharm-official.svg",
+      "工具库/安装指南/应用图片/python-official.png",
+      "工具库/安装指南/应用图片/qwen-code-official-favicon.png",
+      "工具库/安装指南/应用图片/vscode-official.png",
+      "工具库/安装指南/应用图片/workbuddy-official-favicon.svg",
+      "工具库/安装指南/应用图片/zcode-official-favicon.png",
+      "工具库/安装指南/应用图片/zotero-official.png",
+      "工具库/安装指南/应用截图/backend-dependencies.png",
+      "工具库/安装指南/应用截图/blender.png",
+      "工具库/安装指南/应用截图/bundled-web-libraries.png",
+      "工具库/安装指南/应用截图/claude-code.png",
+      "工具库/安装指南/应用截图/codebuddy.png",
+      "工具库/安装指南/应用截图/codex.png",
+      "工具库/安装指南/应用截图/cursor.png",
+      "工具库/安装指南/应用截图/deepseek-harness.png",
+      "工具库/安装指南/应用截图/drawio.png",
+      "工具库/安装指南/应用截图/ffmpeg.png",
+      "工具库/安装指南/应用截图/libreoffice.png",
+      "工具库/安装指南/应用截图/lingma.png",
+      "工具库/安装指南/应用截图/link-repo-001.jpg",
+      "工具库/安装指南/应用截图/link-repo-002.jpg",
+      "工具库/安装指南/应用截图/link-repo-003.jpg",
+      "工具库/安装指南/应用截图/link-repo-004.jpg",
+      "工具库/安装指南/应用截图/link-repo-005.jpg",
+      "工具库/安装指南/应用截图/link-repo-006.jpg",
+      "工具库/安装指南/应用截图/link-repo-007.jpg",
+      "工具库/安装指南/应用截图/link-repo-008.jpg",
+      "工具库/安装指南/应用截图/link-repo-009.jpg",
+      "工具库/安装指南/应用截图/link-repo-011.jpg",
+      "工具库/安装指南/应用截图/link-repo-018.jpg",
+      "工具库/安装指南/应用截图/link-repo-022.jpg",
+      "工具库/安装指南/应用截图/link-web-011.jpg",
+      "工具库/安装指南/应用截图/link-web-012.jpg",
+      "工具库/安装指南/应用截图/link-web-013.jpg",
+      "工具库/安装指南/应用截图/link-web-014.jpg",
+      "工具库/安装指南/应用截图/link-web-028.jpg",
+      "工具库/安装指南/应用截图/link-web-029.jpg",
+      "工具库/安装指南/应用截图/link-web-035.jpg",
+      "工具库/安装指南/应用截图/msys2-official-doc.png",
+      "工具库/安装指南/应用截图/nodejs.png",
+      "工具库/安装指南/应用截图/pycharm-official-doc.png",
+      "工具库/安装指南/应用截图/qwen-code.png",
+      "工具库/安装指南/应用截图/stepfun.png",
+      "工具库/安装指南/应用截图/texlive.png",
+      "工具库/安装指南/应用截图/vscode-official-doc.png",
+      "工具库/安装指南/应用截图/workbuddy.png",
+      "工具库/安装指南/应用截图/zcode.png",
+      "索引/state.db-shm",
+      "索引/state.db-wal"
+    ],
+    "asset_records_removed": 41,
+    "image_references_removed": 71,
+    "markdown_image_references_removed": 91,
+    "markdown_files_updated": 41,
+    "source_locks": [
+      {
+        "path": "技能库/业务/sources.lock.json",
+        "retained_records": 415,
+        "excluded_records": 389
+      },
+      {
+        "path": "资料/文献/方法/科研/来源/sources.lock.json",
+        "retained_records": 27,
+        "excluded_records": 0
+      }
+    ],
+    "fresh_public_demo_db": true,
+    "database_description": "New database initialized only from public demonstration files and declared official download-link examples; source project database is never copied.",
+    "removed_file_count": 63,
+    "public_demo_replacements": [
+      "资料/PPT/工作台/作品/MiracleHarness 项目介绍.pptx",
+      "资料/文献/工作台/示例/MiracleHarness 项目介绍.pdf",
+      "资料/文献/工作台/示例/讲解.md"
+    ],
+    "public_payload_roots": [
+      "资料/写小说/方法",
+      "资料/写论文/方法",
+      "资料/想法/方法",
+      "资料/宣传片/成果",
+      "资料/宣传片/工作台"
+    ],
+    "public_demo_counts": {
+      "library": 1,
+      "downloads": 3,
+      "created_files": 3,
+      "preloaded_builtin_files": 1
+    },
+    "optional_skill_links_removed": 74,
+    "excluded_invalid_profiles": [
+      "business"
+    ],
+    "excluded_video_drafts": [
+      {
+        "path": "资料/宣传片/成果/宣传片-草稿.mp4",
+        "bytes": 19674008,
+        "sha256": "a18f37eda16f57da62889e788dc9183048ea516e17ad3e3e887b306141df3cd7"
+      },
+      {
+        "path": "资料/宣传片/成果/草稿-宣传片-MiracleHarness-30秒预告-中文.mp4",
+        "bytes": 22558100,
+        "sha256": "e6c9e5babab7f676672e63ed637600e96cb5432d8c531c228238b4c46fcf9596"
+      }
+    ],
+    "retained_video_example": "资料/宣传片/成果/宣传片-爱琴海.mp4",
+    "video_example_count": 1,
+    "excluded_duplicate_pdf": {
+      "path": "资料/PPT/工作台/作品/MiracleHarness 项目介绍.pdf",
+      "bytes": 2221297,
+      "sha256": "1246ea01bba551b2c3e97382d0343856914d29b0f2425d8684db4e66755b20d6"
+    },
+    "retained_ppt_pdf": "资料/PPT/导出/MiracleHarness 项目介绍.pdf"
+  }
+}

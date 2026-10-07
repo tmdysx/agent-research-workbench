@@ -1,0 +1,19 @@
+<!-- 自绘操作图标：辅助按钮文字，不替代状态或品牌标志。 -->
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <symbol id="mh-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 4.5 4.5"/></symbol>
+  <symbol id="mh-inbox" viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 13h5l2 3h2l2-3h5"/></symbol>
+  <symbol id="mh-note" viewBox="0 0 24 24"><path d="M14 4H5v16h14v-9M9 15l1-4 8-8 3 3-8 8-4 1z"/></symbol>
+  <symbol id="mh-flow" viewBox="0 0 24 24"><rect x="3" y="3" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M6 8v10h9M9 5.5h9v10.5"/></symbol>
+  <symbol id="mh-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7V5z"/></symbol>
+  <symbol id="mh-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+  <symbol id="mh-review" viewBox="0 0 24 24"><path d="M15 4H5v16h14v-8M8 10h4M8 14h4m2-7 3 3 5-6"/></symbol>
+  <symbol id="mh-archive" viewBox="0 0 24 24"><path d="M4 8h16v12H4zM3 4h18v4H3zM9 12h6"/></symbol>
+  <symbol id="mh-sliders" viewBox="0 0 24 24"><path d="M4 6h3m4 0h9M4 12h9m4 0h3M4 18h3m4 0h9"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="9" cy="18" r="2"/></symbol>
+  <symbol id="mh-terminal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3m6 0h4"/></symbol>
+  <symbol id="mh-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="1"/><path d="M16 8V3H3v13h5"/></symbol>
+  <symbol id="mh-book" viewBox="0 0 24 24"><path d="M12 6C9 4 5 4 3 5v15c2-1 6-1 9 1 3-2 7-2 9-1V5c-2-1-6-1-9 1v15"/></symbol>
+  <symbol id="mh-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+  <symbol id="mh-folder" viewBox="0 0 24 24"><path d="M3 5h7l2 3h9v12H3V5z"/></symbol>
+  <symbol id="mh-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  <symbol id="mh-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+</svg>

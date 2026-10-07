@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "wallpapers": [
+    {
+      "id": "02",
+      "title": "白金世界树",
+      "path": "外观/壁纸/02 白金世界树.png",
+      "bytes": 1982636,
+      "sha256": "c9af0edd5b5b7372ef63c6488b493b6f0e05c361bc0dcb23c79d22c2ad501cef",
+      "title_en": "White-gold World Tree",
+      "source": "作者提供的原图 · User-provided original"
+    },
+    {
+      "id": "03",
+      "title": "金顶金字塔",
+      "path": "外观/壁纸/03 金顶金字塔.png",
+      "bytes": 2294026,
+      "sha256": "8183f34226e0d7510ee101e616a9bea03b76631f26aa7f7b5ec2a09b3004aad7",
+      "title_en": "Golden-tip Pyramid",
+      "source": "作者提供的原图 · User-provided original"
+    },
+    {
+      "id": "04",
+      "title": "四时圣域",
+      "path": "外观/壁纸/04 四时圣域.png",
+      "bytes": 3547072,
+      "sha256": "161673293213b3b2a44feb2e9eb87013894c21092aa4e23c9c7d1f6048ad17cf",
+      "title_en": "Sanctuary of Four Seasons",
+      "source": "作者提供的原图 · User-provided original"
+    },
+    {
+      "id": "05",
+      "title": "星空观测台",
+      "path": "外观/壁纸/05 星空观测台.png",
+      "bytes": 3181059,
+      "sha256": "c5baac63fb924985dd17364b6b363a1bb41eb3200363d847b990f0e261be4fb3",
+      "title_en": "Star Observatory",
+      "source": "作者提供的原图 · User-provided original"
+    },
+    {
+      "id": "06",
+      "title": "智慧之泉",
+      "path": "外观/壁纸/06 智慧之泉.png",
+      "bytes": 3325903,
+      "sha256": "88ee38ed05ab314d8cd3dba7ada3ee155e26a4c3a31e0c413addc6bc5a57c0da",
+      "title_en": "Well of Wisdom",
+      "source": "作者提供的原图 · User-provided original"
+    }
+  ]
+}

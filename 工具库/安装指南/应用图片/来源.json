@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "checked_date": "2026-10-05",
+  "purpose": "安装指南的软件识别与出处参考；原样标识和截图不代表本机安装、厂商背书或商标转让。",
+  "assets": [],
+  "license_files": [
+    {
+      "file": "Jupyter-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/jupyter/design/main/LICENSE",
+      "sha256": "5ce321d0b7a9ba831a167640ec881664d0c94b81866a4536c30dc849f651abbd"
+    }
+  ],
+  "excluded_card_logos": [
+    {
+      "id": "nodejs",
+      "source": "https://nodejs.org/en/about/branding",
+      "reason": "官方政策允许图像链接官网；当前卡片标识不直接链接官网，故不设卡片 logo，主指南仍保留原样 linked image。"
+    },
+    {
+      "id": "trae-cn",
+      "source": "https://www.trae.cn/",
+      "reason": "官方来源存在；本机浏览器 ERR_BLOCKED_BY_CLIENT、HTTP 403，未取得资源，不猜 favicon 路径；用自绘准备流程。"
+    },
+    {
+      "id": "stepfun",
+      "source": "https://chat.stepfun.com/legal/terms",
+      "reason": "桌面协议 8.4 对私自使用包括徽标的品牌标识有限制，未核授权；不复用独立 logo，保留官方页面截图/文字。"
+    },
+    {
+      "id": "claude-code",
+      "source": "https://www.anthropic.com/legal/trademark-guidelines",
+      "reason": "Anthropic 商标规范要求预先批准素材；未核到本项目素材许可，不下载复用独立 logo。"
+    },
+    {
+      "id": "drawio",
+      "source": "https://www.drawio.com/about",
+      "reason": "既有官方商标/品牌条件要求许可，未核到本项目许可，保留官方页面截图与原网页入口。"
+    },
+    {
+      "id": "blender",
+      "source": "https://www.blender.org/about/logo/",
+      "reason": "官方 Logo 使用要求完整标识、指向官网与商业使用条件；不把 head 简化 favicon 当满足所有条件。"
+    },
+    {
+      "id": "texlive",
+      "source": "https://www.latex-project.org/get/",
+      "reason": "实际官方页面没有 icon link；LaTeX hummingbird 并非 LPPL 自动许可，不猜图标。"
+    }
+  ],
+  "fetch_failures": [],
+  "release_projection": "Only bundled original assets are listed; official sources remain as text links."
+}

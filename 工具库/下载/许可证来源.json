@@ -1,0 +1,64 @@
+[
+  {
+    "folder": "pdfjs",
+    "name": "pdfjs-dist",
+    "version": "6.3.289",
+    "url": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-6.3.289.tgz",
+    "member": "package/LICENSE",
+    "license": "Apache-2.0",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "folder": "katex",
+    "name": "katex",
+    "version": "0.18.9",
+    "url": "https://registry.npmjs.org/katex/-/katex-0.18.9.tgz",
+    "member": "package/LICENSE",
+    "license": "MIT",
+    "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+  },
+  {
+    "folder": "mermaid",
+    "name": "mermaid",
+    "version": "12.0.0",
+    "url": "https://registry.npmjs.org/mermaid/-/mermaid-12.0.0.tgz",
+    "member": "package/LICENSE",
+    "license": "MIT",
+    "sha256": "ec9fb67dcb25eccc416ed56e1aab819222c805a2a4bfe4cb19e7556bf2ffde80"
+  },
+  {
+    "folder": "three",
+    "name": "three",
+    "version": "0.186.1",
+    "url": "https://registry.npmjs.org/three/-/three-0.186.1.tgz",
+    "member": "package/LICENSE",
+    "license": "MIT",
+    "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  },
+  {
+    "folder": "docx-preview",
+    "name": "docx-preview",
+    "version": "0.4.1",
+    "url": "https://registry.npmjs.org/docx-preview/-/docx-preview-0.4.1.tgz",
+    "member": "package/LICENSE",
+    "license": "Apache-2.0",
+    "sha256": "8668bf4417d161e4eb4d47d6044526e4914d9eb3c748573d9bb7e87708c1253f"
+  },
+  {
+    "folder": "PolyForm",
+    "url": "https://polyformproject.org/licenses/noncommercial/1.0.0.txt",
+    "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8"
+  },
+  {
+    "folder": "sheetjs",
+    "url": "https://cdn.sheetjs.com/xlsx-0.20.3/package/LICENSE",
+    "sha256": "4d2a38ac35cda06a555c84074a819d413339cd3691b822cae50f8f322fe01f64"
+  },
+  {
+    "folder": "jszip",
+    "url": "https://registry.npmjs.org/jszip/-/jszip-3.10.2.tgz",
+    "member": "package/LICENSE.markdown",
+    "license": "MIT OR GPL-3.0 (use MIT)",
+    "sha256": "566c953c6090b1218ca6217dd7359d45dde46581968586dc607d59a78af6a9c4"
+  }
+]
