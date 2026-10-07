@@ -1,0 +1,3 @@
+# 让 Windows 批处理脚本在任何检出或“Download ZIP”下载里都保持 CRLF 换行
+*.bat text eol=crlf
+*.cmd text eol=crlf
