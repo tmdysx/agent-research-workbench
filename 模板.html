@@ -1456,7 +1456,7 @@ body.zen .wpk-page,.zen .wpk-page{max-width:none}
 }
 /* ================= 顶部连接火苗 Connection spirit CSS 结束 ================= */
 
-.file-delete-reason{font-size:.8rem;line-height:1.4;max-width:22rem;white-space:normal;overflow-wrap:anywhere;color:var(--muted)}
+.file-delete-reason,.file-inbox-reason{font-size:.8rem;line-height:1.4;max-width:22rem;white-space:normal;overflow-wrap:anywhere;color:var(--muted)}
 .file-delete-result h2{font-size:1.25rem;line-height:1.4;margin:0 0 .6rem}.file-delete-result p{overflow-wrap:anywhere}.file-delete-result .sbtn{margin:.4rem 0}
 
 /* 存档分层目录：沿用主题、字号与金边开关。 */
@@ -3638,6 +3638,7 @@ async function showFile(path,quiet) {
       +'<button class="sbtn sticky-shortcut" id="cite" aria-label="便签 Sticky note" title="便签 Sticky note">' + stickyNoteIcon() + '便签 <span class="en">Sticky note</span></button>'
       +builtinFileSlot(shown(path),'',p.builtin_action)
       +(typeof fileDeleteButton==='function'?fileDeleteButton(p.delete_action):'')
+      +(typeof fileInboxButton==='function'?fileInboxButton(p.inbox_action):'')
       +(/^(治理\/(目标|需求|戒律|任务|计划)\/|资料\/蓝图\/S|资料\/戒律\/[123] |资料\/[^/]+\/(需求|蓝图|戒律)\.md)/.test(shown(path))?govButton(shown(path)):'')
       +'<button class="sbtn" data-pvfull>全屏</button>'
       +(OPENABLE_KINDS.indexOf(p.kind)>=0?'<button class="sbtn" id="openLocal">用本机软件打开</button>':'')
@@ -3655,6 +3656,7 @@ async function showFile(path,quiet) {
     moduleReadRemember(tx,'preview',fingerprint);
   }
   if(typeof fileDeleteBind==='function')fileDeleteBind(mv,p.delete_action,'module',path,name,MODULE_READ.serial);
+  if(typeof fileInboxBind==='function')fileInboxBind(mv,p.inbox_action,'module',path,name,MODULE_READ.serial);
   // This is preview metadata only. iframe/image/video/PDF/Office readiness stays with its real component.
   return moduleReadResult(tx,'preview-metadata',true);
 }
@@ -4419,7 +4421,8 @@ function renderMd(src, documentPath) {
 }
 
 /* ================= 外部资料入口 Intake：外面的材料从这进 =================
-   拖进来先放 资料/_外部资料入口/；agent 给候选（高/中/低 + 理由），人点一个才放进模块。
+   拖进来先放 资料/_外部资料入口/；agent 给候选（高/中/低 + 理由），人点一个放进模块，agent 有把握也能用 sort_inbox_item 直接放（写原因，记着是谁）。
+   放错地方的普通材料可从阅读页「移到入口」（agent 用 move_to_inbox）挪回来：原位置记成一条候选，点「放回原处」就回去（作者 10-08）。
    页面上任何地方松手都算放进外部资料入口——拖到它的标签上也行。 */
 let INB = [];
 function showInbox() {
@@ -4428,7 +4431,7 @@ function showInbox() {
   if (!v.dataset.built) {
     v.dataset.built = 1;
     v.innerHTML = '<h1>外部资料入口 <span class="en">Intake</span></h1>'
-      + '<div class="sub">外面的材料扔进来，先放在 资料/_外部资料入口/。agent 给几个候选，你点一个才放进模块；一模一样的文件只存一份。</div>'
+      + '<div class="sub">外面的材料扔进来，先放在 资料/_外部资料入口/。agent 给几个候选，你点一个放进模块；agent 有把握也能直接放，写明原因、记着是谁。放错地方的材料可在阅读页点「移到入口」挪回来，点「放回原处」就回去。一模一样的文件只存一份。</div>'
       + '<label class="drop" id="drop"><b>把文件或整个文件夹拖到这里</b>也可以点这里选文件<input type="file" id="pick" multiple hidden></label>'
       + '<div class="ph2"><button class="sbtn" id="sortPrompt">生成分拣指令</button> <span class="hint" id="inbHint"></span></div>'
       + '<div id="icards"></div>';
@@ -4451,6 +4454,7 @@ async function loadInbox() {
   try { INB = (await api('GET', 'api/inbox')).items; } catch (e) { toast(e.message); return; }
   renderCards();
 }
+/* 外部资料入口卡片 renderCards */
 function renderCards() {
   const box = $('#icards');
   if (!box) return;
@@ -4463,21 +4467,23 @@ function renderCards() {
   const OSS = '工具/开源项目';                   // 内置的「工具」也是去向（作者 10-01：「为啥外部资料入口的东西不能直接分配到工具？」「分类的地方要多加一个底层的工具模块」）
   box.innerHTML = INB.map(function (it) {
     const zip = /\.zip$/i.test(it.name);
+    const back = it.candidates.some(function (c) { return c.by === '原位置'; });   // 从模块「移到入口」挪回来的，不是新放进来的
     const tools = '<optgroup label="内置 · 工具"><option value="' + OSS + '"' + (zip ? ' selected' : ' disabled') + '>工具 · 开源项目' + (zip ? '（GitHub 压缩包）' : '（只收 GitHub 下载的 .zip）') + '</option></optgroup>';
     const opts = zip ? tools + mods : mods + tools;
     return '<div class="icard" id="ic-' + it.id + '" data-id="' + it.id + '"><div class="nm">' + esc(it.name) + '</div>'
-      + '<div class="meta">' + fmtSize(it.size) + ' · ' + fmtTime(it.created_at) + ' · ' + esc(who(it.created_by)) + '放进来的'
+      + '<div class="meta">' + fmtSize(it.size) + ' · ' + fmtTime(it.created_at) + ' · ' + esc(who(it.created_by)) + (back ? '挪回来的' : '放进来的')
       + (it.orig !== it.name ? ' · 原来是 ' + esc(it.orig) : '') + '</div>'
       + (it.candidates.length ? it.candidates.map(function (c) {
           return '<div class="cand"><span class="mod">' + esc(c.module) + (c.folder ? ' / ' + esc(c.folder) : '') + '</span>'
             + '<span class="conf conf-' + esc(c.conf) + '">把握 ' + esc(c.conf) + '</span>'
             + '<span class="why">' + esc(c.reason) + '</span><span class="who">' + esc(who(c.by)) + '</span>'
-            + '<button class="sbtn" data-put="' + esc(c.module) + '" data-folder="' + esc(c.folder || '') + '">放这里</button></div>';
+            + '<button class="sbtn" data-put="' + esc(c.module) + '" data-folder="' + esc(c.folder || '') + '">' + (c.by === '原位置' ? '放回原处' : '放这里') + '</button></div>';   // 原位置：从模块「移到入口」时记下的原来那格
         }).join('') : '<p class="hint">还没有候选：等 agent 看过给建议，或点上面「生成分拣指令」。</p>')
       + '<div class="own">都不对，我自己选：<select data-own-mod>' + opts + '</select><select data-own-folder><option value="">（模块根目录 Module root）</option></select><button class="sbtn" data-own>放进去</button></div>'
       + '<div class="ipeekbar"><button class="sbtn" data-peek="资料/_外部资料入口/' + esc(it.name) + '">看一眼</button></div></div>';
   }).join('');
 }
+/* 外部资料入口卡片 renderCards 结束 */
 $('#inboxview').addEventListener('click', function (e) {
   const b = e.target.closest('[data-put],[data-own]');
   if (!b) return;
@@ -4517,10 +4523,11 @@ async function sortItem(it, module, folder) {
     return;
   }
   try {
-    INB = (await api('POST', 'api/inbox/' + it.id + '/sort', { module: module, folder: folder })).items;
+    const r = await api('POST', 'api/inbox/' + it.id + '/sort', { module: module, folder: folder });
+    INB = r.items;
     renderCards();
     act(ACT.sorted, it.name + ' → ' + module + (folder ? '/' + folder : ''));
-    toast('已放进 资料/' + module + '/' + (folder ? folder + '/' : ''));
+    toast(r.warning || ('已放进 资料/' + module + '/' + (folder ? folder + '/' : '')));   // 放进去了但日志没写上：说出来，别装作都好
   } catch (e) { toast(e.message); }
 }
 function sortingPrompt() {
@@ -4530,7 +4537,7 @@ function sortingPrompt() {
     '请用 MCP 工具（research-console）：先 list_inbox 看每个文件（需要时自己打开文件读内容），'
     + '再对每个文件调 suggest_sorting，给 1~3 个候选模块，按把握从高到低，每个写「高/中/低」和一句让人一看就能判断的理由，不要写百分比。',
     '候选只能是现有模块：' + S.modules.map(function (m) { return m.name; }).join('、') + '。觉得需要新模块，先用 ask_human 问我。',
-    '不要自己挪文件，我在网页上点了才挪。', '', '## 文件'];
+    '把握高的可以直接用 sort_inbox_item 放进去（写一句原因，日志记着是谁放的）；拿不准的只写候选，等我在网页上点。候选里署名「原位置」的，是它被挪回入口前原来在的地方。', '', '## 文件'];
   INB.forEach(function (it) { L.push('- #' + it.id + ' ' + it.name + '（' + fmtSize(it.size) + '）'); });
   return L.join('\n') + '\n';
 }
@@ -9980,13 +9987,13 @@ async function previewProject(path){
     const p=await api('GET','api/project/preview?path='+encodeURIComponent(path));if(!current()){status.remove();return;}
     if(!p||typeof p!=='object')throw Error(fileDeleteWords('没有收到预览资料','No preview data received'));
     const url='pfiles/'+path.split('/').map(encodeURIComponent).join('/'),pv=previewBody(p,url,path);
-    const html='<div class="ph"><span class="path">'+esc(path)+'</span><span class="meta">'+fmtSize(p.size)+' · '+fmtTime(p.mtime)+'</span><span class="acts">'+($('#sq').value.trim()?'<button class="sbtn" id="backRes">回到搜索结果</button>':'')+'<button class="sbtn" id="pcite">写进笔记</button>'+builtinFileSlot(path,'',p.builtin_action)+fileDeleteButton(p.delete_action)+'<button class="sbtn" data-pvfull>全屏</button><a class="sbtn" href="'+url+'" target="_blank" rel="noopener">新标签打开</a></span></div>'+pvWrap(pv.body,path);
+    const html='<div class="ph"><span class="path">'+esc(path)+'</span><span class="meta">'+fmtSize(p.size)+' · '+fmtTime(p.mtime)+'</span><span class="acts">'+($('#sq').value.trim()?'<button class="sbtn" id="backRes">回到搜索结果</button>':'')+'<button class="sbtn" id="pcite">写进笔记</button>'+builtinFileSlot(path,'',p.builtin_action)+fileDeleteButton(p.delete_action)+(typeof fileInboxButton==='function'?fileInboxButton(p.inbox_action):'')+'<button class="sbtn" data-pvfull>全屏</button><a class="sbtn" href="'+url+'" target="_blank" rel="noopener">新标签打开</a></span></div>'+pvWrap(pv.body,path);
     await completeReading(status);if(!current()){status.remove();return;}
     status.remove();FILE_DELETE.previewStatus=null;act(ACT.viewed,path);searchHost.classList.toggle('wide',pv.wide);$('#sres').hidden=true;
     const fingerprint=JSON.stringify(p),previous=host.filePreviewPage;
     if(!previous||previous.root!==root||previous.path!==path||previous.fingerprint!==fingerprint||previous.anchor!==host.firstElementChild||!previous.anchor.isConnected){host.innerHTML=html;host.filePreviewPage={root,path,fingerprint,anchor:host.firstElementChild};
       $('#pcite').onclick=()=>appendNote('关于「'+path+'」：');const back=$('#backRes');if(back)back.onclick=()=>{fileDeleteRelease();PV.sel='';host.innerHTML='';$('#sres').hidden=false;};}
-    fileDeleteBind(host,p.delete_action,'project',path,name,null);return{ok:true,scope:'preview-metadata',mediaReady:false};
+    fileDeleteBind(host,p.delete_action,'project',path,name,null);if(typeof fileInboxBind==='function')fileInboxBind(host,p.inbox_action,'project',path,name,null);return{ok:true,scope:'preview-metadata',mediaReady:false};
   }catch(error){if(current()){status.innerHTML='<span role="status">'+esc(String(error.message||error))+'</span>';toast(String(error.message||error));}else status.remove();return{ok:false,scope:'preview-metadata',mediaReady:false};}
 }
 /* 阅读页删除入口 previewProject 结束 */
@@ -10006,7 +10013,7 @@ function fileDeleteBind(host,action,scope,path,name,readSerial){const button=hos
   button.fileDeleteContext={serial:FILE_DELETE.serial,root:fileDeleteRoot(),view:view,name:name,path:path,host:host,hash:location.hash,scope:scope,readSerial:readSerial,previewSerial:FILE_DELETE.previewSerial,action:metadata,button:button,searchHost:scope==='project'?$('#searchview'):null};
   button.disabled=!fileDeleteValid(metadata)||FILE_DELETE.inflight.has(JSON.stringify([fileDeleteRoot(metadata&&metadata.project),metadata&&metadata.path]));button.onclick=()=>fileDeleteRequest(button);
 }
-function fileDeleteCurrent(c){return !!c&&c.serial===FILE_DELETE.serial&&c.root===fileDeleteRoot()&&c.view===view&&c.hash===location.hash&&c.button.fileDeleteContext===c&&c.host.isConnected&&c.button.isConnected&&c.host.contains(c.button)&&
+function fileDeleteCurrent(c){return !!c&&c.serial===FILE_DELETE.serial&&c.root===fileDeleteRoot()&&c.view===view&&c.hash===location.hash&&c.button[c.slot||'fileDeleteContext']===c&&c.host.isConnected&&c.button.isConnected&&c.host.contains(c.button)&&
   (c.scope==='module'?view==='mod'&&cur===c.name&&MV.name===c.name&&MV.sel===c.path&&c.host===$('#modview')&&MODULE_READ.serial===c.readSerial:
     view==='search'&&cur===c.name&&PV.sel===c.path&&c.host===$('#spv')&&c.searchHost===$('#searchview')&&c.searchHost.isConnected&&FILE_DELETE.previewSerial===c.previewSerial);}
 function fileDeleteSuccessHtml(result,path){return '<div class="empty file-delete-result" data-file-delete-result><h2>'+fileDeleteWords('已移入回收站，可还原','Moved to Trash; recoverable')+'</h2><p>'+esc(path)+'</p><p>'+esc(result.code)+' · '+esc(result.status)+'</p><a class="sbtn" href="#/trash">'+fileDeleteWords('去回收站还原','Restore from Trash')+'</a>'
@@ -10022,9 +10029,9 @@ async function fileDeleteRefreshModule(hold){
     if(!await moduleReadComplete(tx,current)||!current())return;MV.tree=tree;renderTree(m);return moduleReadResult(tx,'module-directory',true);
   }catch(error){if(current())moduleReadFailure(tx,error,true);else moduleReadDrop(tx);}
 }
-async function fileDeleteRefreshProject(c,card){const root=c.root,serial=FILE_DELETE.serial,selection=FILE_DELETE.previewSerial,treeSerial=++FILE_DELETE.treeSerial,treeHost=$('#ptree'),host=c.host;
+async function fileDeleteRefreshProject(c,card,failMsg){const root=c.root,serial=FILE_DELETE.serial,selection=FILE_DELETE.previewSerial,treeSerial=++FILE_DELETE.treeSerial,treeHost=$('#ptree'),host=c.host;
   const current=()=>root===fileDeleteRoot()&&serial===FILE_DELETE.serial&&selection===FILE_DELETE.previewSerial&&treeSerial===FILE_DELETE.treeSerial&&view==='search'&&!PV.sel&&host===$('#spv')&&host.isConnected&&host.querySelector('[data-file-delete-result]')===card&&treeHost===$('#ptree')&&treeHost.isConnected;
-  try{const tree=await api('GET','api/project/tree');if(!current())return;if(!tree||!Array.isArray(tree.items))throw Error(fileDeleteWords('没有收到项目目录','No project directory received'));PV.tree=tree;renderPTree();}catch(error){if(current())toast(fileDeleteWords('文件已删除；目录刷新失败：','File moved; directory refresh failed: ')+String(error.message||error));}
+  try{const tree=await api('GET','api/project/tree');if(!current())return;if(!tree||!Array.isArray(tree.items))throw Error(fileDeleteWords('没有收到项目目录','No project directory received'));PV.tree=tree;renderPTree();}catch(error){if(current())toast((failMsg||fileDeleteWords('文件已删除；目录刷新失败：','File moved; directory refresh failed: '))+String(error.message||error));}
 }
 async function fileDeleteRequest(button){
   const c=button&&button.fileDeleteContext;if(!fileDeleteCurrent(c)||!fileDeleteValid(c.action)||button.disabled)return false;
@@ -10032,7 +10039,7 @@ async function fileDeleteRequest(button){
   const reason=prompt(fileDeleteWords('删除这个文件（移入回收站，可以还原）：\n','Delete this file (move to Trash; recoverable):\n')+action.path+'\n\n'+fileDeleteWords('请填写原因：','Reason:'),fileDeleteWords('人在文件阅读页手工删除','Manual deletion from file reading page'));
   if(reason===null||!fileDeleteCurrent(c))return false;
   if(typeof reason!=='string'||!reason.trim()||reason.trim().length>2000){toast(fileDeleteWords('删除原因不能为空，且不能超过 2000 字','Reason is required and must not exceed 2000 characters'));return false;}
-  FILE_DELETE.inflight.add(key);button.disabled=true;
+  const sibling=c.host.querySelector('[data-file-inbox]');FILE_DELETE.inflight.add(key);button.disabled=true;if(sibling)sibling.disabled=true;   // 同一页的「移到入口」共用这把钥匙：删着的时候它也点不了
   try{
     const result=await api('POST','api/files/trash',{path:action.path,project:action.project,revision:action.revision,reason:reason.trim()});
     if(!fileDeleteCurrent(c))return false;
@@ -10048,9 +10055,54 @@ async function fileDeleteRequest(button){
     }
     return true;
   }catch(error){if(fileDeleteCurrent(c))toast(String(error&&error.message||error));return false;}
-  finally{FILE_DELETE.inflight.delete(key);if(fileDeleteCurrent(c))button.disabled=!fileDeleteValid(action);}
+  finally{FILE_DELETE.inflight.delete(key);if(fileDeleteCurrent(c)){button.disabled=!fileDeleteValid(action);if(sibling&&sibling.isConnected)sibling.disabled=typeof fileInboxValid!=='function'||!fileInboxValid(sibling.fileInboxContext&&sibling.fileInboxContext.action);}}
 }
 /* ================= 阅读页删除 File delete UI 结束 ================= */
+
+/* ================= 阅读页移到入口 File to intake UI ================= */
+/* 放错地方的普通材料，从阅读页挪回 资料/_外部资料入口/ 重新分拣（作者 10-08：挪，不复制；记下原位置）。
+   能不能挪、为什么不能，全听后端给的 inbox_action；跟删除共用同一把「在挪」的钥匙，两个按钮不会同时发请求。
+   成功后原页留一张卡（也算删除卡，模块目录刷新时照样留着），点去入口能分到别处或「放回原处」 */
+function fileInboxWords(zh,en){return getLang()==='en'?en:zh;}
+function fileInboxValid(a){return fileDeleteValid(a)&&a.applicable===true&&typeof a.module==='string'&&!!a.module&&typeof a.folder==='string'&&a.path.startsWith('资料/'+a.module+'/');}
+function fileInboxPlace(a){return a.module+(a.folder?' / '+a.folder:'');}
+function fileInboxButton(a){if(!a||a.applicable!==true)return '';const allowed=fileInboxValid(a),reason=String(a.reason||fileInboxWords('这个文件不能移到入口',"This file can't be moved to the intake"));
+  return '<button class="sbtn" type="button" data-file-inbox'+(!allowed?' disabled aria-disabled="true" title="'+esc(reason)+'"':' title="'+fileInboxWords('移到外部资料入口，重新分拣；可以放回原处','Move to Intake to re-sort; it can be put back where it was')+'"')+'>'+fileInboxWords('移到入口','To Intake')+'</button>'+(!allowed?'<span class="hint file-inbox-reason">'+esc(reason)+'</span>':'');}
+function fileInboxBind(host,action,scope,path,name,readSerial){const button=host&&host.querySelector('[data-file-inbox]');if(!button)return;
+  const metadata=action&&{applicable:action.applicable,allowed:action.allowed,path:action.path,project:action.project,revision:action.revision,reason:action.reason,module:action.module,folder:action.folder};
+  button.fileInboxContext={serial:FILE_DELETE.serial,root:fileDeleteRoot(),view:view,name:name,path:path,host:host,hash:location.hash,scope:scope,readSerial:readSerial,previewSerial:FILE_DELETE.previewSerial,action:metadata,button:button,slot:'fileInboxContext',searchHost:scope==='project'?$('#searchview'):null};
+  button.disabled=!fileInboxValid(metadata)||FILE_DELETE.inflight.has(JSON.stringify([fileDeleteRoot(metadata&&metadata.project),metadata&&metadata.path]));button.onclick=()=>fileInboxRequest(button);
+}
+function fileInboxSuccessHtml(r,path){const back=r.back&&typeof r.back==='object'?r.back:{};
+  return '<div class="empty file-delete-result file-inbox-result" data-file-delete-result data-file-inbox-result><h2>'+fileInboxWords('已移到外部资料入口，可以放回原处','Moved to Intake; it can be put back')+'</h2><p>'+esc(path)+'</p><p>#'+esc(r.item.id)+' · '+esc(r.to)+'</p>'
+  +(back.module?'<p class="hint">'+fileInboxWords('原位置：','Original place: ')+esc(back.module+(back.folder?' / '+back.folder:''))+'</p>':'')+'<a class="sbtn" href="#/inbox">'+fileInboxWords('去外部资料入口分拣或放回','Sort or put back in Intake')+'</a>'
+  +(r.log_id?'<p class="hint">'+fileInboxWords('操作日志：','Operation log: ')+esc(r.log_id)+'</p>':'')+(r.warning?'<p class="hint" role="status">'+esc(r.warning)+'</p>':'')+'</div>';}
+async function fileInboxRequest(button){
+  const c=button&&button.fileInboxContext;if(!fileDeleteCurrent(c)||!fileInboxValid(c.action)||button.disabled)return false;
+  const action=c.action,key=JSON.stringify([fileDeleteRoot(action.project),action.path]);if(FILE_DELETE.inflight.has(key))return false;
+  const place=fileInboxPlace(action);
+  if(!confirm(fileInboxWords('把这个文件移到外部资料入口（资料/_外部资料入口/）重新分拣，只动这 1 个文件：\n'+action.path+'\n\n原位置（'+place+'）会记下：在「外部资料入口」页可以分到任何模块，也可以点「放回原处」放回去。',
+    'Move this file to Intake (资料/_外部资料入口/) to re-sort; only this 1 file moves:\n'+action.path+'\n\nIts original place ('+place+') is recorded: on the Intake page you can sort it into any module, or click “Put it back”.'))||!fileDeleteCurrent(c))return false;
+  const sibling=c.host.querySelector('[data-file-delete]');FILE_DELETE.inflight.add(key);button.disabled=true;if(sibling)sibling.disabled=true;
+  try{
+    const result=await api('POST','api/files/inbox',{path:action.path,project:action.project,revision:action.revision});
+    if(!fileDeleteCurrent(c))return false;
+    if(!result||result.from!==action.path||typeof result.to!=='string'||!result.to.startsWith('资料/_外部资料入口/')||!result.item||!Number.isInteger(result.item.id)||result.item.status!=='waiting')throw Error(fileInboxWords('移动结果未确认，请到外部资料入口核对','Move result is unconfirmed; check the Intake page'));
+    invalidateModuleReading();++FILE_DELETE.serial;++FILE_DELETE.previewSerial;
+    if(c.scope==='module'){
+      if(LASTFILE[c.name]===c.path)delete LASTFILE[c.name];MV.sel=null;MV.shown=null;
+      Object.keys(PCACHE).forEach(k=>{let parsed;try{parsed=JSON.parse(k);}catch(_){return;}if(Array.isArray(parsed)&&fileDeleteRoot(parsed[0])===c.root)delete PCACHE[k];});
+      history.replaceState(null,'',modHref(c.name));c.host.innerHTML=fileInboxSuccessHtml(result,action.path);delete c.host.moduleReadingPage;
+      const hold={root:c.root,serial:FILE_DELETE.serial,name:c.name,host:c.host,hash:location.hash,card:c.host.querySelector('[data-file-delete-result]')};FILE_DELETE.hold=hold;await fileDeleteRefreshModule(hold);
+    }else{
+      PV.sel='';c.host.innerHTML=fileInboxSuccessHtml(result,action.path);const card=c.host.querySelector('[data-file-inbox-result]');
+      await fileDeleteRefreshProject(c,card,fileInboxWords('文件已移到外部资料入口；目录刷新失败：','File moved to Intake; directory refresh failed: '));
+    }
+    return true;
+  }catch(error){if(fileDeleteCurrent(c))toast(String(error&&error.message||error));return false;}
+  finally{FILE_DELETE.inflight.delete(key);if(fileDeleteCurrent(c)){button.disabled=!fileInboxValid(action);if(sibling&&sibling.isConnected)sibling.disabled=!fileDeleteValid(sibling.fileDeleteContext&&sibling.fileDeleteContext.action);}}
+}
+/* ================= 阅读页移到入口 File to intake UI 结束 ================= */
 
 /* 左栏本页目录：像笔记本的目录，点一下跳到那一段 */
 const COMMON_OVERVIEW_VIEWS={plans:['计划','planview'],skills:['技能','skillsview'],qa:['问答','qaview'],commands:['快捷指令','cmdview'],tools:['工具','toolsview']};
