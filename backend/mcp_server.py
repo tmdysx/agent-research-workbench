@@ -3,7 +3,7 @@
 一份应用只管一个项目：项目 = 应用自己这个文件夹，跟网页一致。
 开新项目用 新项目.bat 复制一份干净的应用，里面的 .mcp.json 用相对路径，直接能用。
 
-agent 能做的：看全貌、加模块、向人提问、读人的笔记、给外部资料入口的文件写分拣候选。
+agent 能做的：看全貌、加模块、向人提问、读人的笔记、给外部资料入口的文件写分拣候选或直接分拣（写原因）、把放错的材料挪回入口。
 不能删、不能改状态——删由人写进笔记交给 agent，agent 用 move_to_trash 挪进回收站；做没做完由人验。
 """
 from __future__ import annotations
@@ -1409,7 +1409,9 @@ def build(project: Project) -> FastMCP:
     @mcp.tool()
     def list_inbox() -> str:
         """看外部资料入口（资料/_外部资料入口/）里等分拣的文件：编号、名字、大小、现有候选，文字文件附前 40 行。
-        看完用 suggest_sorting 给每个文件写候选。不要自己挪文件——人在网页上点了才挪。"""
+        看完有把握的用 sort_inbox_item 直接放进模块（写一句原因）；拿不准的用 suggest_sorting 写候选，等人在网页上点。
+        候选里 by=原位置 的是这个文件原来在的地方（从模块里移到入口的），放回去就是 sort_inbox_item 选它。
+        治理模块和程序管的位置（见 sort_inbox_item）agent 放不进去，只写候选等人点。"""
         c = conn()
         try:
             store.get_state(c, project)            # 对一次账：人直接丢进文件夹的也登记上
@@ -1421,7 +1423,8 @@ def build(project: Project) -> FastMCP:
             return "外部资料入口是空的。"
         out = [f"现有模块：{'、'.join(mods)}", f"待分拣 {len(items)} 个（文件在 资料/{proj.INBOX}/）", ""]
         for it in items:
-            cand = "；".join(f"{x['module']}（{x['conf']}，{x['by']}：{x['reason']}）" for x in it["candidates"]) or "还没有"
+            cand = "；".join(f"{x['module']}{'/' + x['folder'] if x.get('folder') else ''}（{x['conf']}，{x['by']}：{x['reason']}）"
+                            for x in it["candidates"]) or "还没有"
             out += [f"## #{it['id']} {it['name']}（{it['size']} 字节，原名 {it['orig']}）", f"现有候选：{cand}"]
             path = intake.inbox_dir(project) / it["name"]
             if files.kind_of(path) == "text":
@@ -1441,6 +1444,7 @@ def build(project: Project) -> FastMCP:
         candidates: 1~3 个，按把握从高到低，每个 {"module": 已有模块名, "folder": 模块里的文件夹（可空，从模块根算，如「原文」「正文/引言」）,
                     "confidence": "高"/"中"/"低", "reason": 一句理由}
         理由要让人一看就能判断（比如「第一页有作者和期刊名」），不要写百分比。能看出该放进模块里哪个文件夹就写上 folder（作者 10-07：「资料入口可以分配到具体模块的具体文件夹」）。
+        把握高的也可以直接 sort_inbox_item 放进去（写一句原因）。移到入口的文件记着的「原位置」候选会留在最前面。
         """
         by = who(ctx)
         c = conn()
@@ -1450,7 +1454,49 @@ def build(project: Project) -> FastMCP:
             return f"没写上：{e}"
         finally:
             c.close()
-        return f"已给 #{item}「{it['name']}」写了 {len(it['candidates'])} 个候选，等人在网页上点。"
+        n = len([x for x in it["candidates"] if x.get("by") != intake.ORIGIN])
+        return f"已给 #{item}「{it['name']}」写了 {n} 个候选，等人在网页上点。"
+
+    @mcp.tool()
+    def sort_inbox_item(item: int, module: str, reason: str, folder: str = "", ctx: Context | None = None) -> str:
+        """把外部资料入口的一个文件放进模块（跟人在网页上点「放这里」一样）：挪进 资料/<模块>/ 或模块里的 folder，同名不覆盖。
+        item: list_inbox 里的编号（#后面的数字）
+        module: 已有模块名；放回原处就写候选里 by=原位置 的那个模块和 folder
+        reason: 一句为什么放这里（必填，跟谁放的一起记进日志）
+        folder: 模块里的文件夹（可空，从模块根算，如「原文」「正文/引言」；没有就建）
+        拿不准的别放，用 suggest_sorting 写候选等人点。压缩包放进开源项目请人在网页卡上点。
+        agent 放不进去、要人在网页上点的位置：想法 · 蓝图 · 戒律 · 源代码 模块；模块根上的 需求/蓝图/戒律/下载清单/想法.md；
+        技能/、解读/；内置/、历史/、工作台/ 和缓存文件夹；链接文件夹；点开头的隐藏文件。"""
+        if module == intake.OSS:
+            return "没放：压缩包放进开源项目请人在网页卡上点"
+        c = conn()
+        try:
+            r = intake.place(c, project, item, module, folder=folder, by=who(ctx), reason=reason)
+        except store.Refused as e:
+            return f"没放：{e}"
+        finally:
+            c.close()
+        return f"已放进 资料/{r['item']['sorted_to']}（#{item}，日志 {r['log_id'] or r.get('warning', '没记上')}）。"
+
+    @mcp.tool()
+    def move_to_inbox(path: str, reason: str, ctx: Context | None = None) -> str:
+        """把 资料/<模块>/ 里放错地方的一个普通材料挪回外部资料入口（资料/_外部资料入口/）重新分拣——跟网页阅读页「移到入口」按钮一样的检查。
+        挪、不复制；原来在哪记成一个「原位置」候选，sort_inbox_item 选它就放回原处。
+        不收的：想法 · 蓝图 · 戒律 · 源代码 里的文件、需求/任务/戒律/下载清单、工作台、历史、技能/、文献解读记录、
+        隐藏文件、标了内置的、被 .链接.txt 挂着的。这不是删除：要删用 move_to_trash（只照人的删除请求做）。
+        path: 从项目根算，如「资料/文献/放错的稿子.md」
+        reason: 为什么挪回入口（必填，跟谁挪的一起记进日志）"""
+        import file_actions
+        c = conn()
+        try:
+            r = file_actions.move_to_inbox(c, project, path, by=who(ctx), source=file_actions.MCP, reason=reason)
+        except store.Refused as e:
+            return f"没挪：{e}"
+        finally:
+            c.close()
+        back = r["back"]["module"] + (f"/{r['back']['folder']}" if r["back"]["folder"] else "")
+        return (f"已挪到外部资料入口：{r['from']} → {r['to']}（#{r['item']['id']}，日志 {r['log_id'] or r.get('warning', '没记上')}）。"
+                f"原位置 {back} 记成候选；要放回就 sort_inbox_item({r['item']['id']}, …)")
 
     @mcp.tool()
     def read_notes() -> str:

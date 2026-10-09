@@ -221,10 +221,10 @@ async def watch(project: Project, hub: Hub, interval: float = 0.5, use_sessions:
         return {k: v for part in parts.values() for k, v in part.items()
                 if not k.endswith("/") and scanmap.visible(project, R["rules"], k)}
 
-    def supervise_scan(old, new):                     # 监管（10-01）：两遍扫描比一比，照规矩记；用自己的连接，不跟这个循环抢
-        c = store.connect(project.db_path)
+    def supervise_scan(old, new, areas=None, at=None):  # 监管（10-01）：两遍扫描比一比，照规矩记；用自己的连接，不跟这个循环抢
+        c = store.connect(project.db_path)               # areas / at：这回扫了哪几片、开始扫的时间（经入口挪的只认这之后的，10-08）
         try:
-            return supervise.on_scan(c, project, old, new, use_sessions=use_sessions)
+            return supervise.on_scan(c, project, old, new, use_sessions=use_sessions, areas=areas, at=at)
         finally:
             c.close()
 
@@ -249,6 +249,7 @@ async def watch(project: Project, hub: Hub, interval: float = 0.5, use_sessions:
     stop = asyncio.Event()
     live = asyncio.create_task(_notify(project, hub, stop)) if realtime else None   # 先挂上系统通知再全走一遍：中间改的不漏
     try:
+        first_at = time.time()
         snap: dict = await _scan_walk(project, hub, walk, scanmap.all_areas(project))   # {片: {路径: (大小, 时间)}}
     except BaseException:
         stop.set()
@@ -260,12 +261,12 @@ async def watch(project: Project, hub: Hub, interval: float = 0.5, use_sessions:
     st["on"] = True
     old = supervise.restore(project)
     await asyncio.to_thread(supervise_scan, None if old is None else {k: v for k, v in old.items() if scanmap.visible(project, R["rules"], k)},
-                            flat(snap))               # 跟上回存的样子比：重启那一下、关着时的改动也看得到
+                            flat(snap), None, first_at)   # 跟上回存的样子比：重启那一下、关着时的改动也看得到
 
     async def scan(areas: set, quiet: bool = False) -> bool:
         """扫这几片：只换这几片的快照；有变化就给监管比、通知网页（带上哪几片）。quiet：规则刚改，只当新起点不报。返回通知了网页没有。"""
         nonlocal snap
-        t0 = loop.time()
+        t0, at = loop.time(), time.time()
         parts = await _scan_walk(project, hub, walk, areas)
         cleared = [a for a in areas if st["dirty"].pop(a, None)]
         changed = {a for a in areas if parts[a] != snap.get(a, {})}
@@ -280,6 +281,7 @@ async def watch(project: Project, hub: Hub, interval: float = 0.5, use_sessions:
                 cleared += [g for g in gone if st["dirty"].pop(g, None)]
         SCAN.update(took=round(loop.time() - t0, 3), at=datetime.now().strftime("%m-%d %H:%M:%S"), areas=sorted(areas | gone))
         if not changed:
+            supervise.seen(project, areas | gone, at)
             if cleared:
                 await hub.broadcast({"type": "dirty", "dirty": dict(st["dirty"])})
             return bool(cleared)
@@ -288,7 +290,7 @@ async def watch(project: Project, hub: Hub, interval: float = 0.5, use_sessions:
         for a in [a for a in changed if not parts[a] and not (project.root / a).exists()]:
             snap.pop(a, None)
         SCAN["files"] = sum(1 for part in snap.values() for k in part if not k.endswith("/"))
-        found = await asyncio.to_thread(supervise_scan, None if quiet else before, flat(snap))
+        found = await asyncio.to_thread(supervise_scan, None if quiet else before, flat(snap), areas | gone, at)
         if found:
             await hub.broadcast({"type": "supervise"})
         scanmap.forget_stats(project, changed)
@@ -620,6 +622,12 @@ class FileTrashIn(BaseModel):
     project: str = Field(..., description="阅读响应中的项目身份")
     revision: str = Field(..., description="阅读时文件版本；变化后必须重新读取")
     reason: str = Field("网页文件阅读页手动删除", max_length=2000)
+
+
+class FileInboxIn(BaseModel):
+    path: str = Field(..., description="阅读响应中的真实项目相对路径")
+    project: str = Field(..., description="阅读响应中的项目身份")
+    revision: str = Field(..., description="阅读时文件版本；变化后必须重新读取")
 
 
 class BuiltinFileIn(BaseModel):
@@ -1203,6 +1211,11 @@ def create_app(project: Project, *, open_url: str | None = None, watch_interval:
     @app.post("/api/files/trash", tags=["写 · 人"], summary="人在阅读页删一个文件：移入回收站，保留X清单与agent可读机器日志")
     def file_to_trash(body: FileTrashIn, conn=Depends(get_conn)):
         return file_actions.move_file(conn, project, body.path, body.project, body.revision, body.reason)
+
+    @app.post("/api/files/inbox", tags=["写 · 人"], summary="人在阅读页点「移到入口」：移到外部资料入口重新分拣，记下原位置，可一键放回")
+    def file_to_inbox(body: FileInboxIn, conn=Depends(get_conn)):
+        return file_actions.move_to_inbox(conn, project, body.path, by="人", source=file_actions.WEB,
+                                          key=body.project, revision=body.revision)
 
     @app.get("/api/builtin/files", tags=["设置"], summary="只读文件内置状态或人工标记清单，不创建正本")
     def builtin_files(path: str = ""):
@@ -2061,15 +2074,10 @@ def create_app(project: Project, *, open_url: str | None = None, watch_interval:
             raise store.Refused(f"没有「{module}」这个模块")
         return {"module": m["name"], "folders": intake.module_folders(project, m["name"])}
 
-    @app.post("/api/inbox/{iid}/sort", tags=["外部资料入口"], summary="人点了「放这里」：挪进那个模块（或模块里的某个文件夹）")
+    @app.post("/api/inbox/{iid}/sort", tags=["外部资料入口"], summary="人点了「放这里 / 放回原处」：挪进那个模块（或模块里的某个文件夹）")
     def sort(iid: int, body: SortIn, conn=Depends(get_conn)):
-        before = intake.get(conn, iid)
-        it = intake.sort(conn, project, iid, body.module, folder=body.folder)
-        picked = next((c for c in (before or {}).get("candidates", []) if c["module"] == body.module
-                       and (c.get("folder") or "") == body.folder.strip().strip("/")), None)
-        why = f"（选的是 {picked['by']} 给的候选：把握 {picked['conf']}，{picked['reason']}）" if picked else "（候选里没有，自己选的）"
-        journal.add(conn, project, f"从外部资料入口放进来：{it['sorted_to']}{why}", kind="放进来", scope=body.module)
-        return {"items": intake.waiting(conn)}
+        r = intake.place(conn, project, iid, body.module, folder=body.folder, by="人")
+        return {"items": intake.waiting(conn), **({"warning": r["warning"]} if r.get("warning") else {})}   # 放进去了、日志没写上：告诉人
 
     # ---- 笔记本：笔记/ 文件夹，按模块一个文件，每条有编号 ----
 

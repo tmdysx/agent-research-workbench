@@ -17,11 +17,16 @@
   写一行机器日志（kind「监管」）；2、3、4 条发到问答「agent 问你 · 待你判断」；那个 agent 下次领活、报一圈、交付时，
   返回里带一句「监管提醒」。网页上人刚做过操作（20 秒内）时改的，不算 agent 越界
 - 自动化没在跑（没人领活、没单在跑）时，资料/ 里的文件变了多半是你自己在改：第 5 条不报
+- 经外部资料入口挪的（分拣进模块、移到入口、放回原处）库里记着是谁、为什么：第 2、5 条不报（10-08）。只认这一遍扫描之间
+  真挪的那一件——库里那一行是上回扫到这片之后记的、大小对得上、文件现在就在库里记的地方（大小和修改时间跟挪走前一样）；
+  挪进治理模块、模块根上的需求/戒律/下载清单、技能/、解读/、内置/ 的不替它开脱
 """
 from __future__ import annotations
 
+import json
 import os
 import re
+import sqlite3
 import time
 from datetime import datetime
 from pathlib import Path
@@ -53,6 +58,8 @@ _TABLE = """CREATE TABLE IF NOT EXISTS finding(
     UNIQUE(rule, key)
 )"""
 _TEXTS: dict[str, str] = {}                           # 笔记、治理文件上一回的内容（比「只增」「正文变没变」用）
+_SEEN: dict[str, dict[str, float]] = {}               # 每个项目每一片上回扫到是什么时候（"*" = 整个项目一起扫的；10-08）
+_SLACK = 2                                            # 库里的时间只到秒：往前多让两秒
 
 
 def _ensure(conn) -> None:
@@ -106,6 +113,8 @@ def restore(p: Project) -> dict | None:
         return None
     _TEXTS.clear()
     _TEXTS.update(d.get("texts") or {})
+    seen_at = d.get("seen") if isinstance(d.get("seen"), dict) else {}
+    _SEEN[str(p.root)] = {k: float(v) for k, v in seen_at.items() if isinstance(v, (int, float))}
     return {k: tuple(v) for k, v in (d.get("snap") or {}).items()}
 
 
@@ -116,7 +125,7 @@ def _save(p: Project, snap: dict) -> None:
     try:
         f.parent.mkdir(parents=True, exist_ok=True)
         tmp = f.with_name(f.name + ".tmp")
-        tmp.write_text(json.dumps({"snap": snap, "texts": _TEXTS}, ensure_ascii=False), encoding="utf-8")
+        tmp.write_text(json.dumps({"snap": snap, "texts": _TEXTS, "seen": _SEEN.get(str(p.root), {})}, ensure_ascii=False), encoding="utf-8")
         atomic.replace(tmp, f)
     except OSError:
         pass                                          # 存不上：下回再存，不挡着监管
@@ -169,6 +178,119 @@ def _in_trash(p: Project, rel: str) -> bool:
         except OSError:
             continue
     return False
+
+
+_INBOX = "资料/_外部资料入口/"
+
+
+def seen(p: Project, areas=None, at: float | None = None) -> None:
+    """记下这几片（None = 整个项目）是什么时候开始扫的：经外部资料入口挪的，只认这之后记进库的（10-08）。"""
+    t = time.time() if at is None else at
+    d = _SEEN.setdefault(str(p.root), {})
+    for a in (["*"] if areas is None else areas):
+        d[a] = t
+
+
+def _cutoff(p: Project, rel: str) -> str:
+    """上回扫到 rel 那一片是什么时候（库里的时间格式）；不知道就只认最近 10 分钟。"""
+    import scanmap
+    d = _SEEN.get(str(p.root), {})
+    ts = [t for t in (d.get("*"), d.get(scanmap.area_of(p, rel))) if t is not None]
+    t = max(ts) - _SLACK if ts else time.time() - 600
+    return datetime.fromtimestamp(t).isoformat(timespec="seconds")
+
+
+def _sig(p: Project, snap: dict, rel: str) -> tuple | None:
+    """一个文件的 (大小, 修改时间)：快照里有就用快照的，没有（那片不看、还没扫）就看磁盘。挪文件不改这两样。"""
+    v = snap.get(rel)
+    if v is not None:
+        return tuple(v)[:2]
+    try:
+        st = os.lstat(p.root / rel)
+    except OSError:
+        return None
+    return st.st_size, st.st_mtime_ns
+
+
+def _governed(rel: str) -> bool:
+    """资料/ 里只有人能定的地方（治理模块、模块根上的需求/戒律/下载清单、技能/、解读/、内置/）：经入口挪进挪出都不开脱。"""
+    import intake
+    parts = rel.split("/")
+    return len(parts) >= 3 and parts[0] == "资料" and bool(intake.governed(parts[1], "/".join(parts[2:-1]), parts[-1]))
+
+
+def _moved_by_intake(conn, p: Project, rel: str, old: dict, new: dict) -> bool:
+    """这一遍扫描之间、经外部资料入口挪走的那一件（10-08）：入口里的分拣走了；模块里的移到入口了（重名时入口里会改名，按库里记的原路径认）。
+    库里那一行要是上回扫到这片之后记的，大小对得上，文件现在就在库里记的地方、大小和修改时间跟挪走前一样。"""
+    was = _sig(p, old, rel) if rel in old else None
+    if was is None:
+        return False
+    cut = _cutoff(p, rel)
+    try:
+        if rel.startswith(_INBOX) and "/" not in rel[len(_INBOX):]:
+            rows = conn.execute("SELECT size, sorted_to FROM intake WHERE name = ? AND status = 'sorted' AND sorted_at >= ? ORDER BY id DESC",
+                                (rel[len(_INBOX):], cut)).fetchall()
+            return any(r["size"] == was[0] and r["sorted_to"] and not _governed("资料/" + r["sorted_to"])
+                       and _sig(p, new, "资料/" + r["sorted_to"]) == was for r in rows)
+        if _governed(rel):
+            return False
+        rows = conn.execute("SELECT name, size, candidates, status, sorted_to, sorted_at FROM intake WHERE orig = ? AND created_at >= ? ORDER BY id DESC",
+                            (rel, cut)).fetchall()
+    except sqlite3.Error:
+        return False
+    import intake
+    for r in rows:
+        try:
+            moved = intake.origin({"candidates": json.loads(r["candidates"])}) is not None
+        except ValueError:
+            continue
+        if not moved or r["size"] != was[0]:
+            continue
+        if r["status"] == "waiting":
+            now = _INBOX + r["name"]
+        elif r["status"] == "sorted" and (r["sorted_at"] or "") >= cut and r["sorted_to"] and "资料/" + r["sorted_to"] != rel:
+            now = "资料/" + r["sorted_to"]                # 这一遍里又分拣到别处了
+        else:
+            continue
+        if _sig(p, new, now) == was:
+            return True
+    return False
+
+
+def _placed_by_intake(conn, p: Project, rel: str, old: dict, new: dict) -> bool:
+    """这一遍扫描之间、从外部资料入口分拣进来的那一件（人点的或 agent sort_inbox_item）：
+    分拣是上回扫到这片之后记的，大小对得上，入口里原来那份（上回扫到的）大小和修改时间跟现在这个一样；
+    入口那份不在上回的快照里（入口那片先单独扫过、或放进来分拣走都在这一遍里）就比内容指纹。"""
+    if not rel.startswith("资料/") or _governed(rel) or rel not in new:
+        return False
+    now, cut = _sig(p, new, rel), _cutoff(p, rel)
+    try:
+        rows = conn.execute("SELECT name, size, sha256 FROM intake WHERE status = 'sorted' AND sorted_to = ? AND sorted_at >= ? ORDER BY id DESC",
+                            (rel[3:], cut)).fetchall()
+    except sqlite3.Error:
+        return False
+    for r in rows:
+        if now is None or r["size"] != now[0]:
+            continue
+        src = _INBOX + r["name"]
+        if src in old:
+            if _sig(p, old, src) == now:
+                return True
+        elif _sha(p, rel) == r["sha256"]:   # 入口那片已经单独扫过（热区先扫）、或放进来分拣走都在这一遍里
+            return True
+    return False
+
+
+def _sha(p: Project, rel: str) -> str:
+    import hashlib
+    h = hashlib.sha256()
+    try:
+        with open(p.root / rel, "rb") as f:
+            for chunk in iter(lambda: f.read(1 << 20), b""):
+                h.update(chunk)
+    except OSError:
+        return ""
+    return h.hexdigest()
 
 
 def _who(p: Project, rels: list[str], since: float, use_sessions: bool) -> str:
@@ -228,16 +350,21 @@ def _temp(rel: str) -> bool:
     return bool(_TEMP.search(rel))
 
 
-def on_scan(conn, p: Project, old: dict | None, new: dict, *, use_sessions: bool = False) -> list[dict]:
-    """扫完一遍：对照规矩 1–5 看这几秒的文件变化。返回新记下的几条。old 是 None：头一回，记住现在的样子。"""
+def on_scan(conn, p: Project, old: dict | None, new: dict, *, use_sessions: bool = False,
+            areas=None, at: float | None = None) -> list[dict]:
+    """扫完一遍：对照规矩 1–5 看这几秒的文件变化。返回新记下的几条。old 是 None：头一回，记住现在的样子。
+    areas：这回扫了哪几片（None = 整个项目）；at：开始扫的时间（不给就当现在）。"""
+    at = time.time() if at is None else at
     if old is None:
         prime(p, new)
+        seen(p, areas, at)
         _save(p, new)
         return []
     try:
         return _check_files(conn, p, old, new, use_sessions)
     finally:
         prime(p, new)                                 # 新出现的笔记、方向文件也记住内容
+        seen(p, areas, at)
         _save(p, new)
 
 
@@ -269,7 +396,8 @@ def _check_files(conn, p: Project, old: dict, new: dict, use_sessions: bool) -> 
     # 2 删东西进回收站
     moved = {Path(r).name for r in added}
     for rel in removed:
-        if Path(rel).name in moved or _in_trash(p, rel) or _in_archive(p, rel) or _moved_away(p, rel) or human:
+        if (Path(rel).name in moved or _in_trash(p, rel) or _in_archive(p, rel) or _moved_away(p, rel) or human
+                or _moved_by_intake(conn, p, rel, old, new)):
             continue
         who = _who(p, [rel], since, use_sessions)
         keep(record(conn, p, 2, rel, f"「{rel}」没了，回收站里也没有", who=who, paths=[rel],
@@ -297,7 +425,11 @@ def _check_files(conn, p: Project, old: dict, new: dict, use_sessions: bool) -> 
     # 5 改东西要领活
     if running and not human:
         by_mod: dict[str, list[str]] = {}
+        via = ({r for r in removed if _moved_by_intake(conn, p, r, old, new)}       # 这一遍经外部资料入口挪的：有记录、记着是谁
+               | {r for r in added if _placed_by_intake(conn, p, r, old, new)})
         for rel in added + changed + removed:
+            if rel in via:
+                continue
             parts = rel.split("/")
             if len(parts) > 2 and parts[0] == "资料" and parts[1] not in ("_外部资料入口",) and parts[1] not in lanes:
                 by_mod.setdefault(parts[1], []).append(rel)

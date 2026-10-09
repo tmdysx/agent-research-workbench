@@ -21,7 +21,7 @@ async def _call(proj, calls, backend=BACKEND):
         async with ClientSession(r, w, client_info=Implementation(name="test-agent", version="0")) as s:
             await s.initialize()
             tools = {t.name for t in (await s.list_tools()).tools}
-            assert tools == {"get_builtin_files", "get_governance", "migrate_governance", "read_governance_document", "write_governance_document", "get_overview", "add_module", "ask_human", "read_notes", "list_inbox", "suggest_sorting", "list_tools", "list_tool_guides", "read_tool_guide",
+            assert tools == {"get_builtin_files", "get_governance", "migrate_governance", "read_governance_document", "write_governance_document", "get_overview", "add_module", "ask_human", "read_notes", "list_inbox", "suggest_sorting", "sort_inbox_item", "move_to_inbox", "list_tools", "list_tool_guides", "read_tool_guide",
                              "find_answer", "record_answer", "add_log", "read_log", "list_skills", "read_skill", "report_run", "review_delivery", "review_draft", "start_work", "next_task", "claim_task", "release_task", "who_is_working", "register_agent", "my_profile", "list_agents",
                              "move_to_trash", "restore_from_trash", "save_checkpoint", "list_checkpoints", "restore_checkpoint",
                              "world_tree", "grow_branch", "assign_to_branch", "bear_fruit", "branch_changes", "merge_branch", "cut_branch", "reject_fruit", "pick_fruit", "digest_material", "write_digest", "propose_rewrite", "review_rewrite",
@@ -107,3 +107,52 @@ def test_agent_checks_before_borrowing(proj):
     assert "O1 synthetic-mcp" in repos and "不许抄" in repos
     assert "红灯：只借思路" in one and nope.startswith("没有 O999")
     assert "示例预览" in plugs and "没启用" in plugs
+
+
+def test_agent_moves_misplaced_material_back_to_the_intake_and_sorts_it(proj):
+    """10-08：agent 能把放错的材料挪回外部资料入口（move_to_inbox），也能直接分拣（sort_inbox_item）；都要写原因、记着是谁。"""
+    f = proj.materials / "文献" / "旧稿.md"
+    f.parent.mkdir(parents=True)
+    f.write_text("自己写的稿子", encoding="utf-8")
+    (proj.materials / "论文").mkdir()
+    moved, listed, sorted_, blue, empty = anyio.run(_call, proj, [
+        ("move_to_inbox", {"path": "资料/文献/旧稿.md", "reason": "这是论文的稿子，放错到文献了"}),
+        ("list_inbox", {}),
+        ("sort_inbox_item", {"item": 1, "module": "论文", "reason": "是自己写的稿子"}),
+        ("move_to_inbox", {"path": "资料/蓝图/x.md", "reason": "试试"}),
+        ("sort_inbox_item", {"item": 1, "module": "论文", "reason": ""}),
+    ])
+    assert "已挪到外部资料入口" in moved and "#1" in moved and "sort_inbox_item(1" in moved
+    assert "原位置" in listed and "旧稿.md" in listed
+    assert "已放进 资料/论文/旧稿.md" in sorted_
+    assert blue.startswith("没挪：") and empty.startswith("没放：")
+    assert not f.exists() and (proj.materials / "论文" / "旧稿.md").read_text(encoding="utf-8") == "自己写的稿子"
+    import journal
+    es = [e for e in journal.read(proj) if e["by"] == "agent:test-agent"]
+    assert [e["kind"] for e in es] == ["移到外部资料入口", "放进来"]
+    assert "这是论文的稿子，放错到文献了" in es[0]["body"] and "是自己写的稿子" in es[1]["body"]
+
+
+def test_agent_cannot_sort_into_governance_places(proj):
+    """10-08：agent 放进 蓝图/戒律、模块根的 戒律.md、技能/ 会变成活的目标、规矩、技能——要人在网页上点。"""
+    box = proj.materials / "_外部资料入口"
+    box.mkdir(parents=True)
+    for n in ("S1-9 新目标.md", "戒律.md", "SKILL.md"):
+        (box / n).write_text("agent 丢进来的", encoding="utf-8")
+    (proj.materials / "论文").mkdir()
+    listed, blue, rules, skill = anyio.run(_call, proj, [
+        ("list_inbox", {}),
+        ("sort_inbox_item", {"item": 1, "module": "蓝图", "reason": "是个新目标"}),
+        ("sort_inbox_item", {"item": 3, "module": "论文", "reason": "论文的规矩"}),          # 入口按名字登记：1 S1-9… 2 SKILL.md 3 戒律.md
+        ("sort_inbox_item", {"item": 2, "module": "论文", "folder": "技能", "reason": "论文的做法"}),
+    ])
+    import intake
+    import store
+    c = store.connect(proj.db_path)
+    names = {r["id"]: r["name"] for r in intake.waiting(c)}
+    c.close()
+    assert names == {1: "S1-9 新目标.md", 2: "SKILL.md", 3: "戒律.md"}, listed
+    for out in (blue, rules, skill):
+        assert out.startswith("没放：") and "让人在网页上点" in out, out
+    assert sorted(x.name for x in box.iterdir()) == ["S1-9 新目标.md", "SKILL.md", "戒律.md"]
+    assert not (proj.materials / "论文" / "戒律.md").exists() and not (proj.materials / "论文" / "技能").exists()
