@@ -55,7 +55,7 @@
 
 | 能力 | 说明 |
 |---|---|
-| **多 Agent 接入** | 任何能读文件的 agent 都可以先读 `AGENTS.md` 再开工。可选的本地 MCP 服务 `research-console` 提供 73 个工具（报到、看全貌、领活、交付、存档、向人提问等）。平台本身不调用模型。 |
+| **多 Agent 接入** | 任何能读文件的 agent 都可以先读 `AGENTS.md` 再开工。可选的本地 MCP 服务 `research-console` 提供 75 个工具（报到、看全貌、领活、交付、存档、向人提问等）。平台本身不调用模型。 |
 | **蓝图治理** | S0 总目标 → S1 → S2 任务；需求写明验收标准；计划按 P 号存档；戒律分通用、项目、模块三层；交付单 J、交接单 H 都是普通文件。网页和 MCP 读写同一份文件，用版本号防止互相覆盖。 |
 | **自动化面板** | 项目 → 目标 → 任务关系图、四列任务看板、agent 名册（岗位、等级、上级）、员工分配图、可保存 / 校验 / 演练 / 启用的流程编辑器，以及 7 条监管规则（例如改核心先拿锁、删除先进回收站）。交付按 checks-pass：检查全部通过才自动验收。全自动开工必须由人打开，目前只能驱动本机 Codex CLI。 |
 | **文献阅读与内容工作台** | 文献库用 L 编号把原文和解读对应起来；PDF 阅读页可以高亮、贴纸、画笔批注，选中原句记笔记或问 agent。网页内能预览压缩包、音视频、Excel、Word 和 PPT 文字。论文、测试、PPT、宣传片都有分区的普通文件工作台。 |
@@ -71,7 +71,7 @@
 | 接法 | 适用 | 怎么做 |
 |---|---|---|
 | ① 读普通文件 | 任何能读文件的 agent | 先读 [`AGENTS.md`](https://github.com/tmdysx/agent-research-workbench/blob/main/AGENTS.md) 和 [`技能库/自动化科研交互界面/SKILL.md`](https://github.com/tmdysx/agent-research-workbench/blob/main/%E6%8A%80%E8%83%BD%E5%BA%93/%E8%87%AA%E5%8A%A8%E5%8C%96%E7%A7%91%E7%A0%94%E4%BA%A4%E4%BA%92%E7%95%8C%E9%9D%A2/SKILL.md)，按 [`自动化/协议.md`](https://github.com/tmdysx/agent-research-workbench/blob/main/%E8%87%AA%E5%8A%A8%E5%8C%96/%E5%8D%8F%E8%AE%AE.md) 干活。Claude Code 通过 [`CLAUDE.md`](https://github.com/tmdysx/agent-research-workbench/blob/main/CLAUDE.md) 自动读到 `AGENTS.md`。 |
-| ② 本地 MCP（可选） | 支持 stdio MCP 的客户端 | 服务 `research-console`（`python backend/mcp_server.py`），73 个工具，例如 `register_agent`、`get_overview`、`next_task`、`deliver`、`save_checkpoint`、`ask_human`。[`.mcp.json`](https://github.com/tmdysx/agent-research-workbench/blob/main/.mcp.json) 供 Claude Code 等兼容客户端读取；其他客户端按 [Agent 接入指南](https://github.com/tmdysx/agent-research-workbench/blob/main/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/Agent%E6%8E%A5%E5%85%A5.md) 手动填写“Python 绝对路径 + `backend/mcp_server.py --project <路径> --agent <名字>`”。**一键接入还没做。** |
+| ② 本地 MCP（可选） | 支持 stdio MCP 的客户端 | 服务 `research-console`（`python backend/mcp_server.py`），75 个工具，例如 `register_agent`、`get_overview`、`next_task`、`deliver`、`save_checkpoint`、`ask_human`。[`.mcp.json`](https://github.com/tmdysx/agent-research-workbench/blob/main/.mcp.json) 供 Claude Code 等兼容客户端读取；其他客户端按 [Agent 接入指南](https://github.com/tmdysx/agent-research-workbench/blob/main/%E5%B7%A5%E5%85%B7%E5%BA%93/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/Agent%E6%8E%A5%E5%85%A5.md) 手动填写“Python 绝对路径 + `backend/mcp_server.py --project <路径> --agent <名字>`”。**一键接入还没做。** |
 | ③ 网页“员工”自动运行 | **目前只支持本机 Codex CLI** | 默认关闭。由人打开总开关后，本机 Python 运行器每轮启动一次 Codex CLI。 |
 
 安装指南里有这些客户端的说明：Claude Code、Codex、Cursor、Qwen Code、Trae / TRAE CN、通义灵码 / Lingma、腾讯 WorkBuddy、腾讯 CodeBuddy、智谱 ZCode、DeepSeek Harness、阶跃 Step Code、Hermes Agent。[`工具库/智能体.md`](https://github.com/tmdysx/agent-research-workbench/blob/main/%E5%B7%A5%E5%85%B7%E5%BA%93/%E6%99%BA%E8%83%BD%E4%BD%93.md) 另列了美国 27 款、中国 19 款智能体。
@@ -225,7 +225,7 @@ node --test "backend/tests/*.js"   # 前端测试，用 Node 22 跑过；pytest 
 **已经能用**
 
 - 本地网页 + Python（FastAPI）后台：只监听 `127.0.0.1`，就绪后自动开浏览器，改了后台代码自动重启，文件一变网页一两秒内自己跟上。
-- 本地 MCP 服务 `research-console`（73 个工具），网页和 agent 读写同一份文件。
+- 本地 MCP 服务 `research-console`（75 个工具），网页和 agent 读写同一份文件。
 - 蓝图（目标、需求与验收、计划、戒律）可以在网页直接编辑，按版本号检测冲突。
 - 自动化面板：关系图、任务看板、agent 名册、员工分配图、流程编辑器、7 条监管规则、checks-pass 自动验收。
 - 存档：内容去重、对比、复活、世界树分支和三方合并、回收站、全量备份。
