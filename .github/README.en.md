@@ -17,6 +17,12 @@ A local web console, Python backend and optional MCP interface for long-running 
 
 ---
 
+## MiracleHarness in 30 seconds
+
+<a href="media/miracleharness-30s.mp4"><img src="media/promo-poster.jpg" alt="Poster of the 30-second MiracleHarness film; click to play" width="760"></a>
+
+<sub>Click the picture to open the video (with sound; captions in Chinese) · or watch it on the [website](https://miracleharness.com/#film)</sub>
+
 ## What it is
 
 - A workbench that runs on your own computer: a Python backend plus a browser page. The backend listens only on `127.0.0.1`.
@@ -28,6 +34,22 @@ A local web console, Python backend and optional MCP interface for long-running 
 > **About the names**: the repository is shown as "Agent Research Workbench · MiracleHarness" (Chinese: Agent 科研自动工作台). The release package is called **MiracleHarness2**; inside the files it is also called 自动化科研交互界面 ("automated research console"), and the MCP server is `research-console`. They are all the same thing.
 >
 > The interface can be switched to English (Settings → Language), but most folder and file names, and many method cards, are in Chinese.
+
+## Why I built it
+
+I've used many agents, from WorkBuddy in China to Claude, and they all share a few problems I couldn't get past. This local, single-machine agent platform is built around seven of them:
+
+1. **Long-running work that stays manageable**: Agents keep producing more files until the project is a mess. It starts fast, but later it is hard to maintain, people can't follow it, and even the strongest agent gets misled by irrelevant or stale files and starts hallucinating, so the project goes in circles.
+2. **Many agents, clean handovers**: Every agent has a limited token budget. When you switch to another agent to keep going, the conversation doesn't carry over, so handovers are painful.
+3. **One workspace per job**: Writing a paper, making a game or editing video means jumping between many apps. A one-stop workbench keeps a job from start to finish in one folder, organized by area, with the plugins and documents that job needs.
+4. **See what the agent did**: It's often unclear which code an agent changed or where it put files. Visual views and a log let people follow along and join in easily.
+5. **Made to fit**: Different jobs need different things, so agents can install plugins and build modules for your own needs.
+6. **Prompts are hard to write**: Precise prompts make agents far more accurate. The notes system lets you move between modules and files and jot down what needs fixing as you go.
+7. **Reusable workflows**: A whole workflow is hard to copy and move elsewhere. Today there are only small, scattered skills, and no precedent for reusing a complete workflow.
+
+<img src="media/why-sticky-note.jpg" alt="The author's sticky note in the workbench listing the seven reasons for building it (real screenshot)" width="760">
+
+<sub>The author's original note in the workbench (real screenshot, in Chinese).</sub>
 
 ## The research workflow
 
