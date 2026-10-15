@@ -19,9 +19,9 @@
 
 ## 30 秒看懂
 
-<a href="media/miracleharness-30s.mp4"><img src="media/promo-poster.jpg" alt="MiracleHarness 30 秒宣传片的封面，点击播放" width="760"></a>
+<a href="https://miracleharness.com/#film"><img src="https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/promo-poster.jpg" alt="MiracleHarness 30 秒宣传片的封面，点击播放" width="760"></a>
 
-<sub>点图打开视频（有声音）· 也可以在[官网](https://miracleharness.com/#film)上看</sub>
+<sub>点图到官网播放（有声音）· [下载视频文件（6.6 MB）](https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/miracleharness-30s.mp4)</sub>
 
 ## 这是什么
 
@@ -45,7 +45,7 @@
 6. **提示词难写**：精准的提示词能大大提高 agent 的准确率。笔记系统可以在不同模块和文件之间切换，随手记下需要改正的地方。
 7. **工作流复用**：一个业务的完整流程很难复制和移植，市面上只有零散的小技能，还没有整套工作流复用的先例。
 
-<img src="media/why-sticky-note.jpg" alt="作者在工作台里写下的便签：做这个平台的七个初衷（真实界面截图）" width="760">
+<img src="https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/why-sticky-note.jpg" alt="作者在工作台里写下的便签：做这个平台的七个初衷（真实界面截图）" width="760">
 
 <sub>作者在工作台里写下的便签原文（真实界面截图）。</sub>
 

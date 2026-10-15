@@ -19,9 +19,9 @@ A local web console, Python backend and optional MCP interface for long-running 
 
 ## MiracleHarness in 30 seconds
 
-<a href="media/miracleharness-30s.mp4"><img src="media/promo-poster.jpg" alt="Poster of the 30-second MiracleHarness film; click to play" width="760"></a>
+<a href="https://miracleharness.com/#film"><img src="https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/promo-poster.jpg" alt="Poster of the 30-second MiracleHarness film; click to play" width="760"></a>
 
-<sub>Click the picture to open the video (with sound; captions in Chinese) · or watch it on the [website](https://miracleharness.com/#film)</sub>
+<sub>Click the picture to play it on the website (with sound; captions in Chinese) · [Download the video (6.6 MB)](https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/miracleharness-30s.mp4)</sub>
 
 ## What it is
 
@@ -47,7 +47,7 @@ I've used many agents, from WorkBuddy in China to Claude, and they all share a f
 6. **Prompts are hard to write**: Precise prompts make agents far more accurate. The notes system lets you move between modules and files and jot down what needs fixing as you go.
 7. **Reusable workflows**: A whole workflow is hard to copy and move elsewhere. Today there are only small, scattered skills, and no precedent for reusing a complete workflow.
 
-<img src="media/why-sticky-note.jpg" alt="The author's sticky note in the workbench listing the seven reasons for building it (real screenshot)" width="760">
+<img src="https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/why-sticky-note.jpg" alt="The author's sticky note in the workbench listing the seven reasons for building it (real screenshot)" width="760">
 
 <sub>The author's original note in the workbench (real screenshot, in Chinese).</sub>
 
