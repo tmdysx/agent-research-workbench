@@ -19,7 +19,7 @@
 
 ## 30 秒看懂
 
-<a href="https://miracleharness.com/#film"><img src="https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/promo-poster.jpg" alt="MiracleHarness 30 秒宣传片的封面，点击播放" width="760"></a>
+<a href="https://miracleharness.com/#film"><img src="https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/promo-poster.jpg" alt="MiracleHarness 30 秒宣传片的封面，点开到官网观看" width="760"></a>
 
 <sub>点图到官网播放（有声音）· [下载视频文件（6.6 MB）](https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/miracleharness-30s.mp4)</sub>
 
@@ -218,7 +218,7 @@ node --test "backend/tests/*.js"   # 前端测试，用 Node 22 跑过；pytest 
 | [`内置标记.json`](https://github.com/tmdysx/agent-research-workbench/blob/main/%E5%86%85%E7%BD%AE%E6%A0%87%E8%AE%B0.json) | 新建项目时一起带走的“内置”路径清单（就是设置 → 内置里勾选的那份）。 |
 | [`发行清单.json`](https://github.com/tmdysx/agent-research-workbench/blob/main/%E5%8F%91%E8%A1%8C%E6%B8%85%E5%8D%95.json) | 由 `backend/release.py` 生成，记录 Release ZIP 中除它自己以外 1422 个文件（Windows 换行）的路径、大小与 sha256，与仓库里的文件不一定逐字节相同，要校验请拿 ZIP 对。 |
 | [`新项目复制清单.json`](https://github.com/tmdysx/agent-research-workbench/blob/main/%E6%96%B0%E9%A1%B9%E7%9B%AE%E5%A4%8D%E5%88%B6%E6%B8%85%E5%8D%95.json) | 这个项目被新建时复制进来的文件清单（路径和字节数）。 |
-| [`.github/`](https://github.com/tmdysx/agent-research-workbench/tree/main/.github) | GitHub 首页说明（就是这页）与贡献须知，不属于发行包。 |
+| [`.github/`](https://github.com/tmdysx/agent-research-workbench/tree/main/.github) | GitHub 首页说明（就是这页）、贡献须知，以及这页用到的宣传片、封面、便签截图和群二维码（`media/`）；都不属于发行包。 |
 | `.gitattributes` | 让 `.bat` 在 Windows 上保持 CRLF 换行。 |
 
 ### 许可
