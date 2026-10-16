@@ -9,7 +9,7 @@
 **人定方向，agent 做事：一个本地运行的科研工作台。**<br>
 目标、需求、计划、规则和交付都存成本地普通文件，你自己选的 agent 照着干活。
 
-**[下载 Windows 版 ZIP](https://github.com/tmdysx/agent-research-workbench/releases/latest/download/MiracleHarness2.zip)** · **[官网](https://miracleharness.com)** · **[English](README.en.md)** · **[使用说明](https://github.com/tmdysx/agent-research-workbench/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)**
+**[下载 Windows 版 ZIP](https://github.com/tmdysx/agent-research-workbench/releases/latest/download/MiracleHarness2.zip)** · **[官网](https://miracleharness.com)** · **[QQ 交流群](#加入社群)** · **[English](README.en.md)** · **[使用说明](https://github.com/tmdysx/agent-research-workbench/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)**
 
 <sub>早期版本（2026-10-07 发行）· Windows 优先 · 源码公开、非商用免费（PolyForm Noncommercial 1.0.0），不是 OSI 开源</sub>
 
@@ -271,6 +271,16 @@ node --test "backend/tests/*.js"   # 前端测试，用 Node 22 跑过；pytest 
 - 世界树 3D 建模（Blender）暂停，只提供指南；“重生”功能的后续部分暂停或未做。
 - 宣传片的阶段技能、写小说的路线技能没有随包。
 - 明确不做：长截图、钉在桌面、识别图中文字、手机适配。
+
+## 加入社群
+
+还是早期版本，最需要真实用过的人来提意见。用 agent 做科研、做长程项目的朋友，欢迎进 QQ 群「半自动科研群」交流：用的时候卡在哪、最想要什么功能、新版本什么时候发，都可以在群里聊。
+
+<img src="https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/qq-group-qr.png" alt="「半自动科研群」QQ 群二维码，群号 827537553" width="260">
+
+- **QQ 群号：827537553**，用 QQ 扫上面的二维码，或在 QQ 里搜索群号加入。
+- 在手机上看这一页的话，直接点 **[加入 QQ 群](https://qm.qq.com/q/ivHMESUKb)**。
+- 不用 QQ？可以到[官网留言](https://miracleharness.com/#guestbook)，或者[提 issue](https://github.com/tmdysx/agent-research-workbench/issues)。
 
 ## 许可与商业授权
 

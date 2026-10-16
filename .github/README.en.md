@@ -9,7 +9,7 @@
 **People set direction; their chosen agents do the work.**<br>
 A local web console, Python backend and optional MCP interface for long-running projects, where goals, requirements, plans, rules and deliveries stay in ordinary local files.
 
-**[Download for Windows (ZIP)](https://github.com/tmdysx/agent-research-workbench/releases/latest/download/MiracleHarness2.zip)** · **[Website](https://miracleharness.com)** · **[中文](README.md)** · **[User guide](https://github.com/tmdysx/agent-research-workbench/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.en.md)**
+**[Download for Windows (ZIP)](https://github.com/tmdysx/agent-research-workbench/releases/latest/download/MiracleHarness2.zip)** · **[Website](https://miracleharness.com)** · **[Community](#community)** · **[中文](README.md)** · **[User guide](https://github.com/tmdysx/agent-research-workbench/blob/main/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.en.md)**
 
 <sub>Early release (2026-10-07) · Windows first · Source-available, free for noncommercial use (PolyForm Noncommercial 1.0.0), not OSI open source</sub>
 
@@ -273,6 +273,16 @@ The four purpose illustrations in `品牌/` are AI-generated concept art, not sc
 - World-tree 3D modeling (Blender) is paused and only a guide is provided; later parts of the "rebirth" feature are paused or not built.
 - The promo-video stage skills and the novel route skill are not bundled.
 - Deliberately out of scope: long screenshots, pinning to the desktop, text recognition in images, and mobile layouts.
+
+## Community
+
+This is still an early release, and feedback from people who actually use it matters most. If you use agents for research or long-running projects, come and talk in our QQ group 半自动科研群 ("semi-automated research"; the group chats in Chinese): where you got stuck, what you want next, and when new versions ship.
+
+<img src="https://raw.githubusercontent.com/tmdysx/agent-research-workbench/main/.github/media/qq-group-qr.png" alt="QR code for the QQ group 半自动科研群 (semi-automated research), group number 827537553" width="260">
+
+- **QQ group number: 827537553**. Scan the QR code above with QQ, or search for the group number in QQ.
+- Reading this on your phone? Tap **[Join the QQ group](https://qm.qq.com/q/ivHMESUKb)**.
+- No QQ? Leave a message on the [website](https://miracleharness.com/#guestbook) or [open an issue](https://github.com/tmdysx/agent-research-workbench/issues).
 
 ## License and commercial use
 
